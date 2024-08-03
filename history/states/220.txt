@@ -1,0 +1,31 @@
+
+state={
+	id=220
+	name="STATE_220"
+
+	history={
+		owner = ESU
+		victory_points = {
+			5023 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			5023 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		5023 
+	}
+	manpower=108468
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=199
+	name="STATE_199"
+
+	history={
+		owner = ESU
+		victory_points = {
+			1381 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1381 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = ESU
+		add_core_of = X94
+	}
+
+	provinces={
+		1381 
+	}
+	manpower=775860
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=555
+	name="STATE_555"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			10966 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W57
+		add_claim_by = COG
+	}
+
+	provinces={
+		1552 2126 4735 7548 8054 10966 
+	}
+	manpower=1016564
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

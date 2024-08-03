@@ -1,0 +1,36 @@
+characters={
+	MLW_reth_kalimakudzulu={
+		name=MLW_reth_kalimakudzulu
+		portraits={
+			army={
+				large="GFX_NAM_Samuel_Maharero"
+			}
+			army={
+				small="GFX_NAM_Samuel_Maharero"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MLW_king_muzura_ii={
+		name=MLW_king_muzura_ii
+		portraits={
+			civilian={
+				large="GFX_Burundi_Mwambutsa_Fourth"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

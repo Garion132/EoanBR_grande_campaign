@@ -1,0 +1,106 @@
+﻿converted_war_strategies_ETH = {
+	allowed = {
+		tag = ETH
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 1761
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOM"
+		value = 324
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SWE"
+		value = 185
+	}
+}
+
+converted_diplo_strategies_ETH = {
+	allowed = {
+		tag = ETH
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 353
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 250
+	}
+	ai_strategy = {
+		type = contain
+		id = "SWE"
+		value = 171
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 145
+	}
+	ai_strategy = {
+		type = contain
+		id = "MAL"
+		value = 61
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 307
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 267
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 23
+	}
+	ai_strategy = {
+		type = alliance
+		id = "JAP"
+		value = 15
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 10
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAR"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MAL"
+		value = 51
+	}
+}

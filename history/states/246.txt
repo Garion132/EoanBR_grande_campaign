@@ -1,0 +1,39 @@
+
+state={
+	id=246
+	name="STATE_246"
+	resources={
+		tungsten=1.000
+	}
+
+	history={
+		owner = W45
+		victory_points = {
+			4379 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			4379 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = VIN
+		add_core_of = W45
+		add_core_of = X23
+		add_core_of = X53
+		add_claim_by = JAP
+	}
+
+	provinces={
+		1248 1300 1302 1328 1400 1605 4255 4334 4363 4379 4397 4405 7229 7280 7380 10137 10162 10180 10309 12109 12297 
+	}
+	manpower=6133236
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

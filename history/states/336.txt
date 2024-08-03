@@ -1,0 +1,30 @@
+
+state={
+	id=336
+	name="STATE_336"
+
+	history={
+		owner = PER
+		victory_points = {
+			1614 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = W09
+		add_claim_by = PER
+	}
+
+	provinces={
+		1216 1479 1573 1576 1614 1623 4618 4629 7541 7639 7682 7775 10395 10435 10671 12161 12233 12239 12454 12465 12474 12722 13207 
+	}
+	manpower=4819204
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

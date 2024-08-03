@@ -1,0 +1,39 @@
+
+state={
+	id=269
+	name="STATE_269"
+	resources={
+		chromium=3.000
+		rubber=2.000
+		steel=14.000
+		tungsten=28.000
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			10080 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1047 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X49
+		add_claim_by = JAP
+	}
+
+	provinces={
+		1047 1078 1120 1162 1202 4050 4207 7067 7108 7152 9970 9997 10080 11938 12014 12095 
+	}
+	manpower=9361752
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

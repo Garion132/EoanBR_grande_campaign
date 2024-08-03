@@ -1,0 +1,16 @@
+characters={
+	W46_ahmad_arius={
+		name=W46_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_ECU_Jose_Ibarra"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

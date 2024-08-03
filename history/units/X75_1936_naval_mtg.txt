@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12472
+		task_force = {
+			name = "2nd Fleet"
+			location = 12472
+			ship = { name = "1st Probolinggo Battleship" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Probolinggo Battleship" definition = heavy_cruiser start_experience_factor = 0.05 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Sumbawa Battleship" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Probolinggo Cruiser" definition = light_cruiser start_experience_factor = 0.05 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Probolinggo Cruiser" definition = light_cruiser start_experience_factor = 0.05 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Probolinggo Cruiser" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Sumbawa Cruiser" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Light Cruiser" } } }
+			ship = { name = "7th Probolinggo Cruiser" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X75 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X75"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

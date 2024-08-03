@@ -1,0 +1,91 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "3rd Fleet"
+			location = 6050
+			ship = { name = "Henrik af Trolle" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Carl Carlsson Gyllenhielm" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Gustaf Otto Stenbock" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Lorentz Creutz" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Hans Wachtmeister af Johannishus" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Clas Eriksson Fleming" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Axel Nilsson Ryning" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Henrik af Trolle 2" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Carl August Ehrensvärd" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Malmö Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "5th Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Göteborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Göteborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Turku Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "7th Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "6th Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "4th Malmö Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "4th Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Turku Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Stockholm Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "6th Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "4th Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Köpenhamn Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Malmö Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Ålborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Göteborg Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "5th Malmö Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "4th Stockholm Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "9th Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "8th Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Christianssand Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Christiania Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Turku Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Malmö Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Stockholm Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Stockholm Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Kotka Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Christianssand Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Christiania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Christiania Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Göteborg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Christianssand Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Ornen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "2nd Göteborg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Göteborg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Ålborg Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "1st Stockholm Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Fylgia" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Östersund" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Claes Uggla" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Jacob Bakke" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Tre Kronor" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Göta Lejon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Psilander" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Claes Horn" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "Borgholm" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+			ship = { name = "3rd Stockholm Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWE } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SWE"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SWE"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

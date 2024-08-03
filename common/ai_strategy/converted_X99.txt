@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X99 = {
+	allowed = {
+		tag = X99
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "W18"
+		value = 842
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 202
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 60
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 35
+	}
+}
+
+converted_diplo_strategies_X99 = {
+	allowed = {
+		tag = X99
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 238
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 210
+	}
+	ai_strategy = {
+		type = contain
+		id = "W18"
+		value = 53
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 53
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 46
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 26
+	}
+	ai_strategy = {
+		type = contain
+		id = "SLO"
+		value = 15
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 79
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 27
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W22"
+		value = 14
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 4
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 32
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 31
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ESU"
+		value = 17
+	}
+	ai_strategy = {
+		type = protect
+		id = "SLO"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X75"
+		value = 55
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NEP"
+		value = 42
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W03"
+		value = 42
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X42"
+		value = 28
+	}
+}

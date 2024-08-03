@@ -1,0 +1,106 @@
+﻿converted_war_strategies_MOR = {
+	allowed = {
+		tag = MOR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 2336
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 514
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ESU"
+		value = 127
+	}
+}
+
+converted_diplo_strategies_MOR = {
+	allowed = {
+		tag = MOR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 82
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 39
+	}
+	ai_strategy = {
+		type = contain
+		id = "W22"
+		value = 14
+	}
+	ai_strategy = {
+		type = contain
+		id = "IRE"
+		value = 3
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 135
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 133
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 131
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 35
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 22
+	}
+}

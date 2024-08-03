@@ -1,0 +1,16 @@
+characters={
+	X91_boleslaw_zeligowski={
+		name=X91_boleslaw_zeligowski
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/portrait_lat_fricis_menders.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=81
+	name="STATE_81"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			9347 7 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			9347 = {
+				naval_base = 10
+			}
+			air_base = 4
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		374 3234 3271 3395 6218 6263 6298 6325 6349 9264 9347 
+	}
+	manpower=4536892
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

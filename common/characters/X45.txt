@@ -1,0 +1,36 @@
+characters={
+	X45_balarama_rama_varma={
+		name=X45_balarama_rama_varma
+		portraits={
+			army={
+				large="GFX_PRF_Shahamad_Khan"
+			}
+			army={
+				small="GFX_PRF_Shahamad_Khan"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X45_sakthan_varma={
+		name=X45_sakthan_varma
+		portraits={
+			civilian={
+				large="GFX_BHC_Jawaharlal_Nehru"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

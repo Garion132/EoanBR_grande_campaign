@@ -1,0 +1,16 @@
+characters={
+	EGY_abdulhamid_pasha={
+		name=EGY_abdulhamid_pasha
+		portraits={
+			civilian={
+				large="GFX_IRQ_maktoum"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

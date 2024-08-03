@@ -1,0 +1,33 @@
+
+state={
+	id=601
+	name="STATE_601"
+
+	history={
+		owner = SWE
+		victory_points = {
+			6287 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			6287 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		3260 3305 3325 3374 6287 6393 13260 13261 
+	}
+	manpower=2130968
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=646
+	name="STATE_646"
+
+	history={
+		owner = USA
+		victory_points = {
+			12600 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 3
+			arms_factory = 0
+			7364 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		490 1657 3208 4666 6740 7364 10176 11682 12147 12600 13196 13314 
+	}
+	manpower=1505144
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,138 @@
+﻿capital = 417
+set_research_slots = 3
+
+oob = "AZR_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_transcaucasia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_10 }
+add_opinion_modifier = { target = BOT modifier = negative_200 }
+add_opinion_modifier = { target = BUL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_30 }
+add_opinion_modifier = { target = ESU modifier = positive_5 }
+add_opinion_modifier = { target = ETH modifier = negative_110 }
+add_opinion_modifier = { target = GER modifier = negative_10 }
+add_opinion_modifier = { target = HUN modifier = negative_30 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = MAL modifier = positive_30 }
+add_opinion_modifier = { target = MLW modifier = negative_200 }
+add_opinion_modifier = { target = MZB modifier = negative_200 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = negative_160 }
+add_opinion_modifier = { target = POL modifier = negative_20 }
+add_opinion_modifier = { target = RME modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SLO modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = negative_160 }
+add_opinion_modifier = { target = SWE modifier = positive_20 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = positive_50 }
+add_opinion_modifier = { target = W03 modifier = positive_70 }
+add_opinion_modifier = { target = W05 modifier = negative_10 }
+add_opinion_modifier = { target = W07 modifier = positive_40 }
+add_opinion_modifier = { target = W18 modifier = negative_110 }
+add_opinion_modifier = { target = W22 modifier = negative_20 }
+add_opinion_modifier = { target = W34 modifier = negative_80 }
+add_opinion_modifier = { target = X00 modifier = negative_25 }
+add_opinion_modifier = { target = X42 modifier = negative_10 }
+add_opinion_modifier = { target = X48 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = positive_20 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X99 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_azerbaijani
+}
+
+recruit_character = AZR_tahir_qasimzade
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Asiya Akbarzade"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Adiva Zardabi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Adiva Edigar"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Farhad Talishkhan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+	create_operative_leader = {
+		name = "Bahram Talishkhan"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AZR }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

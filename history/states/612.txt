@@ -1,0 +1,38 @@
+
+state={
+	id=612
+	name="STATE_612"
+	resources={
+		oil=8.000
+		rubber=33.000
+	}
+
+	history={
+		owner = W60
+		victory_points = {
+			10212 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			10212 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = INS
+		add_core_of = W60
+		add_claim_by = MAL
+	}
+
+	provinces={
+		1306 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
+	}
+	manpower=816576
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

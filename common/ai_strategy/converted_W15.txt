@@ -1,0 +1,51 @@
+﻿converted_war_strategies_W15 = {
+	allowed = {
+		tag = W15
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ESU"
+		value = 503
+	}
+}
+
+converted_diplo_strategies_W15 = {
+	allowed = {
+		tag = W15
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 154
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 5
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W04"
+		value = 30
+	}
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=350
+	name="STATE_350"
+
+	history={
+		owner = PER
+		victory_points = {
+			9084 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = PER
+		add_claim_by = X94
+	}
+
+	provinces={
+		1107 4979 7903 8007 8022 8106 9084 10066 10139 10173 10843 10887 10898 12005 12792 12822 
+	}
+	manpower=5290940
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

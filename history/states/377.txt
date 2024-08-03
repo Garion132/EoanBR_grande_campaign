@@ -1,0 +1,34 @@
+
+state={
+	id=377
+	name="STATE_377"
+
+	history={
+		owner = SOV
+		victory_points = {
+			11670 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			11670 = {
+				naval_base = 6
+			}
+			air_base = 4
+
+		}
+		add_core_of = SOV
+		add_claim_by = X87
+	}
+
+	provinces={
+		476 741 754 3575 3738 3757 6455 9423 9435 9576 9698 9714 11670 11703 
+	}
+	manpower=3105376
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

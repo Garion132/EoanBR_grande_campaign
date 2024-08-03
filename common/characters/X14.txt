@@ -1,0 +1,16 @@
+characters={
+	X14_yann_morvan={
+		name=X14_yann_morvan
+		portraits={
+			civilian={
+				large="GFX_Canada_Prince_Albert"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

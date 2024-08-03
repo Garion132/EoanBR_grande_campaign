@@ -1,0 +1,137 @@
+﻿capital = 520
+set_research_slots = 2
+
+oob = "AFA_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_abyssinia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 57
+	democratic = 41
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BUL modifier = positive_50 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_40 }
+add_opinion_modifier = { target = ESU modifier = positive_55 }
+add_opinion_modifier = { target = ETH modifier = negative_50 }
+add_opinion_modifier = { target = GER modifier = negative_49 }
+add_opinion_modifier = { target = HUN modifier = positive_50 }
+add_opinion_modifier = { target = JAP modifier = positive_20 }
+add_opinion_modifier = { target = MAL modifier = negative_5 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = negative_100 }
+add_opinion_modifier = { target = POL modifier = positive_40 }
+add_opinion_modifier = { target = RME modifier = negative_163 }
+add_opinion_modifier = { target = SAM modifier = negative_25 }
+add_opinion_modifier = { target = SLO modifier = positive_50 }
+add_opinion_modifier = { target = SOV modifier = negative_60 }
+add_opinion_modifier = { target = SWE modifier = positive_15 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = negative_50 }
+add_opinion_modifier = { target = W03 modifier = positive_5 }
+add_opinion_modifier = { target = W05 modifier = negative_20 }
+add_opinion_modifier = { target = W07 modifier = negative_100 }
+add_opinion_modifier = { target = W18 modifier = negative_50 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_10 }
+add_opinion_modifier = { target = W34 modifier = negative_135 }
+add_opinion_modifier = { target = X00 modifier = negative_50 }
+add_opinion_modifier = { target = X48 modifier = negative_20 }
+add_opinion_modifier = { target = X75 modifier = positive_30 }
+add_opinion_modifier = { target = X96 modifier = negative_25 }
+add_opinion_modifier = { target = X99 modifier = positive_50 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_afar
+}
+
+recruit_character = AFA_umar_hanfadhe
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ayaan Aydahis"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AFA }
+	}
+
+	create_operative_leader = {
+		name = "Maka Hanfadhe"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AFA }
+	}
+
+	create_operative_leader = {
+		name = "Iftiin Yayyo"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { AFA }
+	}
+
+	create_operative_leader = {
+		name = "Kedafu Aydahis"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AFA }
+	}
+
+	create_operative_leader = {
+		name = "Amda Seyon"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { AFA }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

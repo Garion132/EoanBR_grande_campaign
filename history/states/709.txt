@@ -1,0 +1,20 @@
+
+state={
+	id=709
+	name="STATE_709"
+	impassable = yes
+
+	history={
+		owner = W25
+		add_core_of = W25
+	}
+
+	provinces={
+		13285 
+	}
+	manpower=25239
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

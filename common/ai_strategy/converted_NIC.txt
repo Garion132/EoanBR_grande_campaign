@@ -1,0 +1,71 @@
+﻿converted_war_strategies_NIC = {
+	allowed = {
+		tag = NIC
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ESU"
+		value = 179
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W22"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_NIC = {
+	allowed = {
+		tag = NIC
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 188
+	}
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 1
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 41
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X81"
+		value = 24
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAR"
+		value = 24
+	}
+}

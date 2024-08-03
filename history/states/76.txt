@@ -1,0 +1,35 @@
+
+state={
+	id=76
+	name="STATE_76"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = ETH
+		victory_points = {
+			12126 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			12126 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = ETH
+	}
+
+	provinces={
+		1428 12126 
+	}
+	manpower=452084
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

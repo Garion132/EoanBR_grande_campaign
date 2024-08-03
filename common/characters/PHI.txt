@@ -1,0 +1,16 @@
+characters={
+	PHI_arcadio_mabini={
+		name=PHI_arcadio_mabini
+		portraits={
+			civilian={
+				large="GFX_Indonesia_Hamengkubuwono_IX"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

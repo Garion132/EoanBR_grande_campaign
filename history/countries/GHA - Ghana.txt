@@ -1,0 +1,149 @@
+﻿capital = 556
+set_research_slots = 2
+
+oob = "GHA_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_western_africa
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_200 }
+add_opinion_modifier = { target = ESU modifier = negative_200 }
+add_opinion_modifier = { target = ETH modifier = negative_100 }
+add_opinion_modifier = { target = GER modifier = positive_5 }
+set_truce = { target = GER days = 383 }
+add_opinion_modifier = { target = HUN modifier = negative_100 }
+set_truce = { target = HUN days = 383 }
+add_opinion_modifier = { target = MAL modifier = negative_10 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = negative_100 }
+add_opinion_modifier = { target = POL modifier = negative_110 }
+set_truce = { target = POL days = 383 }
+add_opinion_modifier = { target = RCG modifier = negative_100 }
+set_truce = { target = RCG days = 383 }
+add_opinion_modifier = { target = RME modifier = negative_155 }
+give_military_access = RME
+add_opinion_modifier = { target = SEN modifier = negative_100 }
+set_truce = { target = SEN days = 383 }
+add_opinion_modifier = { target = SLO modifier = negative_100 }
+set_truce = { target = SLO days = 383 }
+add_opinion_modifier = { target = SOM modifier = negative_100 }
+set_truce = { target = SOM days = 383 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SWE modifier = negative_200 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = negative_50 }
+add_opinion_modifier = { target = W03 modifier = negative_25 }
+add_opinion_modifier = { target = W05 modifier = negative_20 }
+add_opinion_modifier = { target = W07 modifier = negative_175 }
+add_opinion_modifier = { target = W18 modifier = negative_100 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_10 }
+add_opinion_modifier = { target = W34 modifier = negative_135 }
+add_opinion_modifier = { target = X00 modifier = negative_25 }
+add_opinion_modifier = { target = X48 modifier = negative_20 }
+add_opinion_modifier = { target = X81 modifier = negative_100 }
+set_truce = { target = X81 days = 383 }
+add_opinion_modifier = { target = X94 modifier = negative_100 }
+set_truce = { target = X94 days = 383 }
+add_opinion_modifier = { target = X99 modifier = negative_100 }
+set_truce = { target = X99 days = 383 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_akan
+}
+
+recruit_character = GHA_fnu_lnu
+recruit_character = GHA_akyampon_prempeh
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Zahra Prempeh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GHA }
+	}
+
+	create_operative_leader = {
+		name = "Zahra Panyin"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GHA }
+	}
+
+	create_operative_leader = {
+		name = "Nia Prempeh"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { GHA }
+	}
+
+	create_operative_leader = {
+		name = "Onsei Karikari"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GHA }
+	}
+
+	create_operative_leader = {
+		name = "Opoku Karikari"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GHA }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

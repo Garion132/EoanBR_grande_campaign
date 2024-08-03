@@ -1,0 +1,35 @@
+
+state={
+	id=60
+	name="STATE_60"
+	resources={
+		aluminium=1.000
+		steel=1.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = W42
+		victory_points = {
+			8216 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W42
+		add_core_of = X20
+	}
+
+	provinces={
+		2208 5143 8216 8255 
+	}
+	manpower=1490576
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

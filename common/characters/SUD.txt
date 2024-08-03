@@ -1,0 +1,16 @@
+characters={
+	SUD_j._von_a.={
+		name=SUD_j._von_a.
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

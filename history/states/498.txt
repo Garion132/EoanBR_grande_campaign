@@ -1,0 +1,30 @@
+
+state={
+	id=498
+	name="STATE_498"
+
+	history={
+		owner = RME
+		victory_points = {
+			12318 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ARM
+		add_claim_by = RME
+	}
+
+	provinces={
+		652 789 6976 6991 9858 9886 10399 11853 11880 12318 
+	}
+	manpower=1301684
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

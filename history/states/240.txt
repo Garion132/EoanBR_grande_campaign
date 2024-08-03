@@ -1,0 +1,36 @@
+
+state={
+	id=240
+	name="STATE_240"
+	resources={
+		steel=2.000
+	}
+
+	history={
+		owner = ESU
+		add_core_of = ESU
+		victory_points = {
+			9945 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			9945 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		4199 7215 9945 10113 12087 12100 
+	}
+	manpower=1277296
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,76 @@
+﻿converted_war_strategies_W26 = {
+	allowed = {
+		tag = W26
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "NZL"
+		value = 1000
+	}
+}
+
+converted_diplo_strategies_W26 = {
+	allowed = {
+		tag = W26
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 288
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 1
+	}
+	ai_strategy = {
+		type = protect
+		id = "NZL"
+		value = 90
+	}
+	ai_strategy = {
+		type = protect
+		id = "AST"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ENG"
+		value = 79
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W22"
+		value = 70
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SWE"
+		value = 60
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PER"
+		value = 23
+	}
+}

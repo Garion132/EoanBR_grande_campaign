@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12589
+		task_force = {
+			name = "2nd Fleet"
+			location = 12589
+			ship = { name = "Leander Jameson" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SAF version_name = "Early Battleship" } } }
+			ship = { name = "Good Hope" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SAF version_name = "Early Battleship" } } }
+			ship = { name = "Cape Town" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SAF version_name = "Early Battleship" } } }
+			ship = { name = "2nd Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Cape Town Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "South Africa" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SAF version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SAF"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "SAF"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

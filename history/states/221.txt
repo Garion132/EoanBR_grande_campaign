@@ -1,0 +1,38 @@
+
+state={
+	id=221
+	name="STATE_221"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			12798 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			5120 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = ESU
+		add_core_of = X92
+		add_claim_by = X25
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 11020 12798 
+	}
+	manpower=4021908
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

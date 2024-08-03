@@ -1,0 +1,33 @@
+
+state={
+	id=334
+	name="STATE_334"
+
+	history={
+		owner = PER
+		victory_points = {
+			5074 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			2029 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = PER
+		add_core_of = SAU
+	}
+
+	provinces={
+		2029 4976 5074 12821 12894 13079 
+	}
+	manpower=1407452
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

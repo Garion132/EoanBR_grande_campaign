@@ -1,0 +1,29 @@
+
+state={
+	id=695
+	name="STATE_695"
+
+	history={
+		owner = W22
+		victory_points = {
+			12586 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W22
+	}
+
+	provinces={
+		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
+	}
+	manpower=3122172
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

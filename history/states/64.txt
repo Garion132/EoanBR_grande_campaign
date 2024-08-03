@@ -1,0 +1,36 @@
+
+state={
+	id=64
+	name="STATE_64"
+	resources={
+		aluminium=2.000
+		oil=1.000
+	}
+
+	history={
+		owner = W42
+		victory_points = {
+			2199 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			12349 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = W42
+	}
+
+	provinces={
+		2169 2199 8161 8176 10953 10981 11005 12349 12982 13296 13305 13306 13307 
+	}
+	manpower=1402036
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

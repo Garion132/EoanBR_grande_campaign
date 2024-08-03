@@ -1,0 +1,16 @@
+characters={
+	W17_lubati_cokanauto={
+		name=W17_lubati_cokanauto
+		portraits={
+			civilian={
+				large="GFX_SOM_Ali_Shire"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

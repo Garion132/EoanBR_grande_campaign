@@ -1,0 +1,16 @@
+characters={
+	X85_mahuta_kenena={
+		name=X85_mahuta_kenena
+		portraits={
+			civilian={
+				large="GFX_Philippines_Elpidio_Quirino"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,679 @@
+﻿capital = 390
+set_major = yes
+set_research_slots = 4
+add_named_threat = { threat = 2.0038 name = infamy }
+
+oob = "SOV_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SOV_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "SOV_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	synth_oil_experiments = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	set_technology = {
+		aa_lmg = 1
+		early_bombs = 1
+		engines_1 = 1
+		iw_large_airframe = 1
+		iw_medium_airframe = 1
+		iw_small_airframe = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "By Blood Alone" } }
+	set_technology = {
+		early_bomber = 1
+		early_fighter = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = naval_doctrine
+}
+
+set_country_flag = conv_russia
+starting_train_buffer = 5
+set_convoys = 58
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1884.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = BUL
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = TIB
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W05
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W18
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = W34
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X48
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X67
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+	set_autonomy = {
+        target = X21
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = BUL
+        puppet = TIB
+        puppet = W05
+        puppet = W18
+        puppet = W34
+        puppet = X48
+        puppet = X67
+		puppet = X21
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = SOV_research
+}
+
+give_guarantee = PER
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = PER } }
+	diplomatic_relation = { country = PER relation = non_aggression_pact }
+}
+
+give_guarantee = TIB
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = TIB } }
+	diplomatic_relation = { country = TIB relation = non_aggression_pact }
+}
+
+give_guarantee = W05
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = W05 } }
+	diplomatic_relation = { country = W05 relation = non_aggression_pact }
+}
+
+give_guarantee = W18
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = W18 } }
+	diplomatic_relation = { country = W18 relation = non_aggression_pact }
+}
+
+give_guarantee = W34
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = W34 } }
+	diplomatic_relation = { country = W34 relation = non_aggression_pact }
+}
+
+give_guarantee = X48
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = X48 } }
+	diplomatic_relation = { country = X48 relation = non_aggression_pact }
+}
+
+give_guarantee = X90
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = X90 } }
+	diplomatic_relation = { country = X90 relation = non_aggression_pact }
+}
+give_guarantee = POL
+
+add_opinion_modifier = { target = AST modifier = negative_200 }
+set_truce = { target = AST days = 3650 }
+add_opinion_modifier = { target = BAS modifier = negative_200 }
+set_truce = { target = BAS days = 3650 }
+add_opinion_modifier = { target = BHU modifier = negative_200 }
+add_opinion_modifier = { target = BOT modifier = negative_200 }
+add_opinion_modifier = { target = BRA modifier = negative_200 }
+set_truce = { target = BRA days = 3650 }
+add_opinion_modifier = { target = BUL modifier = positive_199 }
+give_military_access = BUL
+add_opinion_modifier = { target = CHL modifier = negative_200 }
+set_truce = { target = CHL days = 3650 }
+add_opinion_modifier = { target = ENG modifier = negative_200 }
+set_truce = { target = ENG days = 3650 }
+add_opinion_modifier = { target = ESU modifier = negative_200 }
+set_truce = { target = ESU days = 3650 }
+add_opinion_modifier = { target = ETH modifier = negative_200 }
+add_opinion_modifier = { target = GER modifier = negative_200 }
+add_opinion_modifier = { target = HUN modifier = negative_124 }
+add_opinion_modifier = { target = ICE modifier = negative_5 }
+add_opinion_modifier = { target = IRE modifier = negative_200 }
+set_truce = { target = IRE days = 3650 }
+add_opinion_modifier = { target = JAP modifier = negative_200 }
+add_opinion_modifier = { target = MAL modifier = negative_135 }
+add_opinion_modifier = { target = MLW modifier = negative_200 }
+add_opinion_modifier = { target = MZB modifier = negative_200 }
+add_opinion_modifier = { target = NEP modifier = positive_106 }
+add_opinion_modifier = { target = NOR modifier = negative_45 }
+add_opinion_modifier = { target = NZL modifier = negative_200 }
+set_truce = { target = NZL days = 3650 }
+add_opinion_modifier = { target = PAR modifier = negative_200 }
+add_opinion_modifier = { target = PER modifier = positive_198 }
+give_military_access = PER
+add_opinion_modifier = { target = POL modifier = positive_112 }
+add_opinion_modifier = { target = PUE modifier = negative_110 }
+add_opinion_modifier = { target = RAJ modifier = negative_200 }
+set_truce = { target = RAJ days = 3650 }
+add_opinion_modifier = { target = RCG modifier = negative_200 }
+add_opinion_modifier = { target = RME modifier = negative_195 }
+set_truce = { target = RME days = 3650 }
+add_opinion_modifier = { target = SAF modifier = negative_200 }
+set_truce = { target = SAF days = 3650 }
+add_opinion_modifier = { target = SAM modifier = negative_200 }
+set_truce = { target = SAM days = 3650 }
+add_opinion_modifier = { target = SEN modifier = negative_195 }
+add_opinion_modifier = { target = SIA modifier = negative_110 }
+add_opinion_modifier = { target = SLO modifier = positive_155 }
+add_opinion_modifier = { target = SOM modifier = negative_200 }
+add_opinion_modifier = { target = SWE modifier = negative_47 }
+add_opinion_modifier = { target = TEX modifier = negative_200 }
+set_truce = { target = TEX days = 3650 }
+add_opinion_modifier = { target = TIB modifier = positive_122 }
+add_opinion_modifier = { target = TRI modifier = negative_200 }
+set_truce = { target = TRI days = 3650 }
+add_opinion_modifier = { target = URG modifier = negative_200 }
+set_truce = { target = URG days = 3650 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = W01 modifier = negative_200 }
+set_truce = { target = W01 days = 3650 }
+add_opinion_modifier = { target = W02 modifier = negative_200 }
+set_truce = { target = W02 days = 3650 }
+add_opinion_modifier = { target = W03 modifier = negative_160 }
+add_opinion_modifier = { target = W05 modifier = negative_148 }
+add_opinion_modifier = { target = W06 modifier = negative_110 }
+add_opinion_modifier = { target = W07 modifier = negative_200 }
+add_opinion_modifier = { target = W08 modifier = negative_200 }
+set_truce = { target = W08 days = 3650 }
+add_opinion_modifier = { target = W12 modifier = negative_200 }
+set_truce = { target = W12 days = 3650 }
+add_opinion_modifier = { target = W16 modifier = negative_200 }
+add_opinion_modifier = { target = W18 modifier = positive_197 }
+give_military_access = W18
+add_opinion_modifier = { target = W20 modifier = negative_200 }
+set_truce = { target = W20 days = 3650 }
+add_opinion_modifier = { target = W21 modifier = negative_200 }
+set_truce = { target = W21 days = 3650 }
+add_opinion_modifier = { target = W22 modifier = negative_10 }
+add_opinion_modifier = { target = W25 modifier = negative_200 }
+set_truce = { target = W25 days = 3650 }
+add_opinion_modifier = { target = W26 modifier = negative_200 }
+set_truce = { target = W26 days = 3650 }
+add_opinion_modifier = { target = W27 modifier = negative_200 }
+set_truce = { target = W27 days = 3650 }
+add_opinion_modifier = { target = W34 modifier = positive_199 }
+add_opinion_modifier = { target = X00 modifier = negative_200 }
+add_opinion_modifier = { target = X11 modifier = negative_200 }
+set_truce = { target = X11 days = 3650 }
+add_opinion_modifier = { target = X24 modifier = negative_110 }
+add_opinion_modifier = { target = X35 modifier = negative_200 }
+set_truce = { target = X35 days = 3650 }
+add_opinion_modifier = { target = X36 modifier = negative_200 }
+add_opinion_modifier = { target = X42 modifier = negative_200 }
+set_truce = { target = X42 days = 3650 }
+add_opinion_modifier = { target = X43 modifier = negative_200 }
+set_truce = { target = X43 days = 3650 }
+add_opinion_modifier = { target = X44 modifier = negative_200 }
+add_opinion_modifier = { target = X48 modifier = positive_127 }
+add_opinion_modifier = { target = X53 modifier = negative_200 }
+set_truce = { target = X53 days = 3650 }
+add_opinion_modifier = { target = X67 modifier = positive_22 }
+add_opinion_modifier = { target = X75 modifier = negative_200 }
+add_opinion_modifier = { target = X80 modifier = negative_200 }
+set_truce = { target = X80 days = 3650 }
+add_opinion_modifier = { target = X81 modifier = negative_200 }
+add_opinion_modifier = { target = X84 modifier = negative_110 }
+add_opinion_modifier = { target = X90 modifier = positive_175 }
+add_opinion_modifier = { target = X94 modifier = negative_200 }
+add_opinion_modifier = { target = X95 modifier = negative_200 }
+set_truce = { target = X95 days = 3650 }
+add_opinion_modifier = { target = X96 modifier = negative_200 }
+add_opinion_modifier = { target = X97 modifier = negative_110 }
+add_opinion_modifier = { target = X99 modifier = negative_199 }
+add_opinion_modifier = { target = ZAM modifier = negative_200 }
+set_truce = { target = ZAM days = 3650 }
+add_opinion_modifier = { target = ZIM modifier = negative_200 }
+set_truce = { target = ZIM days = 3650 }
+
+create_faction = SOV_axis
+add_to_faction = SOV
+add_to_faction = PER
+
+add_ideas = {
+	great_power
+	trotskyite_plot
+	FRA_victors_of_wwi
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_russian
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = SOV_valeriy_golivin
+recruit_character = SOV_potr_gurko
+recruit_character = SOV_vladimir_konstantinov
+recruit_character = SOV_potr_shuvalov
+recruit_character = SOV_vladislav_tukhachevskiy
+recruit_character = SOV_lavr_brusilov
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Ludmila Koneva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Frolova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Jelena Makarova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Semyon Brusilov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV }
+	}
+
+	create_operative_leader = {
+		name = "Dmitriy Alexseyev"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = SOV_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = SOV_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = SOV_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	create_equipment_variant = {
+		name = "Interwar CAS"
+		type = small_plane_cas_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier CAS"
+		type = cv_small_plane_cas_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = bomb_locks
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier Fighter"
+		type = cv_small_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Carrier Naval Bomber"
+		type = cv_small_plane_naval_bomber_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Fighter"
+		type = small_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_auxiliary_weapon_slot_1 = bomb_locks
+			fixed_main_weapon_slot = light_mg_2x
+			special_type_slot_1 = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Naval Bomber"
+		type = small_plane_naval_bomber_airframe_0
+		modules = {
+			engine_type_slot = engine_1_1x
+			fixed_main_weapon_slot = torpedo_mounting
+			special_type_slot_1 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Strategic Bomber"
+		type = large_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_4x
+			fixed_main_weapon_slot = large_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = lmg_defense_turret
+		}
+	}
+	create_equipment_variant = {
+		name = "Interwar Tactical Bomber"
+		type = medium_plane_airframe_0
+		modules = {
+			engine_type_slot = engine_1_2x
+			fixed_main_weapon_slot = medium_bomb_bay
+			special_type_slot_1 = lmg_defense_turret
+			special_type_slot_2 = lmg_defense_turret
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "GW Heavy Tank"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/gwtank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Medium Tank"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+	}
+}
+add_equipment_to_stockpile = { type = artillery_equipment amount = 18900 producer = SOV }
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	add_equipment_to_stockpile = { type = gw_tank_equipment amount = 292 producer = SOV }
+}
+if = {
+	limit = { has_dlc = "No Step Back" }
+	add_equipment_to_stockpile = { type = light_tank_chassis_0 variant_name = "GW Light Tank" amount = 292 producer = SOV }
+}
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1408 producer = SOV }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 2629 producer = SOV }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	add_equipment_to_stockpile = { type = small_plane_airframe_0 variant_name = "Interwar Fighter" amount = 1440 producer = SOV }
+}
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+	add_equipment_to_stockpile = { type = small_plane_cas_airframe_0 variant_name = "Interwar CAS" amount = 1440 producer = SOV }
+}
+if = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	add_equipment_to_stockpile = { type = fighter_equipment_0 amount = 1440 producer = SOV }
+}
+if = {
+	limit = { NOT = { has_dlc = "By Blood Alone" } }
+	add_equipment_to_stockpile = { type = tac_bomber_equipment_0 amount = 1440 producer = SOV }
+}
+

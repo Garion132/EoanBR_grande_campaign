@@ -1,0 +1,81 @@
+﻿converted_war_strategies_IRE = {
+	allowed = {
+		tag = IRE
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 3338
+	}
+}
+
+converted_diplo_strategies_IRE = {
+	allowed = {
+		tag = IRE
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 65
+	}
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 53
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 39
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RME"
+		value = 125
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ESU"
+		value = 55
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X00"
+		value = 62
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W16"
+		value = 61
+	}
+}

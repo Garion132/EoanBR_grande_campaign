@@ -1,0 +1,32 @@
+
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		owner = PER
+		victory_points = {
+			8005 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = PER
+		add_core_of = TIB
+		add_core_of = X64
+		add_claim_by = X94
+	}
+
+	provinces={
+		1910 2041 2084 7316 8005 10905 12754 12884 
+	}
+	manpower=2006516
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

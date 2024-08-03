@@ -1,0 +1,35 @@
+
+state={
+	id=500
+	name="STATE_500"
+
+	history={
+		owner = RME
+		victory_points = {
+			11746 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			11746 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = IRQ
+		add_core_of = SYR
+		add_claim_by = RME
+	}
+
+	provinces={
+		806 886 3889 3921 4124 6813 6956 7026 9893 10056 11746 11810 12029 
+	}
+	manpower=2522416
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=164
+	name="STATE_164"
+
+	history={
+		owner = ESU
+		victory_points = {
+			755 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = OCC
+		add_claim_by = ESU
+	}
+
+	provinces={
+		755 11718 
+	}
+	manpower=676648
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

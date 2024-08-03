@@ -1,0 +1,33 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		aluminium=9.000
+		oil=11.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			525 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		441 489 504 525 550 3470 3543 3570 6480 6497 6593 9451 9465 9466 9481 9493 9533 9568 11409 11424 11464 11477 11490 11514 11557 
+	}
+	manpower=6757856
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

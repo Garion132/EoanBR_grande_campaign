@@ -1,0 +1,36 @@
+
+state={
+	id=34
+	name="STATE_34"
+	resources={
+		chromium=4.000
+	}
+
+	history={
+		owner = BAS
+		victory_points = {
+			4641 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4641 = {
+				naval_base = 8
+			}
+			air_base = 7
+
+		}
+		add_core_of = BAS
+	}
+
+	provinces={
+		1594 1635 4598 4641 7632 7660 10484 
+	}
+	manpower=17496008
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

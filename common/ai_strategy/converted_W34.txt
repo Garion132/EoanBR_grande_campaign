@@ -1,0 +1,161 @@
+﻿converted_war_strategies_W34 = {
+	allowed = {
+		tag = W34
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 468
+	}
+	ai_strategy = {
+		type = conquer
+		id = "JAP"
+		value = 429
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X48"
+		value = 312
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TIB"
+		value = 182
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W05"
+		value = 168
+	}
+}
+
+converted_diplo_strategies_W34 = {
+	allowed = {
+		tag = W34
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAP"
+		value = 66
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 49
+	}
+	ai_strategy = {
+		type = contain
+		id = "X48"
+		value = 40
+	}
+	ai_strategy = {
+		type = contain
+		id = "TIB"
+		value = 39
+	}
+	ai_strategy = {
+		type = contain
+		id = "W05"
+		value = 38
+	}
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 33
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 205
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 72
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 40
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X44"
+		value = 40
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 99
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 31
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RME"
+		value = 25
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X90"
+		value = 3
+	}
+	ai_strategy = {
+		type = protect
+		id = "X48"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "W05"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "TIB"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "X90"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W22"
+		value = 76
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "JAP"
+		value = 72
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SWE"
+		value = 31
+	}
+}

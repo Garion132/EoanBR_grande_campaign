@@ -1,0 +1,76 @@
+characters={
+	PAR_ramon_avellaneda={
+		name=PAR_ramon_avellaneda
+		portraits={
+			army={
+				large="GFX_Portrait_South_America_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_South_America_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_bernardo_roca={
+		name=PAR_bernardo_roca
+		portraits={
+			army={
+				large="GFX_FOP_Luis_Alberto_Quesada"
+			}
+			army={
+				small="GFX_FOP_Luis_Alberto_Quesada"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_antonio_juarez={
+		name=PAR_antonio_juarez
+		portraits={
+			army={
+				large="GFX_South_America_Generic_land_new_3"
+			}
+			army={
+				small="GFX_South_America_Generic_land_new_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_cirilo_de_la_plaza={
+		name=PAR_cirilo_de_la_plaza
+		portraits={
+			civilian={
+				large="GFX_Bolivia_Carlos_Quiroga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

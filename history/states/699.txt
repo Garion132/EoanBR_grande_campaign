@@ -1,0 +1,34 @@
+
+state={
+	id=699
+	name="STATE_699"
+	resources={
+		aluminium=13.000
+	}
+
+	history={
+		owner = W22
+		victory_points = {
+			12489 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X18
+		add_claim_by = W22
+		add_claim_by = X17
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778 
+	}
+	manpower=2224156
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

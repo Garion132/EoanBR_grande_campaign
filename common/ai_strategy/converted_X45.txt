@@ -1,0 +1,76 @@
+﻿converted_war_strategies_X45 = {
+	allowed = {
+		tag = X45
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "RAJ"
+		value = 3052
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W21"
+		value = 219
+	}
+}
+
+converted_diplo_strategies_X45 = {
+	allowed = {
+		tag = X45
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RAJ"
+		value = 400
+	}
+	ai_strategy = {
+		type = alliance
+		id = "NEP"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 170
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 71
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ESU"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X00"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X81"
+		value = 41
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAW"
+		value = 31
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MAL"
+		value = 25
+	}
+}

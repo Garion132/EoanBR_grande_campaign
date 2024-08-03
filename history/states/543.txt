@@ -1,0 +1,34 @@
+
+state={
+	id=543
+	name="STATE_543"
+	resources={
+		aluminium=4.000
+		steel=25.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			13011 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = FRA
+		add_core_of = RME
+	}
+
+	provinces={
+		551 680 698 3506 3533 3666 6531 6698 9472 9490 9642 9658 11732 13011 
+	}
+	manpower=4815440
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

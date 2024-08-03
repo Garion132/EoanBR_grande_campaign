@@ -1,0 +1,33 @@
+
+state={
+	id=341
+	name="STATE_341"
+
+	history={
+		owner = PER
+		victory_points = {
+			1419 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			1419 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X69
+		add_claim_by = PER
+	}
+
+	provinces={
+		1351 1419 7413 10141 
+	}
+	manpower=798904
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	W48_ahmad_arius={
+		name=W48_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_FOP_Antonio_Soto"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

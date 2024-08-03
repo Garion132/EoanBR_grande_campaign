@@ -1,0 +1,56 @@
+﻿converted_war_strategies_IVO = {
+	allowed = {
+		tag = IVO
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2920
+	}
+}
+
+converted_diplo_strategies_IVO = {
+	allowed = {
+		tag = IVO
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 70
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 37
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 383
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 103
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAW"
+		value = 83
+	}
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=506
+	name="STATE_506"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			7164 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			4076 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = EGY
+		add_core_of = W24
+		add_claim_by = RME
+	}
+
+	provinces={
+		992 1068 3996 4055 4076 4145 7011 7117 7164 10005 10073 
+	}
+	manpower=15758224
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

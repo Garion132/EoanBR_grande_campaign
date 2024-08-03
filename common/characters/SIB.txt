@@ -1,0 +1,16 @@
+characters={
+	SIB_diniyar_bilyaletdinov={
+		name=SIB_diniyar_bilyaletdinov
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

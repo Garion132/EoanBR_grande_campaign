@@ -1,0 +1,35 @@
+
+state={
+	id=539
+	name="STATE_539"
+	resources={
+		aluminium=94.000
+		steel=107.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			6613 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_core_of = OCC
+		add_claim_by = RME
+	}
+
+	provinces={
+		762 764 780 3589 3594 3762 3764 3768 3770 6613 6639 6786 6975 9590 9736 11593 11716 
+	}
+	manpower=4832164
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

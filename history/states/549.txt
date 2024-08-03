@@ -1,0 +1,41 @@
+
+state={
+	id=549
+	name="STATE_549"
+	resources={
+		rubber=4.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			5117 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10968 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = COG
+		add_core_of = RCG
+		add_core_of = W57
+		RCG = {
+			set_province_controller = 8193
+		}
+	}
+
+	provinces={
+		5117 8193 10025 10968 12896 12925 12945 
+	}
+	manpower=8798556
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

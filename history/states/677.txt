@@ -1,0 +1,33 @@
+
+state={
+	id=677
+	name="STATE_677"
+
+	history={
+		owner = W21
+		victory_points = {
+			1147 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4003 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = W21
+		add_claim_by = X94
+	}
+
+	provinces={
+		1147 1980 4003 4110 
+	}
+	manpower=1080780
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,396 @@
+focus_tree = {
+	id = ETH_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ETH
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = reclaim_coresETH
+		icon = GFX_goal_generic_more_territorial_claims
+		text = reclaim_cores
+		x = 24
+		y = 0
+		cost = 10
+		available = {
+			is_subject = no
+		}
+		select_effect = {
+			set_variable = { unowned_cores_@SOM = 10 }
+			set_variable = { revanchism = 0.000100 }
+			set_variable = { revanchism_stab = -0.000010 }
+			add_dynamic_modifier = { modifier = revanchism }
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = revanchism_reduction
+			divide_variable = { revanchism = 2 }
+			divide_variable = { revanchism_stab = 2 }
+			add_political_power = 150
+			add_ideas = reclaim_cores_idea
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				date < 1939.1.1
+			}
+		}
+	}
+
+	focus = {
+		id = raise_matterETHSOM
+		icon = GFX_focus_generic_self_management
+		text = raise_matterSOM
+		prerequisite = { focus = reclaim_coresETH }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = SOM
+				is_in_faction_with = SOM
+				NOT = { SOM = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 24
+		y = 1
+		cost = 10
+		available = {
+			NOT = { is_in_faction_with = SOM }
+			NOT = { has_war_with = SOM }
+		}
+		completion_reward = {
+			add_stability = 0.0001
+			add_political_power = 150
+			add_timed_idea = { idea = generic_military_industry days = 180 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				SOM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SOM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SOM value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = build_public_supportETHSOM
+		icon = GFX_goal_generic_propaganda
+		text = build_public_supportSOM
+		prerequisite = { focus = raise_matterETHSOM }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = SOM
+				is_in_faction_with = SOM
+				NOT = { SOM = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = raise_matterETHSOM
+		cost = 10
+		available = {
+			NOT = { is_in_faction_with = SOM }
+			NOT = { has_war_with = SOM }
+		}
+		completion_reward  = {
+			add_stability = 0.0001
+			add_war_support = 0.000100
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				SOM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SOM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SOM value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = raise_matterETHSOM
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = territory_or_warETHSOM
+		icon = GFX_goal_generic_territory_or_war
+		text = territory_or_warSOM
+		prerequisite = { focus = build_public_supportETHSOM }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = SOM
+				is_in_faction_with = SOM
+				NOT = { SOM = { any_owned_state = { is_core_of = ROOT } } }
+				NOT = { SOM = { any_owned_state = { is_capital = no } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = build_public_supportETHSOM
+		cost = 3
+		available = {
+			NOT = { is_in_faction_with = SOM }
+			custom_trigger_tooltip = { tooltip = full_controll_of_our_cores }
+			hidden_trigger = {
+				SOM = {
+					all_owned_state = {
+						OR = {
+							NOT = { is_core_of = ROOT }
+							is_fully_controlled_by = SOM
+						}
+					}
+				}
+			}
+			has_war = no
+		}
+		completion_reward = {
+			SOM = {
+				country_event = { id = reconquest_wars.1 }
+				custom_effect_tooltip = needs_approval
+				hidden_effect = {
+					country_event = { id = reconquest_news.1 }
+				}
+			}
+			add_timed_idea = { idea = generic_rapid_mobilization days = 180 }
+			add_named_threat = { threat = 1 name = territory_or_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				SOM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SOM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SOM value > 0 }
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = build_public_supportETHSOM
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = war_planETHSOM
+		icon = GFX_goal_generic_position_armies
+		text = war_planSOM
+		prerequisite = { focus = territory_or_warETHSOM }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = SOM
+				is_in_faction_with = SOM
+				NOT = { SOM = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = territory_or_warETHSOM
+		cost = 4
+		available = {
+			NOT = { is_in_faction_with = SOM }
+			has_war = no
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = SOM value = 1000 }
+			SOM = { add_ai_strategy = { type = prepare_for_war id = ROOT value = 1000 } }
+			random_list = {
+			    25 = { add_command_power = 25 }
+			    25 = { add_manpower = 10000 }
+			    25 = { add_war_support = 0.25 }
+			    25 = { army_experience = 10 }
+			}
+			add_timed_idea = { idea = generic_war_of_national_liberation days = 180 }
+			add_named_threat = { threat = 1 name = war_plan_NF_threat }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				SOM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SOM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SOM value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = territory_or_warETHSOM
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = declare_warETHSOM
+		icon = GFX_goal_generic_army_tanks
+		text = declare_warSOM
+		prerequisite = { focus = war_planETHSOM }
+		bypass = {
+			OR = {
+				is_subject = yes
+				has_war_with = SOM
+				is_in_faction_with = SOM
+				NOT = { SOM = { any_owned_state = { is_core_of = ROOT } } }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = war_planETHSOM
+		cost = 3
+		available = {
+			NOT = { is_in_faction_with = SOM }
+			has_war = no
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = SOM
+				type = take_core_state
+				generator = { 456 }
+			}
+			add_named_threat = { threat = 1 name = declare_war_NF_threat }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				SOM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SOM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SOM value > 0 }
+			}
+			modifier = {
+				factor = 2
+				has_completed_focus = war_planETHSOM
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -25 }
+			}
+			modifier = {
+				factor = 2
+				has_opinion = { target = SOM value < -50 }
+			}
+		}
+	}
+
+	focus = {
+		id = cleanup_revanchismETHSOM
+		icon = GFX_focus_generic_treaty
+		text = cleanup_revanchismSOM
+		prerequisite = { focus = declare_warETHSOM }
+		x = 0
+		y = 1
+		relative_position_id = declare_warETHSOM
+		cost = 0
+		available = {
+			OR = {
+				is_in_faction_with = SOM
+				NOT = { SOM = { any_owned_state = { is_core_of = ROOT } } }
+			}
+			NOT = { has_war_with = SOM }
+		}
+		completion_reward = {
+			add_ai_strategy = { type = prepare_for_war id = SOM value = -1000 }
+			SOM = { add_ai_strategy = { type = prepare_for_war id = ROOT value = -1000 } }
+			custom_effect_tooltip = decrease_revanchism
+			subtract_from_variable = { revanchism = 0.000050 }
+			add_to_variable = { revanchism_stab = 0.000005 }
+			add_ideas = generic_national_unification
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=358
+	name="STATE_358"
+
+	history={
+		owner = PAR
+		victory_points = {
+			8203 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PAR
+	}
+
+	provinces={
+		2195 2209 5165 8203 10973 
+	}
+	manpower=496164
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

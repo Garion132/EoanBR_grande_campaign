@@ -1,0 +1,76 @@
+characters={
+	RAJ_shahuji_rao={
+		name=RAJ_shahuji_rao
+		portraits={
+			army={
+				large="GFX_BHC_Janjuh_Khan"
+			}
+			army={
+				small="GFX_BHC_Janjuh_Khan"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	RAJ_madhava_bhat={
+		name=RAJ_madhava_bhat
+		portraits={
+			army={
+				large="GFX_PRF_El_Edroos"
+			}
+			army={
+				small="GFX_PRF_El_Edroos"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	RAJ_bajirao_narayan={
+		name=RAJ_bajirao_narayan
+		portraits={
+			army={
+				large="GFX_Portrait_The_Raj_Army_Generic"
+			}
+			army={
+				small="GFX_Portrait_The_Raj_Army_Generic"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	RAJ_sawai_phadnis={
+		name=RAJ_sawai_phadnis
+		portraits={
+			civilian={
+				large="GFX_BHC_Mohandas_Karamchand_Gandhi"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

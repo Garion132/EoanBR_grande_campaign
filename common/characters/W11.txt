@@ -1,0 +1,16 @@
+characters={
+	W11_king_sultan_iii={
+		name=W11_king_sultan_iii
+		portraits={
+			civilian={
+				large="GFX_IRQ_Sheikh_Gabdan"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

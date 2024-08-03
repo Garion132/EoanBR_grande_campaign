@@ -1,0 +1,56 @@
+characters={
+	ZIM_sekayi_mlimo={
+		name=ZIM_sekayi_mlimo
+		portraits={
+			army={
+				large="GFX_Portrait_South_Africa_Army_Generic"
+			}
+			army={
+				small="GFX_Portrait_South_Africa_Army_Generic"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ZIM_chionesu_lobengula={
+		name=ZIM_chionesu_lobengula
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ZIM_gamba_muhuru={
+		name=ZIM_gamba_muhuru
+		portraits={
+			civilian={
+				large="GFX_LIB_William_Tubman"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

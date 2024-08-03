@@ -1,0 +1,51 @@
+﻿converted_war_strategies_RWA = {
+	allowed = {
+		tag = RWA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2920
+	}
+}
+
+converted_diplo_strategies_RWA = {
+	allowed = {
+		tag = RWA
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 12
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 240
+	}
+}

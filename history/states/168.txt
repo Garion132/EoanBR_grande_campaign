@@ -1,0 +1,38 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		aluminium=13.000
+		steel=40.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			11834 7 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			11834 = {
+				naval_base = 10
+			}
+			air_base = 4
+
+		}
+		add_core_of = ESU
+		add_core_of = OCC
+	}
+
+	provinces={
+		911 956 958 3928 3959 9728 11711 11713 11834 11849 11875 11877 
+	}
+	manpower=3237304
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

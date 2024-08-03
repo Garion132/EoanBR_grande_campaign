@@ -1,0 +1,76 @@
+characters={
+	X94_narayan_ballal={
+		name=X94_narayan_ballal
+		portraits={
+			army={
+				large="GFX_DEH_Maharaja_Rajendrasinhji_Jadeja"
+			}
+			army={
+				small="GFX_DEH_Maharaja_Rajendrasinhji_Jadeja"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X94_venkatji_phadnis={
+		name=X94_venkatji_phadnis
+		portraits={
+			army={
+				large="GFX_India_Generic_land_new_1"
+			}
+			army={
+				small="GFX_India_Generic_land_new_1"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X94_bajirao_ballal={
+		name=X94_bajirao_ballal
+		portraits={
+			navy={
+				large="GFX_Asia_Generic_navy_new_1"
+			}
+			navy={
+				small="GFX_Asia_Generic_navy_new_1"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X94_shivaji_ballal={
+		name=X94_shivaji_ballal
+		portraits={
+			civilian={
+				large="GFX_BHC_Nirmal_Kumar_Bose"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

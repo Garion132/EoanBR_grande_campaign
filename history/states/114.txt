@@ -1,0 +1,35 @@
+
+state={
+	id=114
+	name="STATE_114"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = W52
+		victory_points = {
+			7603 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = BRM
+		add_core_of = W52
+		add_core_of = X53
+		add_core_of = X76
+	}
+
+	provinces={
+		1170 1566 1607 2061 4175 4210 4585 4626 4654 7400 7441 7562 7603 7647 7909 7974 12256 12317 12363 12449 
+	}
+	manpower=5238768
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

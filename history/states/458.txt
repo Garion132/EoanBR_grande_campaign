@@ -1,0 +1,38 @@
+
+state={
+	id=458
+	name="STATE_458"
+	resources={
+		aluminium=20.000
+		steel=28.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11584 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			11584 = {
+				naval_base = 8
+			}
+			air_base = 4
+
+		}
+		add_core_of = RME
+		add_claim_by = SLV
+	}
+
+	provinces={
+		603 628 656 3604 3657 3776 6656 9582 11584 
+	}
+	manpower=5241496
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

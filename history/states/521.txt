@@ -1,0 +1,38 @@
+
+state={
+	id=521
+	name="STATE_521"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			7912 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = HAR
+		add_core_of = W57
+		add_core_of = X57
+		add_core_of = X58
+		add_claim_by = ETH
+		add_claim_by = RME
+		add_claim_by = SOM
+	}
+
+	provinces={
+		2009 5010 7912 7980 8036 10734 12714 12856 13239 13243 13244 13245 13249 
+	}
+	manpower=14247468
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

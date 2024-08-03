@@ -1,0 +1,76 @@
+characters={
+	X96_trevor_clegg={
+		name=X96_trevor_clegg
+		portraits={
+			army={
+				large="GFX_England_William_Gott"
+			}
+			army={
+				small="GFX_England_William_Gott"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X96_bryce_byrne={
+		name=X96_bryce_byrne
+		portraits={
+			army={
+				large="GFX_portrait_ENG_miles_dempsey"
+			}
+			army={
+				small="GFX_portrait_ENG_miles_dempsey"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X96_fnu_lnu={
+		name=X96_fnu_lnu
+		portraits={
+			navy={
+				large="GFX_portrait_ENG_andrew_cunningham"
+			}
+			navy={
+				small="GFX_portrait_ENG_andrew_cunningham"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	X96_percy_parow={
+		name=X96_percy_parow
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

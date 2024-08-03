@@ -1,0 +1,56 @@
+characters={
+	GNB_fnu_lnu={
+		name=GNB_fnu_lnu
+		portraits={
+			army={
+				large="GFX_GAB_Tchorere"
+			}
+			army={
+				small="GFX_GAB_Tchorere"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GNB_fnu_lnu_1={
+		name=GNB_fnu_lnu_1
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_2"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_2"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GNB_baka_peya={
+		name=GNB_baka_peya
+		portraits={
+			civilian={
+				large="GFX_Dahomey_Soglo"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,56 @@
+characters={
+	X36_hojo_masujiro={
+		name=X36_hojo_masujiro
+		portraits={
+			army={
+				large="GFX_portrait_JAP_akira_muto"
+			}
+			army={
+				small="GFX_portrait_JAP_akira_muto"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X36_yui_mineo={
+		name=X36_yui_mineo
+		portraits={
+			navy={
+				large="GFX_portrait_JAP_zengo_yoshida"
+			}
+			navy={
+				small="GFX_portrait_JAP_zengo_yoshida"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	X36_taruhito_kido={
+		name=X36_taruhito_kido
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=161
+	name="STATE_161"
+
+	history={
+		owner = HUN
+		victory_points = {
+			11627 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = HUN
+		add_claim_by = GER
+		add_claim_by = SLV
+	}
+
+	provinces={
+		682 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 
+	}
+	manpower=1415532
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

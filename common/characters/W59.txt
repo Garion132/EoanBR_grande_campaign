@@ -1,0 +1,16 @@
+characters={
+	W59_servilius_bubulcus={
+		name=W59_servilius_bubulcus
+		portraits={
+			civilian={
+				large="GFX_SPQR_Carinus"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

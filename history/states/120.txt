@@ -1,0 +1,36 @@
+
+state={
+	id=120
+	name="STATE_120"
+	resources={
+		chromium=1.000
+		steel=1.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = W52
+		victory_points = {
+			4529 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W52
+		add_core_of = X53
+		add_core_of = X68
+	}
+
+	provinces={
+		4529 10075 10103 12075 12319 
+	}
+	manpower=934496
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

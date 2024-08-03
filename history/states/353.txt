@@ -1,0 +1,34 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = PER
+		victory_points = {
+			4550 15 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			10087 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = SYR
+		add_core_of = W23
+		add_claim_by = RME
+	}
+
+	provinces={
+		1056 1072 1074 1088 4111 4550 7140 7671 10087 12473 
+	}
+	manpower=4045648
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,81 @@
+﻿converted_war_strategies_TRI = {
+	allowed = {
+		tag = TRI
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_TRI = {
+	allowed = {
+		tag = TRI
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X43"
+		value = 37
+	}
+	ai_strategy = {
+		type = contain
+		id = "W01"
+		value = 37
+	}
+	ai_strategy = {
+		type = contain
+		id = "W02"
+		value = 37
+	}
+	ai_strategy = {
+		type = contain
+		id = "X80"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "PUE"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "X11"
+		value = 7
+	}
+	ai_strategy = {
+		type = contain
+		id = "X35"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PAR"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W22"
+		value = 12
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 3
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	X46_abd_allah_ibn_abd_al_qadir={
+		name=X46_abd_allah_ibn_abd_al_qadir
+		portraits={
+			civilian={
+				large="GFX_JBS_Shakhbut_bin_Sultan_Al_Nahyan"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

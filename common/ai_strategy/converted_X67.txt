@@ -1,0 +1,46 @@
+﻿converted_war_strategies_X67 = {
+	allowed = {
+		tag = X67
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 72
+	}
+}
+
+converted_diplo_strategies_X67 = {
+	allowed = {
+		tag = X67
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 281
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 262
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W03"
+		value = 52
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 4
+	}
+}

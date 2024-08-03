@@ -1,0 +1,35 @@
+
+state={
+	id=247
+	name="STATE_247"
+
+	history={
+		owner = W45
+		victory_points = {
+			10232 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			10232 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = JAP
+		add_core_of = W45
+		add_core_of = X23
+		add_core_of = X53
+	}
+
+	provinces={
+		1285 7238 7271 7347 10232 12176 12204 
+	}
+	manpower=1086820
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

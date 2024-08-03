@@ -1,0 +1,142 @@
+﻿capital = 549
+set_research_slots = 2
+
+oob = "COG_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_congo
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 89
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BAS modifier = negative_100 }
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BUL modifier = positive_15 }
+add_opinion_modifier = { target = CHL modifier = positive_20 }
+add_opinion_modifier = { target = ENG modifier = negative_195 }
+add_opinion_modifier = { target = ESU modifier = negative_195 }
+add_opinion_modifier = { target = ETH modifier = negative_110 }
+add_opinion_modifier = { target = GER modifier = negative_200 }
+add_opinion_modifier = { target = HUN modifier = positive_15 }
+add_opinion_modifier = { target = MAL modifier = negative_35 }
+add_opinion_modifier = { target = PAR modifier = negative_80 }
+add_opinion_modifier = { target = PER modifier = negative_100 }
+add_opinion_modifier = { target = POL modifier = negative_195 }
+add_opinion_modifier = { target = RCG modifier = negative_50 }
+add_opinion_modifier = { target = RME modifier = negative_200 }
+add_opinion_modifier = { target = SLO modifier = positive_15 }
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SWE modifier = negative_200 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = TRI modifier = negative_100 }
+add_opinion_modifier = { target = USA modifier = negative_50 }
+add_opinion_modifier = { target = W02 modifier = negative_100 }
+add_opinion_modifier = { target = W03 modifier = negative_25 }
+add_opinion_modifier = { target = W05 modifier = negative_20 }
+add_opinion_modifier = { target = W07 modifier = negative_175 }
+add_opinion_modifier = { target = W12 modifier = negative_100 }
+add_opinion_modifier = { target = W18 modifier = negative_85 }
+add_opinion_modifier = { target = W20 modifier = positive_5 }
+add_opinion_modifier = { target = W21 modifier = negative_100 }
+add_opinion_modifier = { target = W22 modifier = positive_5 }
+add_opinion_modifier = { target = W25 modifier = negative_100 }
+add_opinion_modifier = { target = W34 modifier = negative_120 }
+add_opinion_modifier = { target = X00 modifier = negative_25 }
+add_opinion_modifier = { target = X43 modifier = negative_100 }
+add_opinion_modifier = { target = X48 modifier = negative_20 }
+add_opinion_modifier = { target = X80 modifier = negative_100 }
+add_opinion_modifier = { target = X99 modifier = positive_30 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_dummy
+}
+
+recruit_character = COG_y._von_der_o.
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Y. von der U."
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "Ü. von B."
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "R. von der Q."
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "Z. vom U."
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { COG }
+	}
+
+	create_operative_leader = {
+		name = "E. von der K."
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { COG }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

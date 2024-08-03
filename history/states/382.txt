@@ -1,0 +1,33 @@
+
+state={
+	id=382
+	name="STATE_382"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3686 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 7
+			arms_factory = 2
+			dockyard = 3
+			3686 = {
+				naval_base = 6
+			}
+			air_base = 4
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=3246528
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

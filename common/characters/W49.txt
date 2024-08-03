@@ -1,0 +1,16 @@
+characters={
+	W49_ahmad_arius={
+		name=W49_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_NIC_Juan_Jose_Arevalo_Bermejo"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=214
+	name="STATE_214"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			12997 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			5190 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = ESU
+		add_core_of = X25
+		add_core_of = X31
+		add_claim_by = PRU
+	}
+
+	provinces={
+		2162 2212 2226 5190 12983 12997 13316 
+	}
+	manpower=4937504
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

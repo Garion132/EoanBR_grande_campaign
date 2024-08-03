@@ -1,0 +1,36 @@
+
+state={
+	id=290
+	name="STATE_290"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = X75
+		victory_points = {
+			4652 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4652 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = MAL
+		add_core_of = X75
+	}
+
+	provinces={
+		1648 4652 7673 
+	}
+	manpower=2088696
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

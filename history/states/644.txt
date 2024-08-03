@@ -1,0 +1,35 @@
+
+state={
+	id=644
+	name="STATE_644"
+	resources={
+		oil=11.000
+	}
+
+	history={
+		owner = TRI
+		victory_points = {
+			3284 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			13012 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = TRI
+	}
+
+	provinces={
+		3284 13012 
+	}
+	manpower=277688
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=527
+	name="STATE_527"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9536 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = SWE
+		add_claim_by = RME
+	}
+
+	provinces={
+		3516 3576 9444 9536 13081 
+	}
+	manpower=2471608
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

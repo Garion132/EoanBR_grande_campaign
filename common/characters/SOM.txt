@@ -1,0 +1,76 @@
+characters={
+	SOM_erasto_dekiye={
+		name=SOM_erasto_dekiye
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_1"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_1"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOM_abdikarim_doreh={
+		name=SOM_abdikarim_doreh
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOM_abdikarim_adeer={
+		name=SOM_abdikarim_adeer
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_2"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_2"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOM_yusuf_dekiye={
+		name=SOM_yusuf_dekiye
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_Ethiopia_Haile_Selassie.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=723
+	name="STATE_723"
+
+	history={
+		owner = W34
+		victory_points = {
+			9958 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		4066 4158 7085 7126 7540 7568 7656 9958 9995 10098 10364 10434 10446 12426 
+	}
+	manpower=15167728
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

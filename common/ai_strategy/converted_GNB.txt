@@ -1,0 +1,61 @@
+﻿converted_war_strategies_GNB = {
+	allowed = {
+		tag = GNB
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2920
+	}
+}
+
+converted_diplo_strategies_GNB = {
+	allowed = {
+		tag = GNB
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 208
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 201
+	}
+	ai_strategy = {
+		type = contain
+		id = "SEN"
+		value = 178
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 140
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 384
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X36"
+		value = 45
+	}
+}

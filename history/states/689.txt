@@ -1,0 +1,33 @@
+
+state={
+	id=689
+	name="STATE_689"
+
+	history={
+		owner = W22
+		victory_points = {
+			3957 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			6892 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = W22
+	}
+
+	provinces={
+		3957 6823 6892 6929 6984 9758 9786 11892 
+	}
+	manpower=2261652
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=439
+	name="STATE_439"
+	resources={
+		chromium=3.000
+		steel=8.000
+	}
+
+	history={
+		owner = SAF
+		victory_points = {
+			10697 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			4528 = {
+				naval_base = 10
+
+			}
+			air_base = 0
+
+		}
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		1509 4528 5203 5231 10442 10668 10697 12419 
+	}
+	manpower=544848
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

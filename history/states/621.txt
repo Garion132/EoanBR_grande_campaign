@@ -1,0 +1,36 @@
+
+state={
+	id=621
+	name="STATE_621"
+	resources={
+		chromium=6.000
+	}
+
+	history={
+		owner = W61
+		victory_points = {
+			5185 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5185 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = MAD
+		add_core_of = W61
+	}
+
+	provinces={
+		5185 8180 11015 12956 
+	}
+	manpower=910364
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

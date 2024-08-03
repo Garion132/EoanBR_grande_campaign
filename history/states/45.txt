@@ -1,0 +1,36 @@
+
+state={
+	id=45
+	name="STATE_45"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			6103 40 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 1
+			6489 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		507 3501 6103 6221 6270 6489 9458 11333 11446 11471 13070 
+	}
+	manpower=5469556
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

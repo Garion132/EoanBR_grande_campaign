@@ -1,0 +1,30 @@
+
+state={
+	id=324
+	name="STATE_324"
+
+	history={
+		owner = PER
+		victory_points = {
+			10837 40 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 10
+
+		}
+		add_core_of = AZR
+		add_core_of = PER
+	}
+
+	provinces={
+		2071 4553 7969 8093 10523 10837 10922 12704 12818 
+	}
+	manpower=3975816
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

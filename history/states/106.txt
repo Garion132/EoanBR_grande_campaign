@@ -1,0 +1,30 @@
+
+state={
+	id=106
+	name="STATE_106"
+
+	history={
+		owner = GER
+		victory_points = {
+			3585 7 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 8
+			arms_factory = 4
+			air_base = 4
+
+		}
+		add_core_of = GER
+		add_core_of = POL
+	}
+
+	provinces={
+		424 469 543 3418 3585 5283 6418 6440 6470 7857 9414 9555 11401 11414 11432 
+	}
+	manpower=5520952
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

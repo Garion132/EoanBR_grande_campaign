@@ -1,0 +1,38 @@
+
+state={
+	id=490
+	name="STATE_490"
+	resources={
+		aluminium=3.000
+		chromium=3.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9914 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9780 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = MAC
+		add_core_of = RME
+	}
+
+	provinces={
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 13234 13235 13255 
+	}
+	manpower=2311224
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

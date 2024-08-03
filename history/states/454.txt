@@ -1,0 +1,36 @@
+
+state={
+	id=454
+	name="STATE_454"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = SEN
+		victory_points = {
+			4989 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			4989 = {
+				naval_base = 6
+			}
+			air_base = 6
+
+		}
+		add_core_of = GAM
+		add_core_of = SEN
+	}
+
+	provinces={
+		2100 4989 7972 12834 13213 
+	}
+	manpower=1446724
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

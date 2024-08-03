@@ -1,0 +1,36 @@
+
+state={
+	id=331
+	name="STATE_331"
+
+	history={
+		owner = PER
+		victory_points = {
+			2048 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1955 = {
+				naval_base = 1
+			}
+			air_base = 10
+
+		}
+		add_core_of = PER
+		add_core_of = QAT
+		add_core_of = SAU
+		add_core_of = UAE
+	}
+
+	provinces={
+		1955 2048 4993 5024 7960 8051 8108 10791 10850 10904 12702 
+	}
+	manpower=1987812
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

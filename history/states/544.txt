@@ -1,0 +1,33 @@
+
+state={
+	id=544
+	name="STATE_544"
+	resources={
+		aluminium=24.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9620 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = FRA
+		add_claim_by = RME
+	}
+
+	provinces={
+		636 3612 6666 6683 9587 9618 9620 9622 9638 11590 
+	}
+	manpower=4390944
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=171
+	name="STATE_171"
+	resources={
+		tungsten=3.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			11798 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 2
+
+		}
+		add_core_of = ESU
+	}
+
+	provinces={
+		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11756 11780 11798 11851 13230 
+	}
+	manpower=2514352
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

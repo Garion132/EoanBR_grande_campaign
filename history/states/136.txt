@@ -1,0 +1,36 @@
+
+state={
+	id=136
+	name="STATE_136"
+	resources={
+		steel=3.000
+		tungsten=9.000
+	}
+
+	history={
+		owner = X42
+		victory_points = {
+			7182 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			9978 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X42
+	}
+
+	provinces={
+		4165 7141 7182 9938 9978 
+	}
+	manpower=4242372
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

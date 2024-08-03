@@ -1,0 +1,90 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "3rd Fleet"
+			location = 11207
+			ship = { name = "Andromeda" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Diadem" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Amphitrite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Aboukir" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "9th Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "9th Fleet"
+			location = 11207
+			ship = { name = "Euryalus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "11th Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "11th Fleet"
+			location = 11207
+			ship = { name = "Spartiate" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "13th Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "13th Fleet"
+			location = 11207
+			ship = { name = "King Alfred" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "14th Fleet"
+		naval_base = 11207
+		task_force = {
+			name = "14th Fleet"
+			location = 11207
+			ship = { name = "Drake" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+	fleet = {
+		name = "16th Fleet"
+		naval_base = 351
+		task_force = {
+			name = "16th Fleet"
+			location = 351
+			ship = { name = "Orion" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Hercules" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Revenge" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Resolution" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Illustrious" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Prince George" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Grafton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Royal Arthur" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Europa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Kent" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ENG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

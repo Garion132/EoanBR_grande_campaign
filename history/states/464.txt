@@ -1,0 +1,32 @@
+
+state={
+	id=464
+	name="STATE_464"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			6631 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		6631 9598 11598 
+	}
+	manpower=813404
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

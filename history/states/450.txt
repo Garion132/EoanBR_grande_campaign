@@ -1,0 +1,32 @@
+
+state={
+	id=450
+	name="STATE_450"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = X99
+		victory_points = {
+			11639 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X99
+	}
+
+	provinces={
+		690 711 3676 3689 6679 6709 9668 9670 11639 
+	}
+	manpower=1952708
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

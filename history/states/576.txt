@@ -1,0 +1,36 @@
+
+state={
+	id=576
+	name="STATE_576"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = W56
+		victory_points = {
+			5139 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			5139 = {
+				naval_base = 6
+			}
+			air_base = 10
+
+		}
+		add_core_of = GAB
+		add_core_of = W56
+	}
+
+	provinces={
+		5139 10948 13210 
+	}
+	manpower=633248
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

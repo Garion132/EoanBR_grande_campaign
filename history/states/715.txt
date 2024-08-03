@@ -1,0 +1,19 @@
+
+state={
+	id=715
+	name="STATE_715"
+
+	history={
+		owner = W26
+		add_core_of = W26
+
+	}
+
+	provinces={
+		2205 5138 5206 7623 8206 10336 10936 10955 12906 
+	}
+	manpower=307503
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=10.000
+}

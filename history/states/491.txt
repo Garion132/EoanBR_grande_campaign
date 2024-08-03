@@ -1,0 +1,36 @@
+
+state={
+	id=491
+	name="STATE_491"
+	resources={
+		chromium=8.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11984 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			11984 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = RME
+	}
+
+	provinces={
+		7193 11984 
+	}
+	manpower=978196
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

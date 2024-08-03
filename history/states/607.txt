@@ -1,0 +1,30 @@
+
+state={
+	id=607
+	name="STATE_607"
+
+	history={
+		owner = SWE
+		victory_points = {
+			11519 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = FLA
+		add_core_of = SWE
+	}
+
+	provinces={
+		6537 9418 11407 11519 
+	}
+	manpower=498856
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

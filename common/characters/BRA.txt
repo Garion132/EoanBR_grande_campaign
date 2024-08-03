@@ -1,0 +1,96 @@
+characters={
+	BRA_francisco_de_paula_tavares={
+		name=BRA_francisco_de_paula_tavares
+		portraits={
+			army={
+				large="GFX_ELS_general_Maximiliano_Martinez"
+			}
+			army={
+				small="GFX_ELS_general_Maximiliano_Martinez"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	BRA_afonso_da_costa={
+		name=BRA_afonso_da_costa
+		portraits={
+			army={
+				large="GFX_HON_Augustine_Warner_Robbins"
+			}
+			army={
+				small="GFX_HON_Augustine_Warner_Robbins"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_hermes_de_melo={
+		name=BRA_hermes_de_melo
+		portraits={
+			army={
+				large="GFX_Chile_Jorge_Von_Marees"
+			}
+			army={
+				small="GFX_Chile_Jorge_Von_Marees"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_epitacio_caldwell={
+		name=BRA_epitacio_caldwell
+		portraits={
+			navy={
+				large="GFX_r56_generic_admiral_GRE_1"
+			}
+			navy={
+				small="GFX_r56_generic_admiral_GRE_1"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_benjamin_da_fonseca={
+		name=BRA_benjamin_da_fonseca
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

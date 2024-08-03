@@ -1,0 +1,30 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		owner = X48
+		victory_points = {
+			7101 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = JAP
+		add_core_of = X48
+	}
+
+	provinces={
+		7101 7279 7434 9999 
+	}
+	manpower=1553072
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

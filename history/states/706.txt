@@ -1,0 +1,38 @@
+
+state={
+	id=706
+	name="STATE_706"
+	resources={
+		aluminium=22.000
+		oil=132.000
+		steel=29.000
+	}
+
+	history={
+		owner = W25
+		victory_points = {
+			10855 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			12772 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = W25
+	}
+
+	provinces={
+		1937 1944 1997 2052 2085 4526 5088 8056 10855 12772 
+	}
+	manpower=3839408
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

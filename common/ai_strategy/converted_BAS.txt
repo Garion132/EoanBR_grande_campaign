@@ -1,0 +1,46 @@
+﻿converted_war_strategies_BAS = {
+	allowed = {
+		tag = BAS
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 2925
+	}
+}
+
+converted_diplo_strategies_BAS = {
+	allowed = {
+		tag = BAS
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "W25"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 267
+	}
+	ai_strategy = {
+		type = protect
+		id = "PUE"
+		value = 20
+	}
+}

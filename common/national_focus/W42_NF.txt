@@ -1,0 +1,129 @@
+focus_tree = {
+	id = W42_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = W42
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = integrate_satelliteW42CHL
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		text = integrate_satelliteCHL
+		bypass = {
+			CHL = {
+				OR = {
+					NOT = { is_subject_of = ROOT }
+					has_war_with = ROOT
+				}
+			}
+		}
+		x = 24
+		y = 0
+		cost = 10
+		available = {
+
+		}
+		select_effect = {
+			CHL = {
+				every_owned_state = { set_state_flag = is_being_integrated }
+			}
+		}
+		completion_reward = {
+			annex_country = { target = CHL transfer_troops = yes }
+			every_owned_state = {
+				limit = { has_state_flag = is_being_integrated }
+				add_core_of = ROOT
+				clr_state_flag = is_being_integrated
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = integrate_satelliteW42URG
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		text = integrate_satelliteURG
+		bypass = {
+			URG = {
+				OR = {
+					NOT = { is_subject_of = ROOT }
+					has_war_with = ROOT
+				}
+			}
+		}
+		x = 24
+		y = 1
+		cost = 10
+		available = {
+
+		}
+		select_effect = {
+			URG = {
+				every_owned_state = { set_state_flag = is_being_integrated }
+			}
+		}
+		completion_reward = {
+			annex_country = { target = URG transfer_troops = yes }
+			every_owned_state = {
+				limit = { has_state_flag = is_being_integrated }
+				add_core_of = ROOT
+				clr_state_flag = is_being_integrated
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+	focus = {
+		id = integrate_satelliteW42X95
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		text = integrate_satelliteX95
+		bypass = {
+			X95 = {
+				OR = {
+					NOT = { is_subject_of = ROOT }
+					has_war_with = ROOT
+				}
+			}
+		}
+		x = 24
+		y = 2
+		cost = 10
+		available = {
+
+		}
+		select_effect = {
+			X95 = {
+				every_owned_state = { set_state_flag = is_being_integrated }
+			}
+		}
+		completion_reward = {
+			annex_country = { target = X95 transfer_troops = yes }
+			every_owned_state = {
+				limit = { has_state_flag = is_being_integrated }
+				add_core_of = ROOT
+				clr_state_flag = is_being_integrated
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+
+}

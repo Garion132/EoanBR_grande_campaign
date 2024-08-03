@@ -1,0 +1,76 @@
+characters={
+	IRE_cathal_lynch={
+		name=IRE_cathal_lynch
+		portraits={
+			army={
+				large="GFX_portrait_ENG_jock_campbell"
+			}
+			army={
+				small="GFX_portrait_ENG_jock_campbell"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRE_harry_mccullough={
+		name=IRE_harry_mccullough
+		portraits={
+			army={
+				large="GFX_Portrait_Britain_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Britain_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRE_daniel_collins={
+		name=IRE_daniel_collins
+		portraits={
+			navy={
+				large="GFX_portrait_europe_generic_navy_5"
+			}
+			navy={
+				small="GFX_portrait_europe_generic_navy_5"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRE_george_collins={
+		name=IRE_george_collins
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=235
+	name="STATE_235"
+	resources={
+		chromium=16.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			7622 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			7590 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = ESU
+	}
+
+	provinces={
+		1550 4476 4600 7451 7546 7590 7622 10374 10498 12347 
+	}
+	manpower=6569548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

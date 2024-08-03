@@ -1,0 +1,40 @@
+
+state={
+	id=116
+	name="STATE_116"
+	resources={
+		rubber=43.000
+		steel=5.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = W52
+		victory_points = {
+			1488 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			7408 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = SIA
+		add_core_of = W52
+		add_core_of = X65
+		add_claim_by = X53
+	}
+
+	provinces={
+		1253 1427 1488 1990 4496 4566 7312 7338 7353 7367 7408 7492 7531 7544 7559 7572 7675 8045 10221 10250 10371 10398 10411 12173 12345 
+	}
+	manpower=6493164
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

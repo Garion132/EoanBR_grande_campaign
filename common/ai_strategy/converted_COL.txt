@@ -1,0 +1,86 @@
+﻿converted_war_strategies_COL = {
+	allowed = {
+		tag = COL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ESU"
+		value = 280
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W25"
+		value = 214
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "W22"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_COL = {
+	allowed = {
+		tag = COL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 257
+	}
+	ai_strategy = {
+		type = contain
+		id = "W25"
+		value = 211
+	}
+	ai_strategy = {
+		type = contain
+		id = "W22"
+		value = 44
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 14
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 400
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 160
+	}
+	ai_strategy = {
+		type = alliance
+		id = "W22"
+		value = 130
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 38
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAR"
+		value = 17
+	}
+}

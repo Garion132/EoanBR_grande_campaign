@@ -1,0 +1,16 @@
+characters={
+	W44_ahmad_arius={
+		name=W44_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_COS_Manuel_Mora_Valverde"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

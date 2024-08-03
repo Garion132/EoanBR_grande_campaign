@@ -1,0 +1,16 @@
+characters={
+	W62_dauda_mayrumfa={
+		name=W62_dauda_mayrumfa
+		portraits={
+			civilian={
+				large="GFX_CAF_CLR_James"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

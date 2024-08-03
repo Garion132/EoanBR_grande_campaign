@@ -1,0 +1,35 @@
+
+state={
+	id=103
+	name="STATE_103"
+	resources={
+		oil=1.000
+		steel=9.000
+		tungsten=12.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			11666 7 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = GER
+		add_claim_by = SLO
+	}
+
+	provinces={
+		704 732 3684 3700 3703 3718 6552 6690 6708 6723 6739 9527 9661 9665 11630 11651 11666 
+	}
+	manpower=5646072
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = W22
+		victory_points = {
+			11738 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			788 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = W22
+	}
+
+	provinces={
+		788 865 873 951 1506 3823 3917 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
+	}
+	manpower=5430280
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

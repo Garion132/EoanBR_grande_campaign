@@ -1,0 +1,33 @@
+
+state={
+	id=288
+	name="STATE_288"
+
+	history={
+		owner = X67
+		victory_points = {
+			10707 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			10707 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = X67
+	}
+
+	provinces={
+		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
+	}
+	manpower=1530084
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,56 @@
+﻿converted_war_strategies_COS = {
+	allowed = {
+		tag = COS
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "ESU"
+		value = 73
+	}
+}
+
+converted_diplo_strategies_COS = {
+	allowed = {
+		tag = COS
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 188
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 2
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X00"
+		value = 52
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAR"
+		value = 39
+	}
+}

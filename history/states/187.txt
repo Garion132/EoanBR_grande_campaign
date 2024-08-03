@@ -1,0 +1,32 @@
+
+state={
+	id=187
+	name="STATE_187"
+
+	history={
+		owner = W47
+		victory_points = {
+			4952 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4952 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = W47
+	}
+
+	provinces={
+		4952 8034 12900 
+	}
+	manpower=4897688
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

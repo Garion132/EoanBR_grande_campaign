@@ -1,0 +1,91 @@
+﻿converted_war_strategies_ZIM = {
+	allowed = {
+		tag = ZIM
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "MZB"
+		value = 308
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SAF"
+		value = 82
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BOT"
+		value = 80
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ZAM"
+		value = 49
+	}
+}
+
+converted_diplo_strategies_ZIM = {
+	allowed = {
+		tag = ZIM
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "BOT"
+		value = 68
+	}
+	ai_strategy = {
+		type = contain
+		id = "SAF"
+		value = 61
+	}
+	ai_strategy = {
+		type = contain
+		id = "MZB"
+		value = 50
+	}
+	ai_strategy = {
+		type = contain
+		id = "ZAM"
+		value = 40
+	}
+	ai_strategy = {
+		type = contain
+		id = "MLW"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 17
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+}

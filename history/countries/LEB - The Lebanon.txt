@@ -1,0 +1,139 @@
+﻿capital = 354
+set_research_slots = 3
+
+oob = "LEB_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_levant
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_10 }
+add_opinion_modifier = { target = BUL modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_30 }
+add_opinion_modifier = { target = ESU modifier = positive_5 }
+add_opinion_modifier = { target = ETH modifier = negative_85 }
+add_opinion_modifier = { target = GER modifier = negative_10 }
+add_opinion_modifier = { target = HUN modifier = negative_30 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = MAL modifier = negative_5 }
+add_opinion_modifier = { target = PAR modifier = negative_100 }
+add_opinion_modifier = { target = PER modifier = negative_160 }
+add_opinion_modifier = { target = POL modifier = negative_30 }
+add_opinion_modifier = { target = RME modifier = negative_10 }
+add_opinion_modifier = { target = SAM modifier = negative_25 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SLO modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = negative_160 }
+add_opinion_modifier = { target = SWE modifier = negative_55 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_35 }
+add_opinion_modifier = { target = W03 modifier = negative_5 }
+add_opinion_modifier = { target = W05 modifier = negative_10 }
+add_opinion_modifier = { target = W07 modifier = negative_110 }
+add_opinion_modifier = { target = W18 modifier = negative_110 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_30 }
+add_opinion_modifier = { target = W34 modifier = negative_155 }
+add_opinion_modifier = { target = X00 modifier = negative_50 }
+add_opinion_modifier = { target = X42 modifier = negative_10 }
+add_opinion_modifier = { target = X48 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = positive_20 }
+add_opinion_modifier = { target = X81 modifier = negative_10 }
+add_opinion_modifier = { target = X96 modifier = negative_25 }
+add_opinion_modifier = { target = X99 modifier = negative_10 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_mashriqi
+}
+
+recruit_character = LEB_abd_al_malik_al_hamawi
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Shararah al-Halabi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LEB }
+	}
+
+	create_operative_leader = {
+		name = "Paywand ibn Abu Bakr"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LEB }
+	}
+
+	create_operative_leader = {
+		name = "Jahaira al-Himsi"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { LEB }
+	}
+
+	create_operative_leader = {
+		name = "Abd al-Karim ibn Fuad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LEB }
+	}
+
+	create_operative_leader = {
+		name = "Shukri ibn Mustafa"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { LEB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

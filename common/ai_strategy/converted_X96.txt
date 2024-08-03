@@ -1,0 +1,46 @@
+﻿converted_war_strategies_X96 = {
+	allowed = {
+		tag = X96
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_X96 = {
+	allowed = {
+		tag = X96
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 283
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ESU"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 1
+	}
+}

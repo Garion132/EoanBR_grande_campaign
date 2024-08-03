@@ -1,0 +1,31 @@
+
+state={
+	id=532
+	name="STATE_532"
+
+	history={
+		owner = RME
+		victory_points = {
+			11506 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_claim_by = RME
+		add_claim_by = SWE
+	}
+
+	provinces={
+		6547 6949 9507 9523 9534 9725 11491 11506 11518 
+	}
+	manpower=2382680
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

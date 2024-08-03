@@ -1,0 +1,131 @@
+﻿capital = 119
+set_research_slots = 3
+
+oob = "X68_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_indochina
+set_convoys = 0
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 5
+	democratic = 93
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BHU modifier = positive_15 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_30 }
+add_opinion_modifier = { target = ESU modifier = negative_10 }
+add_opinion_modifier = { target = ETH modifier = negative_125 }
+add_opinion_modifier = { target = HUN modifier = negative_20 }
+add_opinion_modifier = { target = JAP modifier = positive_15 }
+add_opinion_modifier = { target = MAL modifier = positive_15 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = negative_150 }
+add_opinion_modifier = { target = POL modifier = negative_30 }
+add_opinion_modifier = { target = RME modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = positive_55 }
+add_opinion_modifier = { target = SOV modifier = negative_160 }
+add_opinion_modifier = { target = SWE modifier = negative_55 }
+add_opinion_modifier = { target = TIB modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = negative_35 }
+add_opinion_modifier = { target = W05 modifier = positive_15 }
+add_opinion_modifier = { target = W07 modifier = negative_150 }
+add_opinion_modifier = { target = W18 modifier = negative_100 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_30 }
+add_opinion_modifier = { target = W34 modifier = negative_155 }
+add_opinion_modifier = { target = X00 modifier = negative_25 }
+add_opinion_modifier = { target = X42 modifier = positive_15 }
+add_opinion_modifier = { target = X48 modifier = positive_15 }
+add_opinion_modifier = { target = X81 modifier = positive_25 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_lao
+}
+
+recruit_character = X68_setthathirath_long
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Manora Kuman"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Châu Anuvong"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Anousa Vong"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Sukha Kuman"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Anurutha Supho"
+		GFX = "gfx/leaders/Asia/portrait_asia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

@@ -1,0 +1,32 @@
+
+state={
+	id=84
+	name="STATE_84"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			495 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		495 564 3512 3524 6535 6622 9443 9509 11346 11388 11431 11533 
+	}
+	manpower=8523076
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

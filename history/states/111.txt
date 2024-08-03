@@ -1,0 +1,31 @@
+
+state={
+	id=111
+	name="STATE_111"
+
+	history={
+		owner = GER
+		victory_points = {
+			6558 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 7
+
+		}
+		add_core_of = GER
+		add_core_of = POL
+		add_core_of = X91
+	}
+
+	provinces={
+		17 243 279 388 3381 3460 3532 6558 9532 11232 11558 
+	}
+	manpower=3764116
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

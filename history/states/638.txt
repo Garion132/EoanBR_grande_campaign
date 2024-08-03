@@ -1,0 +1,30 @@
+
+state={
+	id=638
+	name="STATE_638"
+
+	history={
+		owner = TIB
+		victory_points = {
+			12732 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TIB
+		add_claim_by = CHI
+	}
+
+	provinces={
+		531 1630 2022 4313 4888 5057 5193 6638 7397 7911 12327 12732 12776 12797 12882 
+	}
+	manpower=4318856
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

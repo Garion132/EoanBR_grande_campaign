@@ -1,0 +1,33 @@
+
+state={
+	id=499
+	name="STATE_499"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			12416 7 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = ARM
+		add_core_of = RME
+	}
+
+	provinces={
+		876 3890 4512 6965 7620 9823 9860 9912 10497 11739 11759 11871 12387 12416 
+	}
+	manpower=6926388
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

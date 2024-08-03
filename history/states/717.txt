@@ -1,0 +1,34 @@
+
+state={
+	id=717
+	name="STATE_717"
+
+	history={
+		owner = W27
+		victory_points = {
+			7442 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			10271 = {
+				naval_base = 10
+
+			}
+			air_base = 0
+
+		}
+		add_core_of = USA
+		add_core_of = W27
+
+	}
+
+	provinces={
+		1320 4296 4398 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10690 12155 12214 
+	}
+	manpower=2905404
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

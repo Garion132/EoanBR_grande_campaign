@@ -1,0 +1,36 @@
+
+state={
+	id=48
+	name="STATE_48"
+	resources={
+		chromium=80.000
+	}
+
+	history={
+		owner = W26
+		victory_points = {
+			4247 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			4247 = {
+				naval_base = 4
+			}
+			air_base = 10
+
+		}
+		add_core_of = W17
+		add_core_of = W26
+	}
+
+	provinces={
+		1237 1263 4231 4247 4268 7264 10160 12120 12132 
+	}
+	manpower=446684
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

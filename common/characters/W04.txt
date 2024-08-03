@@ -1,0 +1,36 @@
+characters={
+	W04_khamisi_safi={
+		name=W04_khamisi_safi
+		portraits={
+			army={
+				large="GFX_Portrait_Africa_Generic_land_4"
+			}
+			army={
+				small="GFX_Portrait_Africa_Generic_land_4"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=2
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	W04_king_lumbwi={
+		name=W04_king_lumbwi
+		portraits={
+			civilian={
+				large="GFX_KTG_Mabumba_Kitanika"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

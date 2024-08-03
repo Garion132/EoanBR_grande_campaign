@@ -1,0 +1,16 @@
+characters={
+	HOL_jurgen_stuyvesant={
+		name=HOL_jurgen_stuyvesant
+		portraits={
+			civilian={
+				large="GFX_Canada_King_Edward_VIII"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

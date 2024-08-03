@@ -1,0 +1,131 @@
+﻿capital = 330
+set_research_slots = 2
+
+oob = "X83_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_arabia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_10 }
+add_opinion_modifier = { target = ESU modifier = positive_5 }
+add_opinion_modifier = { target = ETH modifier = negative_75 }
+add_opinion_modifier = { target = MAL modifier = negative_5 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = negative_100 }
+add_opinion_modifier = { target = POL modifier = negative_10 }
+add_opinion_modifier = { target = RME modifier = negative_10 }
+add_opinion_modifier = { target = SAM modifier = negative_25 }
+add_opinion_modifier = { target = SOV modifier = negative_110 }
+add_opinion_modifier = { target = SWE modifier = negative_35 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = negative_35 }
+add_opinion_modifier = { target = W03 modifier = positive_5 }
+add_opinion_modifier = { target = W05 modifier = negative_20 }
+add_opinion_modifier = { target = W07 modifier = negative_100 }
+add_opinion_modifier = { target = W18 modifier = negative_100 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_10 }
+add_opinion_modifier = { target = W34 modifier = negative_135 }
+add_opinion_modifier = { target = X00 modifier = negative_50 }
+add_opinion_modifier = { target = X48 modifier = negative_20 }
+add_opinion_modifier = { target = X75 modifier = positive_30 }
+add_opinion_modifier = { target = X96 modifier = negative_25 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_bedouin
+}
+
+recruit_character = X83_abu_bakr_ibn_salim
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Hanifa al-Mawsiliyya"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X83 }
+	}
+
+	create_operative_leader = {
+		name = "Rasa bint Uthman"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X83 }
+	}
+
+	create_operative_leader = {
+		name = "Qamara al-Hamawiyya"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X83 }
+	}
+
+	create_operative_leader = {
+		name = "Kamil ibn Mustafa"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X83 }
+	}
+
+	create_operative_leader = {
+		name = "Uthman ibn Fuad"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X83 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

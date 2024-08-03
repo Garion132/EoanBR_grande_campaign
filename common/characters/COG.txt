@@ -1,0 +1,16 @@
+characters={
+	COG_y._von_der_o.={
+		name=COG_y._von_der_o.
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

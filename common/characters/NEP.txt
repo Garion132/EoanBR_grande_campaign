@@ -1,0 +1,76 @@
+characters={
+	NEP_jang_bahadur_rana={
+		name=NEP_jang_bahadur_rana
+		portraits={
+			army={
+				large="GFX_Nepal_Tribhuvana"
+			}
+			army={
+				small="GFX_Nepal_Tribhuvana"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	NEP_chandra_shamsher_bahadur_rana={
+		name=NEP_chandra_shamsher_bahadur_rana
+		portraits={
+			army={
+				large="GFX_India_Generic_land_new_4"
+			}
+			army={
+				small="GFX_India_Generic_land_new_4"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NEP_jang_singh_thapa={
+		name=NEP_jang_singh_thapa
+		portraits={
+			army={
+				large="GFX_BHC_Janjuh_Khan"
+			}
+			army={
+				small="GFX_BHC_Janjuh_Khan"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NEP_bhakti_rana={
+		name=NEP_bhakti_rana
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

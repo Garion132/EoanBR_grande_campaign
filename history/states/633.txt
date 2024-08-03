@@ -1,0 +1,32 @@
+
+state={
+	id=633
+	name="STATE_633"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = TEX
+		victory_points = {
+			12627 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = TEX
+
+	}
+
+	provinces={
+		868 1658 1738 1740 1756 4668 4742 6887 7684 7764 7818 7999 9792 10535 10662 12627 
+	}
+	manpower=2982608
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=10.000
+}

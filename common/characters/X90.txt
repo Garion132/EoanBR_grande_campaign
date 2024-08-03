@@ -1,0 +1,56 @@
+characters={
+	X90_taek_ji_hoon={
+		name=X90_taek_ji_hoon
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X90_maing_hong={
+		name=X90_maing_hong
+		portraits={
+			navy={
+				large="GFX_Portrait_Asia_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_Asia_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X90_jeong_ji={
+		name=X90_jeong_ji
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

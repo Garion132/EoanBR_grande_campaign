@@ -1,0 +1,101 @@
+﻿converted_war_strategies_X90 = {
+	allowed = {
+		tag = X90
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 370
+	}
+	ai_strategy = {
+		type = conquer
+		id = "JAP"
+		value = 246
+	}
+}
+
+converted_diplo_strategies_X90 = {
+	allowed = {
+		tag = X90
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 52
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAP"
+		value = 49
+	}
+	ai_strategy = {
+		type = contain
+		id = "X97"
+		value = 20
+	}
+	ai_strategy = {
+		type = contain
+		id = "X42"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 270
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 163
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W22"
+		value = 51
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 32
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 5
+	}
+	ai_strategy = {
+		type = protect
+		id = "X36"
+		value = 26
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NOR"
+		value = 115
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X75"
+		value = 111
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SIA"
+		value = 44
+	}
+}

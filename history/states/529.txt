@@ -1,0 +1,38 @@
+
+state={
+	id=529
+	name="STATE_529"
+	resources={
+		aluminium=8.000
+		steel=47.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			9561 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			485 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_claim_by = RME
+		add_claim_by = SWE
+	}
+
+	provinces={
+		454 485 3402 6585 9561 11420 11549 
+	}
+	manpower=1699716
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

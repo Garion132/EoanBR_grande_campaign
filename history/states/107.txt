@@ -1,0 +1,34 @@
+
+state={
+	id=107
+	name="STATE_107"
+	resources={
+		oil=1.000
+		steel=6.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			3414 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = GER
+		add_core_of = SLO
+	}
+
+	provinces={
+		421 445 3414 3553 3583 6485 6562 6590 9412 9551 9567 
+	}
+	manpower=4760124
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

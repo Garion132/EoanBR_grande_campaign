@@ -1,0 +1,37 @@
+
+state={
+	id=318
+	name="STATE_318"
+
+	resources = {
+		oil = 10 # was: 12
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			8117 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
+			4959 = {
+				naval_base = 2
+			}
+			air_base = 2
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		4959 4966 5089 8031 8117 10797 10881 12832 13312 
+	}
+	manpower=3795920
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

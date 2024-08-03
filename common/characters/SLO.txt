@@ -1,0 +1,76 @@
+characters={
+	SLO_imrich_rohacek={
+		name=SLO_imrich_rohacek
+		portraits={
+			army={
+				large="GFX_Galicia_Jozef_Haller_von_Hallenburg"
+			}
+			army={
+				small="GFX_Galicia_Jozef_Haller_von_Hallenburg"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SLO_stefan_stefanik={
+		name=SLO_stefan_stefanik
+		portraits={
+			army={
+				large="GFX_POL_roman_abraham"
+			}
+			army={
+				small="GFX_POL_roman_abraham"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SLO_augustin_selepceni={
+		name=SLO_augustin_selepceni
+		portraits={
+			army={
+				large="GFX_Lithuania_Stasys_Rastikis"
+			}
+			army={
+				small="GFX_Lithuania_Stasys_Rastikis"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SLO_ladislav_masaryk={
+		name=SLO_ladislav_masaryk
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/portrait_lit_antanas_smetona.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

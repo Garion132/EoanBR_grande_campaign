@@ -1,0 +1,16 @@
+characters={
+	W50_ahmad_arius={
+		name=W50_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_HON_Juan_Manuel_Galvez"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

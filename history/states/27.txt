@@ -1,0 +1,32 @@
+
+state={
+	id=27
+	name="STATE_27"
+
+	history={
+		owner = RCG
+		victory_points = {
+			2192 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12975 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = RCG
+	}
+
+	provinces={
+		2192 3109 6008 12975 
+	}
+	manpower=758680
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=132
+	name="STATE_132"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = W54
+		victory_points = {
+			10762 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10762 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = IVO
+		add_core_of = W54
+	}
+
+	provinces={
+		5070 10762 
+	}
+	manpower=746584
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

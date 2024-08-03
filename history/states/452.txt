@@ -1,0 +1,36 @@
+
+state={
+	id=452
+	name="STATE_452"
+
+	history={
+		owner = SAM
+		victory_points = {
+			13050 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			13050 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = SAM
+		add_core_of = X37
+		add_core_of = X38
+		add_core_of = X39
+		add_claim_by = AST
+	}
+
+	provinces={
+		13050 
+	}
+	manpower=90888
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

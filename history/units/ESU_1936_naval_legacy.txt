@@ -1,0 +1,50 @@
+units = {
+	fleet = {
+		name = "Flota de Algarve"
+		naval_base = 11707
+		task_force = {
+			name = "Flota de Algarve"
+			location = 11707
+			ship = { name = "Isla de Cuba" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Princesa de Asturias" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "3rd Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Juan Sebastián Elcano" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Lepanto" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Reina Regente" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Marqués de la Ensenada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Marqués de la Ensenada 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Río de la Plata" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Reina Regente 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Vizcaya" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "4th Oviedo Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "D. Carlos I" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Juan Sebastián Elcano 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "S. Gabriel" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Pedro Nunes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+			ship = { name = "Reina Cristina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ESU } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ESU"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ESU"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

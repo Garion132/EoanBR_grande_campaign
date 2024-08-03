@@ -1,0 +1,33 @@
+
+state={
+	id=720
+	name="STATE_720"
+	resources={
+		chromium=5.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = ZAM
+		victory_points = {
+			10930 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ZAM
+	}
+
+	provinces={
+		1846 5221 10594 10930 
+	}
+	manpower=514388
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=201
+	name="STATE_201"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			2023 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			4969 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = COL
+		add_core_of = ESU
+		add_claim_by = X70
+	}
+
+	provinces={
+		2023 4969 10494 10864 12703 12790 12845 
+	}
+	manpower=4293624
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,56 @@
+characters={
+	IVO_fnu_lnu={
+		name=IVO_fnu_lnu
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_7"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_7"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IVO_fnu_lnu_1={
+		name=IVO_fnu_lnu_1
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_2"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_2"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	IVO_mensa_prempeh={
+		name=IVO_mensa_prempeh
+		portraits={
+			civilian={
+				large="GFX_LIB_Clarence_Simpson"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

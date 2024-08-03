@@ -1,0 +1,16 @@
+characters={
+	W43_ahmad_arius={
+		name=W43_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_Columbia_Lauro_Gomez_Castro"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	W09_husayn_bukhari={
+		name=W09_husayn_bukhari
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=518
+	name="STATE_518"
+
+	history={
+		owner = W57
+		victory_points = {
+			12766 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 0
+			5091 = {
+				naval_base = 6
+			}
+			air_base = 5
+
+		}
+		add_core_of = TIG
+		add_core_of = W57
+		add_claim_by = AFA
+		add_claim_by = RME
+	}
+
+	provinces={
+		5017 5047 5091 8043 12723 12766 13250 13251 
+	}
+	manpower=1680676
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	W61_jesper_ehrenstam={
+		name=W61_jesper_ehrenstam
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/portrait_NOR_johan_nygaardsvold.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

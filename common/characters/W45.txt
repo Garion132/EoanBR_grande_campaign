@@ -1,0 +1,16 @@
+characters={
+	W45_ahmad_arius={
+		name=W45_ahmad_arius
+		portraits={
+			civilian={
+				large="GFX_Cuba_Juan_Blas_Hernandez"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

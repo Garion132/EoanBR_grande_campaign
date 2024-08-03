@@ -1,0 +1,36 @@
+
+state={
+	id=184
+	name="STATE_184"
+	resources={
+		rubber=11.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			7344 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			7344 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = ESU
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1213 4219 7260 7344 10201 10229 10287 12258 
+	}
+	manpower=3799548
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

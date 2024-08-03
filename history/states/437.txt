@@ -1,0 +1,33 @@
+
+state={
+	id=437
+	name="STATE_437"
+
+	history={
+		owner = SOV
+		victory_points = {
+			7454 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			3653 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = ARM
+		add_claim_by = RME
+	}
+
+	provinces={
+		3653 7454 10403 
+	}
+	manpower=806408
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

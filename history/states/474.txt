@@ -1,0 +1,36 @@
+
+state={
+	id=474
+	name="STATE_474"
+
+	history={
+		owner = RME
+		victory_points = {
+			3943 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 2
+			dockyard = 2
+			11901 = {
+				naval_base = 8
+			}
+			air_base = 10
+
+		}
+		add_core_of = CRO
+		add_core_of = RME
+		add_core_of = X34
+		add_core_of = X77
+	}
+
+	provinces={
+		591 984 3868 3924 3943 3974 6611 6889 11816 11901 
+	}
+	manpower=5027524
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

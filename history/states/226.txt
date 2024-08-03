@@ -1,0 +1,33 @@
+
+state={
+	id=226
+	name="STATE_226"
+	resources={
+		tungsten=3.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			12930 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ESU
+		add_core_of = X29
+	}
+
+	provinces={
+		2174 5179 10952 10987 12930 
+	}
+	manpower=2173652
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

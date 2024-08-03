@@ -1,0 +1,191 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [USA.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			JAP = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = USA
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [GER.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			JAP = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = GER
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with [PER.GetName]. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = PER }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = PER
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = PER
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = PER
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				PER = {
+					is_faction_leader = no
+				}
+			}
+			PER = {
+				leave_faction = yes
+				create_faction = "comintern"
+			}
+		}
+		PER = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.501 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with [SOV.GetName]. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = SOV }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SOV
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = SOV
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = SOV
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				SOV = {
+					is_faction_leader = no
+				}
+			}
+			SOV = {
+				leave_faction = yes
+				create_faction = "comintern"
+			}
+		}
+		SOV = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.504 }
+		}
+	}
+}

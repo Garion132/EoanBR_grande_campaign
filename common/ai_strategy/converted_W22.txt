@@ -1,0 +1,106 @@
+﻿converted_war_strategies_W22 = {
+	allowed = {
+		tag = W22
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 1444
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TEX"
+		value = 632
+	}
+}
+
+converted_diplo_strategies_W22 = {
+	allowed = {
+		tag = W22
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 392
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 245
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 196
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 117
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 117
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 30
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RME"
+		value = 29
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 25
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "USA"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SWE"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ENG"
+		value = 56
+	}
+}

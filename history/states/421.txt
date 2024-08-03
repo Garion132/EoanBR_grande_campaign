@@ -1,0 +1,36 @@
+
+state={
+	id=421
+	name="STATE_421"
+	resources={
+		aluminium=27.000
+		chromium=33.000
+		steel=24.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			12640 6 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = W09
+		add_claim_by = PER
+	}
+
+	provinces={
+		1675 1825 1919 2058 4316 4391 4467 4768 4923 5062 7706 8027 10187 10408 10417 10660 11687 12370 12430 12511 12581 12583 12640 12805 
+	}
+	manpower=4187788
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

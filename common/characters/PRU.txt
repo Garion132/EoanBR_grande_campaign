@@ -1,0 +1,16 @@
+characters={
+	PRU_tomas_corrico={
+		name=PRU_tomas_corrico
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/portrait_hon_tiburcio_carias_andino.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

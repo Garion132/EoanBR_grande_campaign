@@ -1,0 +1,36 @@
+
+state={
+	id=154
+	name="STATE_154"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			10278 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			10278 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X94
+	}
+
+	provinces={
+		1268 1344 1409 4315 4327 4416 4420 7265 7288 7363 7436 8067 10130 10246 10274 10278 10808 12164 12247 
+	}
+	manpower=10681368
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

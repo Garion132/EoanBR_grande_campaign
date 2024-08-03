@@ -1,0 +1,33 @@
+
+state={
+	id=256
+	name="STATE_256"
+
+	history={
+		owner = ICE
+		victory_points = {
+			13272 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			13003 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = ICE
+		add_claim_by = SWE
+	}
+
+	provinces={
+		13003 13272 
+	}
+	manpower=179086
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

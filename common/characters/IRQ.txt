@@ -1,0 +1,36 @@
+characters={
+	IRQ_uthman_ibn_halil={
+		name=IRQ_uthman_ibn_halil
+		portraits={
+			army={
+				large="GFX_portrait_SPA_mohamed_meziane"
+			}
+			army={
+				small="GFX_portrait_SPA_mohamed_meziane"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRQ_hasan_al_qudsi={
+		name=IRQ_hasan_al_qudsi
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

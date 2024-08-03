@@ -1,0 +1,31 @@
+
+state={
+	id=211
+	name="STATE_211"
+
+	history={
+		owner = ESU
+		victory_points = {
+			2011 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = ESU
+		add_core_of = X79
+		add_core_of = X86
+	}
+
+	provinces={
+		1965 2011 7913 8089 12755 
+	}
+	manpower=8558392
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

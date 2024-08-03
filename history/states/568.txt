@@ -1,0 +1,34 @@
+
+state={
+	id=568
+	name="STATE_568"
+
+	history={
+		owner = W57
+		victory_points = {
+			12944 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			8182 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = TZN
+		add_core_of = W04
+		add_core_of = W57
+	}
+
+	provinces={
+		8182 8201 10845 12944 
+	}
+	manpower=1973004
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=665
+	name="STATE_665"
+
+	history={
+		owner = USA
+		victory_points = {
+			12289 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			4342 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		634 1424 4285 4342 4360 4362 4432 7379 12289 
+	}
+	manpower=2357240
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

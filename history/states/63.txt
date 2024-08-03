@@ -1,0 +1,36 @@
+
+state={
+	id=63
+	name="STATE_63"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = W42
+		victory_points = {
+			12998 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 1
+			12494 = {
+				naval_base = 1
+
+			}
+			air_base = 0
+
+		}
+		add_core_of = W42
+
+	}
+
+	provinces={
+		2149 2215 7550 8192 8215 10935 10992 11021 12306 12321 12494 12998 
+	}
+	manpower=1216628
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=10.000
+}

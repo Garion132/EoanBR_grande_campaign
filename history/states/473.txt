@@ -1,0 +1,37 @@
+
+state={
+	id=473
+	name="STATE_473"
+
+	history={
+		owner = RME
+		victory_points = {
+			11581 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 8
+			arms_factory = 2
+			dockyard = 2
+			13252 = {
+				naval_base = 1
+			}
+			air_base = 9
+
+		}
+		add_core_of = CRO
+		add_core_of = RME
+		add_claim_by = SLV
+		add_claim_by = X34
+		add_claim_by = X77
+	}
+
+	provinces={
+		624 3592 3596 3601 3627 9611 11581 11594 13252 
+	}
+	manpower=2793228
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

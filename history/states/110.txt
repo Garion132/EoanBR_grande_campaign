@@ -1,0 +1,33 @@
+
+state={
+	id=110
+	name="STATE_110"
+
+	history={
+		owner = GER
+		victory_points = {
+			6332 6 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 2
+			dockyard = 2
+			6332 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		266 281 348 395 3288 3384 6332 6375 9327 9346 9372 9398 11245 11265 11386 
+	}
+	manpower=4110548
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

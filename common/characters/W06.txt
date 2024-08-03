@@ -1,0 +1,56 @@
+characters={
+	W06_chen_debang={
+		name=W06_chen_debang
+		portraits={
+			army={
+				large="GFX_Portrait_Asia_Generic_land_3"
+			}
+			army={
+				small="GFX_Portrait_Asia_Generic_land_3"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W06_wong_fu={
+		name=W06_wong_fu
+		portraits={
+			navy={
+				large="GFX_Asia_Generic_navy_new_3"
+			}
+			navy={
+				small="GFX_Asia_Generic_navy_new_3"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	W06_xu_xin={
+		name=W06_xu_xin
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

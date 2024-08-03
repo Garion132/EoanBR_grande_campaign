@@ -1,0 +1,41 @@
+
+state={
+	id=113
+	name="STATE_113"
+	resources={
+		rubber=2.000
+		steel=6.000
+		tungsten=9.000
+	}
+
+	history={
+		owner = W52
+		victory_points = {
+			12127 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+			arms_factory = 0
+			12090 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = BRM
+		add_core_of = W52
+		add_core_of = X03
+		add_core_of = X53
+		add_core_of = X88
+	}
+
+	provinces={
+		1014 1142 1330 1333 1417 1650 3651 4019 4059 4147 4202 4293 4336 7034 7122 7254 7382 10154 10182 10223 10267 10283 10344 12090 12127 12197 12267 12284 
+	}
+	manpower=5457124
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

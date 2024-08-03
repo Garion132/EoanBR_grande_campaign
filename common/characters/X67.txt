@@ -1,0 +1,76 @@
+characters={
+	X67_george_chamberlain={
+		name=X67_george_chamberlain
+		portraits={
+			army={
+				large="GFX_Soviet_Aleksander_Kutepov"
+			}
+			army={
+				small="GFX_Soviet_Aleksander_Kutepov"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=6
+			defense_skill=5
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X67_luke_yudenich={
+		name=X67_luke_yudenich
+		portraits={
+			army={
+				large="GFX_Portrait_Soviet_Generic_land_2"
+			}
+			army={
+				small="GFX_Portrait_Soviet_Generic_land_2"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X67_konstantin_bradley={
+		name=X67_konstantin_bradley
+		portraits={
+			army={
+				large="GFX_TRM_Stark"
+			}
+			army={
+				small="GFX_TRM_Stark"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X67_joseph_nakhimov={
+		name=X67_joseph_nakhimov
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Wincenty_Witos.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

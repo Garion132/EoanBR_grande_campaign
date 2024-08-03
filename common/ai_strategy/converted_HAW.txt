@@ -1,0 +1,56 @@
+﻿converted_war_strategies_HAW = {
+	allowed = {
+		tag = HAW
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_HAW = {
+	allowed = {
+		tag = HAW
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = antagonize
+		id = "JAP"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 5
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X75"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X00"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W16"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X81"
+		value = 22
+	}
+}

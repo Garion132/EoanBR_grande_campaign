@@ -1,0 +1,56 @@
+characters={
+	TOG_fnu_lnu={
+		name=TOG_fnu_lnu
+		portraits={
+			army={
+				large="GFX_Mittelafrika_Karl_Atanga"
+			}
+			army={
+				small="GFX_Mittelafrika_Karl_Atanga"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TOG_fnu_lnu_1={
+		name=TOG_fnu_lnu_1
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_3"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_3"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	TOG_quaashie_agidi={
+		name=TOG_quaashie_agidi
+		portraits={
+			civilian={
+				large="GFX_TOG_Olympio"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = ESU
+		victory_points = {
+			12865 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			8017 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = ESU
+	}
+
+	provinces={
+		2031 8017 12865 
+	}
+	manpower=2216864
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

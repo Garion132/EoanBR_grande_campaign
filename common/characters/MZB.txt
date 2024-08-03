@@ -1,0 +1,56 @@
+characters={
+	MZB_chakoma_amari={
+		name=MZB_chakoma_amari
+		portraits={
+			army={
+				large="GFX_German_Africa_Generic_land_7"
+			}
+			army={
+				small="GFX_German_Africa_Generic_land_7"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MZB_fnu_lnu={
+		name=MZB_fnu_lnu
+		portraits={
+			navy={
+				large="GFX_Portrait_Africa_Generic_navy_2"
+			}
+			navy={
+				small="GFX_Portrait_Africa_Generic_navy_2"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	MZB_rinyizea_hanga={
+		name=MZB_rinyizea_hanga
+		portraits={
+			civilian={
+				large="GFX_LIB_William_Tubman"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

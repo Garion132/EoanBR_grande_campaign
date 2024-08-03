@@ -1,0 +1,36 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		tungsten=7.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			11805 4 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 2
+			799 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = ESU
+	}
+
+	provinces={
+		799 844 924 970 980 3798 3861 6924 11768 11805 
+	}
+	manpower=3408796
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

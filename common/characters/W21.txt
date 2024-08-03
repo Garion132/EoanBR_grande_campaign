@@ -1,0 +1,76 @@
+characters={
+	W21_petronius_paullus={
+		name=W21_petronius_paullus
+		portraits={
+			army={
+				large="GFX_SPQR_Caligula"
+			}
+			army={
+				small="GFX_SPQR_Caligula"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W21_rutilius_cincinnatus={
+		name=W21_rutilius_cincinnatus
+		portraits={
+			army={
+				large="GFX_SPQR_Nerva"
+			}
+			army={
+				small="GFX_SPQR_Nerva"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W21_tarquitius_corvus={
+		name=W21_tarquitius_corvus
+		portraits={
+			army={
+				large="GFX_SPQR_Decius"
+			}
+			army={
+				small="GFX_SPQR_Decius"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	W21_tarpeius_purpureo={
+		name=W21_tarpeius_purpureo
+		portraits={
+			civilian={
+				large="GFX_SPQR_Augustus"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

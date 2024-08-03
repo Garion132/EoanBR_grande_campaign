@@ -1,0 +1,20 @@
+
+state={
+	id=560
+	name="STATE_560"
+	impassable = yes
+
+	history={
+		owner = W57
+		add_core_of = W57
+	}
+
+	provinces={
+		8028 10758 10780 10805 
+	}
+	manpower=933268
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

@@ -1,0 +1,101 @@
+﻿converted_war_strategies_HAR = {
+	allowed = {
+		tag = HAR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 182
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOM"
+		value = 122
+	}
+}
+
+converted_diplo_strategies_HAR = {
+	allowed = {
+		tag = HAR
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOM"
+		value = 77
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 54
+	}
+	ai_strategy = {
+		type = contain
+		id = "X57"
+		value = 26
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 228
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOM"
+		value = 128
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 72
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X57"
+		value = 48
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ETH"
+		value = 18
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X57"
+		value = 68
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 56
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W04"
+		value = 55
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 27
+	}
+}

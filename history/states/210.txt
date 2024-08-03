@@ -1,0 +1,36 @@
+
+state={
+	id=210
+	name="STATE_210"
+
+	history={
+		owner = ESU
+		victory_points = {
+			12712 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 0
+			5066 = {
+				naval_base = 1
+			}
+			air_base = 10
+
+		}
+		add_core_of = W10
+		add_core_of = W33
+		add_core_of = ESU
+		add_core_of = X73
+		add_claim_by = W15
+	}
+
+	provinces={
+		4887 5066 8032 8236 10730 10773 10832 12712 
+	}
+	manpower=7711316
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

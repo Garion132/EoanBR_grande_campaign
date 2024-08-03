@@ -1,0 +1,33 @@
+
+state={
+	id=631
+	name="STATE_631"
+
+	history={
+		owner = W07
+		victory_points = {
+			4429 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4429 = {
+				naval_base = 8
+			}
+			air_base = 7
+
+		}
+		add_core_of = W07
+	}
+
+	provinces={
+		4429 7385 7419 10145 12118 12153 
+	}
+	manpower=1971076
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=160
+	name="STATE_160"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			6573 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CRO
+	}
+
+	provinces={
+		3548 3550 3565 3581 6571 6573 6586 6604 9537 9563 11536 11691 
+	}
+	manpower=547928
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

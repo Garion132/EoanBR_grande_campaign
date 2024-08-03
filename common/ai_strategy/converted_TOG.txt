@@ -1,0 +1,61 @@
+﻿converted_war_strategies_TOG = {
+	allowed = {
+		tag = TOG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2920
+	}
+}
+
+converted_diplo_strategies_TOG = {
+	allowed = {
+		tag = TOG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 44
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 27
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 2
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 305
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 33
+	}
+}

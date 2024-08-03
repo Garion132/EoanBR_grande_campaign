@@ -1,0 +1,37 @@
+
+state={
+	id=149
+	name="STATE_149"
+	resources={
+		chromium=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			10001 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			10001 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X94
+	}
+
+	provinces={
+		1228 1430 1622 4237 4321 4365 4414 5032 7297 7310 7340 7372 7428 7465 10001 10152 10255 10296 10469 10756 10897 11978 12180 12241 12462 12490 12779 
+	}
+	manpower=9868588
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

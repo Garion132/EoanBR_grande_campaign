@@ -1,0 +1,40 @@
+
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		aluminium=2.000
+		rubber=1.000
+	}
+
+	history={
+		owner = W57
+		victory_points = {
+			12785 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			12785 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = GHA
+		add_core_of = W57
+		GER = {
+			set_province_controller = 12785
+		}
+	}
+
+	provinces={
+		8039 12785 
+	}
+	manpower=1373408
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

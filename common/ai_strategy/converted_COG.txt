@@ -1,0 +1,61 @@
+﻿converted_war_strategies_COG = {
+	allowed = {
+		tag = COG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 226
+	}
+	ai_strategy = {
+		type = conquer
+		id = "RCG"
+		value = 97
+	}
+}
+
+converted_diplo_strategies_COG = {
+	allowed = {
+		tag = COG
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "RCG"
+		value = 12
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 20
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 2
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "W04"
+		value = 43
+	}
+}

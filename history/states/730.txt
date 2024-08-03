@@ -1,0 +1,38 @@
+
+state={
+	id=730
+	name="STATE_730"
+	resources={
+		aluminium=6.000
+		steel=2.000
+	}
+
+	history={
+		owner = W34
+		victory_points = {
+			10068 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			4137 = {
+				naval_base = 10
+			}
+			air_base = 7
+
+		}
+		add_core_of = CHI
+		add_core_of = W34
+	}
+
+	provinces={
+		828 952 1134 1137 1489 1590 4137 4140 4495 6904 7545 7674 9776 9843 9969 10003 10022 10068 10397 11761 11822 11944 11980 11996 12043 
+	}
+	manpower=9412844
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

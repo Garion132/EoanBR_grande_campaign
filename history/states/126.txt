@@ -1,0 +1,36 @@
+
+state={
+	id=126
+	name="STATE_126"
+	resources={
+		rubber=4.000
+		steel=2.000
+	}
+
+	history={
+		owner = W54
+		victory_points = {
+			7959 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7959 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = W54
+	}
+
+	provinces={
+		7959 8006 
+	}
+	manpower=1984800
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,104 @@
+﻿capital = 317
+set_research_slots = 2
+
+oob = "IRQ_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_iraq
+set_convoys = 0
+
+set_politics = {
+    ruling_party = communism
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = PER_research
+}
+
+give_guarantee = PER
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = PER } }
+	diplomatic_relation = { country = PER relation = non_aggression_pact }
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_10 }
+add_opinion_modifier = { target = ESU modifier = positive_5 }
+add_opinion_modifier = { target = ETH modifier = negative_150 }
+add_opinion_modifier = { target = MAL modifier = negative_5 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = positive_188 }
+add_opinion_modifier = { target = POL modifier = negative_10 }
+add_opinion_modifier = { target = RME modifier = negative_9 }
+add_opinion_modifier = { target = SAM modifier = negative_25 }
+add_opinion_modifier = { target = SOV modifier = negative_95 }
+add_opinion_modifier = { target = SWE modifier = negative_35 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = negative_35 }
+add_opinion_modifier = { target = W03 modifier = positive_5 }
+add_opinion_modifier = { target = W05 modifier = negative_20 }
+add_opinion_modifier = { target = W07 modifier = negative_175 }
+add_opinion_modifier = { target = W18 modifier = negative_100 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_10 }
+add_opinion_modifier = { target = W34 modifier = negative_35 }
+add_opinion_modifier = { target = X00 modifier = negative_50 }
+add_opinion_modifier = { target = X48 modifier = negative_20 }
+add_opinion_modifier = { target = X75 modifier = positive_30 }
+add_opinion_modifier = { target = X96 modifier = negative_25 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_mashriqi
+}
+
+recruit_character = IRQ_uthman_ibn_halil
+recruit_character = IRQ_hasan_al_qudsi
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Shola ibn Halil"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { IRQ }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

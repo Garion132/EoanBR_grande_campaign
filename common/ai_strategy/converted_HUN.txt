@@ -1,0 +1,151 @@
+﻿converted_war_strategies_HUN = {
+	allowed = {
+		tag = HUN
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = conquer
+		id = "RME"
+		value = 359
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 159
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X99"
+		value = 135
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SLO"
+		value = 82
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POL"
+		value = 66
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 61
+	}
+}
+
+converted_diplo_strategies_HUN = {
+	allowed = {
+		tag = HUN
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "RME"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 237
+	}
+	ai_strategy = {
+		type = contain
+		id = "ESU"
+		value = 218
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 55
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 53
+	}
+	ai_strategy = {
+		type = contain
+		id = "SLO"
+		value = 39
+	}
+	ai_strategy = {
+		type = contain
+		id = "X99"
+		value = 25
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "RME"
+		value = 211
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 175
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 46
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "W22"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SWE"
+		value = 149
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 138
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ESU"
+		value = 103
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 86
+	}
+	ai_strategy = {
+		type = protect
+		id = "SLO"
+		value = 40
+	}
+}

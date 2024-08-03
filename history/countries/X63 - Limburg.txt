@@ -1,0 +1,133 @@
+﻿capital = 604
+set_research_slots = 3
+
+oob = "X63_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_dutchland
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1821.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BOT modifier = negative_200 }
+add_opinion_modifier = { target = BUL modifier = positive_15 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = ESU modifier = negative_10 }
+add_opinion_modifier = { target = ETH modifier = negative_60 }
+add_opinion_modifier = { target = GER modifier = positive_15 }
+add_opinion_modifier = { target = HUN modifier = negative_5 }
+add_opinion_modifier = { target = MAL modifier = negative_35 }
+add_opinion_modifier = { target = MLW modifier = negative_200 }
+add_opinion_modifier = { target = MZB modifier = negative_200 }
+add_opinion_modifier = { target = PAR modifier = negative_95 }
+add_opinion_modifier = { target = PER modifier = negative_150 }
+add_opinion_modifier = { target = POL modifier = negative_15 }
+add_opinion_modifier = { target = RME modifier = positive_20 }
+add_opinion_modifier = { target = SAM modifier = negative_25 }
+add_opinion_modifier = { target = SLO modifier = positive_15 }
+add_opinion_modifier = { target = SOV modifier = negative_160 }
+add_opinion_modifier = { target = SWE modifier = negative_55 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_35 }
+add_opinion_modifier = { target = W03 modifier = negative_25 }
+add_opinion_modifier = { target = W07 modifier = negative_100 }
+add_opinion_modifier = { target = W18 modifier = negative_85 }
+add_opinion_modifier = { target = W20 modifier = positive_20 }
+add_opinion_modifier = { target = W22 modifier = negative_15 }
+add_opinion_modifier = { target = W34 modifier = negative_140 }
+add_opinion_modifier = { target = X00 modifier = negative_50 }
+add_opinion_modifier = { target = X96 modifier = negative_25 }
+add_opinion_modifier = { target = X99 modifier = positive_15 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_dutch
+}
+
+recruit_character = X63_abraham_wolterbeek
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Reina Coen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X63 }
+	}
+
+	create_operative_leader = {
+		name = "Miep van der Capellen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X63 }
+	}
+
+	create_operative_leader = {
+		name = "Jet van Braam Houckgeest"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X63 }
+	}
+
+	create_operative_leader = {
+		name = "Antonius van Spilbergen"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X63 }
+	}
+
+	create_operative_leader = {
+		name = "Gerard Tasman"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X63 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

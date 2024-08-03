@@ -1,0 +1,35 @@
+
+state={
+	id=417
+	name="STATE_417"
+	resources={
+		oil=115.000
+		steel=5.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			7661 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 9
+
+		}
+		add_core_of = ARM
+		add_core_of = AZR
+		add_core_of = SOV
+	}
+
+	provinces={
+		1467 1536 1539 1610 4458 4477 4545 4614 6763 7495 7661 9715 11645 11674 11704 
+	}
+	manpower=2418220
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

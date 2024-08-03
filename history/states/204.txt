@@ -1,0 +1,30 @@
+
+state={
+	id=204
+	name="STATE_204"
+
+	history={
+		owner = ESU
+		victory_points = {
+			10809 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ESU
+		add_core_of = X02
+	}
+
+	provinces={
+		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+	}
+	manpower=1512392
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

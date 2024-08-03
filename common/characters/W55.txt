@@ -1,0 +1,16 @@
+characters={
+	W55_abdolhossein_meshhedi={
+		name=W55_abdolhossein_meshhedi
+		portraits={
+			civilian={
+				large="GFX_KUR_Haji_Baba"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

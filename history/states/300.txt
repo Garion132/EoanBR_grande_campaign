@@ -1,0 +1,30 @@
+
+state={
+	id=300
+	name="STATE_300"
+
+	history={
+		owner = X81
+		victory_points = {
+			12335 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X81
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		3999 4087 4454 4541 4588 7163 7190 7534 10033 10486 11966 12335 
+	}
+	manpower=525284
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

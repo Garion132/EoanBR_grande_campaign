@@ -1,0 +1,33 @@
+
+state={
+	id=177
+	name="STATE_177"
+
+	history={
+		owner = ESU
+		victory_points = {
+			1048 7 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 7
+			arms_factory = 3
+			dockyard = 2
+			4135 = {
+				naval_base = 10
+			}
+			air_base = 4
+
+		}
+		add_core_of = ESU
+	}
+
+	provinces={
+		875 879 1048 1178 3810 3871 3940 4080 4135 4182 6744 7098 7153 7183 7198 9815 9891 10094 11749 12070 13228 13231 
+	}
+	manpower=6951708
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

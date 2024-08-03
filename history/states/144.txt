@@ -1,0 +1,31 @@
+
+state={
+	id=144
+	name="STATE_144"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			10514 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X04
+		add_core_of = X94
+	}
+
+	provinces={
+		997 1075 1497 1553 1581 7179 7455 10090 10349 10514 12366 12395 
+	}
+	manpower=2891408
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

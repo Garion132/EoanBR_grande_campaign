@@ -1,0 +1,25 @@
+
+state={
+	id=508
+	name="STATE_508"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = RME
+		add_core_of = W24
+		add_claim_by = EGY
+		add_claim_by = RME
+	}
+
+	provinces={
+		1143 2064 7216 10127 10869 10907 12099 12733 12764 12816 
+	}
+	manpower=409678
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

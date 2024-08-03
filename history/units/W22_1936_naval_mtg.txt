@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 3712
+		task_force = {
+			name = "2nd Fleet"
+			location = 3712
+			ship = { name = "5th Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "6th Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Newark Steam Frigate" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "5th Newark Steam Frigate" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "7th Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "8th Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 3878
+		task_force = {
+			name = "3rd Fleet"
+			location = 3878
+			ship = { name = "1st Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.04892 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.0495 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Newark Steam Frigate" definition = destroyer start_experience_factor = 0.0498 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.0499 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Newark Steam Frigate" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Norfolk Steam Frigate" definition = destroyer start_experience_factor = 0.05 equipment = { ship_hull_light_1 = { amount = 1 owner = W22 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "W22"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

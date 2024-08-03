@@ -1,0 +1,35 @@
+
+state={
+	id=598
+	name="STATE_598"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			6296 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			6314 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		327 530 3272 3337 3354 6229 6281 6296 6314 6360 6376 6407 9246 9357 9374 9404 9438 9483 9499 9731 11226 11312 11498 
+	}
+	manpower=1423876
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

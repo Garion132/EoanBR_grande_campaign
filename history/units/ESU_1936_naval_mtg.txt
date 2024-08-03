@@ -1,0 +1,52 @@
+units = {
+	fleet = {
+		name = "Flota de Algarve"
+		naval_base = 11707
+		task_force = {
+			name = "Flota de Algarve"
+			location = 11707
+			ship = { name = "Isla de Cuba" definition = light_cruiser start_experience_factor = 0.06133 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Princesa de Asturias" definition = light_cruiser start_experience_factor = 0.0759 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser start_experience_factor = 0.09797 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.09792 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Juan Sebastián Elcano" definition = light_cruiser start_experience_factor = 0.08826 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser start_experience_factor = 0.09737 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Lepanto" definition = light_cruiser start_experience_factor = 0.09697 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Reina Regente" definition = light_cruiser start_experience_factor = 0.10598 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Marqués de la Ensenada" definition = light_cruiser start_experience_factor = 0.09714 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Marqués de la Ensenada 2" definition = light_cruiser start_experience_factor = 0.10568 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Río de la Plata" definition = light_cruiser start_experience_factor = 0.09752 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Reina Regente 2" definition = light_cruiser start_experience_factor = 0.1139 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Vizcaya" definition = light_cruiser start_experience_factor = 0.12225 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Oviedo Cruiser" definition = light_cruiser start_experience_factor = 0.1195 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "D. Carlos I" definition = light_cruiser start_experience_factor = 0.12052 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Juan Sebastián Elcano 2" definition = light_cruiser start_experience_factor = 0.11612 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "S. Gabriel" definition = light_cruiser start_experience_factor = 0.12423 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Pedro Nunes" definition = light_cruiser start_experience_factor = 0.12323 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+			ship = { name = "Reina Cristina" definition = light_cruiser start_experience_factor = 0.13263 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ESU version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "ESU"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "ESU"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

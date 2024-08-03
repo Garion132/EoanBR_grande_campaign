@@ -1,0 +1,16 @@
+characters={
+	W60_emil_chrsiterson={
+		name=W60_emil_chrsiterson
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

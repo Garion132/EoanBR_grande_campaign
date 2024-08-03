@@ -1,0 +1,39 @@
+
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = ESU
+		victory_points = {
+			2051 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 0
+			dockyard = 1
+			2051 = {
+				naval_base = 1
+			}
+			air_base = 10
+
+		}
+		add_core_of = W15
+		add_core_of = W28
+		add_core_of = ESU
+		add_core_of = X26
+	}
+
+	provinces={
+		2008 2051 5052 12746 12873 13089 
+	}
+	manpower=4754508
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

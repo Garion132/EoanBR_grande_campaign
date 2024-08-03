@@ -1,0 +1,36 @@
+characters={
+	GHA_fnu_lnu={
+		name=GHA_fnu_lnu
+		portraits={
+			army={
+				large="GFX_GAB_Tchorere"
+			}
+			army={
+				small="GFX_GAB_Tchorere"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GHA_akyampon_prempeh={
+		name=GHA_akyampon_prempeh
+		portraits={
+			civilian={
+				large="GFX_Barot_YetaIII"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

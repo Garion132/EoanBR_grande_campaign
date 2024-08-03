@@ -1,0 +1,16 @@
+characters={
+	W32_fupi_zuberi={
+		name=W32_fupi_zuberi
+		portraits={
+			civilian={
+				large="GFX_NAM_Otto_Schimming"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

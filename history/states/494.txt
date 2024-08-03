@@ -1,0 +1,34 @@
+
+state={
+	id=494
+	name="STATE_494"
+	resources={
+		chromium=16.000
+		steel=7.000
+	}
+
+	history={
+		owner = RME
+		victory_points = {
+			11747 4 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 1
+
+		}
+		add_core_of = RME
+		add_claim_by = ARM
+	}
+
+	provinces={
+		804 909 919 921 961 3807 3862 3870 3907 3951 3964 6808 6888 6908 6925 6977 6978 9806 9830 9871 9900 9901 11747 11784 11826 11839 11844 11897 
+	}
+	manpower=2115572
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

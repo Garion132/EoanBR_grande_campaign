@@ -1,0 +1,29 @@
+
+state={
+	id=232
+	name="STATE_232"
+
+	history={
+		owner = W47
+		victory_points = {
+			4972 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W47
+	}
+
+	provinces={
+		4972 4997 5028 
+	}
+	manpower=3933400
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

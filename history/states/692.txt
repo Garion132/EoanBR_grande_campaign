@@ -1,0 +1,33 @@
+
+state={
+	id=692
+	name="STATE_692"
+	resources={
+		aluminium=4.000
+		steel=9.000
+	}
+
+	history={
+		owner = W22
+		victory_points = {
+			6890 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W22
+	}
+
+	provinces={
+		827 882 3829 4442 6874 6890 9808 
+	}
+	manpower=816616
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

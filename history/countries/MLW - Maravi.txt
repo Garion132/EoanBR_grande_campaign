@@ -1,0 +1,110 @@
+﻿capital = 292
+set_research_slots = 2
+
+oob = "MLW_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_rhodesia
+set_convoys = 0
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1914.12.6"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 100
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
+}
+
+give_guarantee = ENG
+if = {
+	limit = { NOT = { has_non_aggression_pact_with = ENG } }
+	diplomatic_relation = { country = ENG relation = non_aggression_pact }
+}
+
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = negative_54 }
+add_opinion_modifier = { target = ESU modifier = negative_200 }
+add_opinion_modifier = { target = ETH modifier = negative_75 }
+add_opinion_modifier = { target = GER modifier = negative_200 }
+add_opinion_modifier = { target = JAP modifier = negative_25 }
+add_opinion_modifier = { target = MAL modifier = negative_35 }
+add_opinion_modifier = { target = MZB modifier = positive_107 }
+add_opinion_modifier = { target = NOR modifier = negative_200 }
+add_opinion_modifier = { target = PAR modifier = negative_110 }
+add_opinion_modifier = { target = PER modifier = negative_125 }
+add_opinion_modifier = { target = POL modifier = negative_200 }
+add_opinion_modifier = { target = RME modifier = negative_163 }
+give_military_access = RME
+add_opinion_modifier = { target = SOV modifier = negative_200 }
+add_opinion_modifier = { target = SWE modifier = negative_200 }
+add_opinion_modifier = { target = TIB modifier = negative_30 }
+add_opinion_modifier = { target = USA modifier = negative_75 }
+add_opinion_modifier = { target = W03 modifier = negative_25 }
+add_opinion_modifier = { target = W05 modifier = negative_20 }
+add_opinion_modifier = { target = W07 modifier = negative_175 }
+add_opinion_modifier = { target = W18 modifier = negative_100 }
+add_opinion_modifier = { target = W20 modifier = negative_10 }
+add_opinion_modifier = { target = W22 modifier = negative_10 }
+add_opinion_modifier = { target = W34 modifier = negative_135 }
+add_opinion_modifier = { target = X00 modifier = negative_25 }
+add_opinion_modifier = { target = X48 modifier = negative_20 }
+add_opinion_modifier = { target = X96 modifier = negative_25 }
+add_opinion_modifier = { target = ZAM modifier = negative_17 }
+
+
+add_ideas = {
+	uncivilized
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_chewa
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = MLW_reth_kalimakudzulu
+recruit_character = MLW_king_muzura_ii
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Nuru Mbewe"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { MLW }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### PLANE DESIGNS ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
+

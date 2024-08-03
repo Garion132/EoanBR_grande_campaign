@@ -1,0 +1,30 @@
+
+state={
+	id=338
+	name="STATE_338"
+
+	history={
+		owner = PER
+		victory_points = {
+			12250 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = W09
+		add_claim_by = PER
+	}
+
+	provinces={
+		1384 4542 7224 10205 12218 12250 
+	}
+	manpower=505944
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

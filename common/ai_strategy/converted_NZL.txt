@@ -1,0 +1,46 @@
+﻿converted_war_strategies_NZL = {
+	allowed = {
+		tag = NZL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+}
+
+converted_diplo_strategies_NZL = {
+	allowed = {
+		tag = NZL
+	}
+	enable = {
+		always = no
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "AST"
+		value = 30
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 8
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X42"
+		value = 46
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X96"
+		value = 28
+	}
+}

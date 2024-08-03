@@ -1,0 +1,33 @@
+
+state={
+	id=242
+	name="STATE_242"
+
+	history={
+		owner = ESU
+		add_core_of = ESU
+		victory_points = {
+			5046 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			5046 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = MOR
+	}
+
+	provinces={
+		1152 1207 1989 4022 4933 5046 7203 7908 8046 
+	}
+	manpower=2605752
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}
