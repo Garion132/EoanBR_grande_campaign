@@ -1,6 +1,5 @@
 ﻿capital = 172
 set_major = yes
-set_cosmetic_tag = ESU_union
 set_research_slots = 4
 add_named_threat = { threat = 0.9218 name = infamy }
 

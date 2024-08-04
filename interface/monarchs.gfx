@@ -89,7 +89,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_ESU_monarch"
-		texturefile = "gfx/interface/ideas/crowns/brazil_shield.dds"
+		texturefile = "gfx/interface/ideas/crowns/iberia_shield.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_ETH_monarch"
