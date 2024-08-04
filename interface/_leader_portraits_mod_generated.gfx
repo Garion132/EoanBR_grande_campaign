@@ -10219,4 +10219,153 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_r56_generic_operative_europe_1.dds"
 	}
 
+	# OSEA
+	spriteType = {
+		name = GFX_portrait_OSE_daniel_andrews
+		texturefile = "gfx/leaders/Osean/portrait_OSE_daniel_andrews.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_david_appelrouth
+		texturefile = "gfx/leaders/Osean/portrait_OSE_david_appelrouth.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_declan_russell
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_declan_russell.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_george_oured_iii
+		texturefile = "gfx/leaders/Osean/portrait_OSE_george_oured_iii.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_hector_blake
+		texturefile = "gfx/leaders/Osean/portrait_OSE_hector_blake.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_hiroto_george
+		texturefile = "gfx/leaders/Osean/portrait_OSE_hiroto_george.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_howard_mclaughlin
+		texturefile = "gfx/leaders/Osean/portrait_OSE_howard_mclaughlin.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_james_anderson
+		texturefile = "gfx/leaders/Osean/portrait_OSE_james_anderson.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_martin_buchanan
+		texturefile = "gfx/leaders/Osean/portrait_OSE_martin_buchanan.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_maryam_boone
+		texturefile = "gfx/leaders/Osean/portrait_OSE_maryam_boone.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_richard_cain
+		texturefile = "gfx/leaders/Osean/portrait_OSE_richard_cain.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_sterling_schulz
+		texturefile = "gfx/leaders/Osean/portrait_OSE_sterling_schulz.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_tanner_mackenzie
+		texturefile = "gfx/leaders/Osean/portrait_OSE_tanner_mackenzie.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_tyler_mackenzie
+		texturefile = "gfx/leaders/Osean/portrait_OSE_tyler_mackenzie.png"
+	}
+	spriteType = {
+		name = GFX_portrait_OSE_vincent_harling
+		texturefile = "gfx/leaders/Osean/portrait_OSE_vincent_harling.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_1
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_1.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_2
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_2.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_3
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_3.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_4
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_4.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_5
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_5.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_6
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_6.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_7
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_7.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_8
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_8.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_9
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_9.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_10
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_10.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_11
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_11.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_12
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_12.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_13
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_13.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_14
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_14.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_15
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_15.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_16
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_16.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_17
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_17.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_18
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_18.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_land_19
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_land_19.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_navy_1
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_navy_1.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_navy_2
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_navy_2.png"
+	}
+	spriteType = {
+		name = GFX_Portrait_OSE_Generic_navy_3
+		texturefile = "gfx/leaders/Osean/Portrait_OSE_Generic_navy_3.png"
+	}
 }

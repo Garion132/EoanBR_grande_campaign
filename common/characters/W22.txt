@@ -23,10 +23,10 @@ characters={
 		name=W22_charilaos_kountouriotis
 		portraits={
 			army={
-				large="GFX_Portrait_Europe_Generic_land_3"
+				large="GFX_Portrait_OSE_Generic_land_1"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_3"
+				small="GFX_Portrait_OSE_Generic_land_1"
 			}
 		}
 		corps_commander={
@@ -43,10 +43,10 @@ characters={
 		name=W22_eleftherios_tis_elladas
 		portraits={
 			army={
-				large="GFX_Portrait_Europe_Generic_land_5"
+				large="GFX_Portrait_OSE_Generic_land_2"
 			}
 			army={
-				small="GFX_Portrait_Europe_Generic_land_5"
+				small="GFX_Portrait_OSE_Generic_land_2"
 			}
 		}
 		corps_commander={
