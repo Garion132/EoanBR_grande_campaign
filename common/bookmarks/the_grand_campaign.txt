@@ -37,7 +37,7 @@ bookmarks = {
 			ideas = { great_power }
 		}
 		PER= {
-			history = "communism_GP_CONV_DESC"
+			history = "PER_GP_CONV_DESC"
 			ideology = communism
 			ideas = { great_power }
 		}
