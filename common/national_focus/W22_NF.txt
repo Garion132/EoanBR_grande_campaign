@@ -16,13 +16,186 @@ focus_tree = {
 	shared_focus = aviation_effort
 	shared_focus = naval_effort
 	shared_focus = industrial_effort
-	shared_focus = political_effort
+	#shared_focus = political_effort
+
+	### POLITICAL TREE
+	focus = {
+		id = W22_the_new_society
+		icon = placeholder
+		x = 20
+		y = 0
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = W22_towards_a_multicultural_nation
+		icon = placeholder
+		relative_position_id = W22_the_new_society
+		prerequisite = { focus = W22_the_new_society }
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_ideals_over_bloodlines
+		icon = placeholder
+		relative_position_id = W22_towards_a_multicultural_nation
+		prerequisite = { focus = W22_towards_a_multicultural_nation }
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_begin_integrating_the_territories
+		icon = placeholder
+		relative_position_id = W22_the_new_society
+		prerequisite = { focus = W22_the_new_society }
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_stability = 0.02
+			701 = {
+				add_compliance = 10
+			}
+			702 = {
+				add_compliance = 10
+			}
+			703 = {
+				add_compliance = 10
+			}
+			704 = {
+				add_compliance = 10
+			}
+		}
+	}
+	focus = {
+		id = W22_integrate_the_illinois_territory
+		icon = placeholder
+		relative_position_id = W22_begin_integrating_the_territories
+		prerequisite = { focus = W22_begin_integrating_the_territories }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_state_core = 701
+			add_state_core = 702
+		}
+	}
+	focus = {
+		id = W22_integrate_the_new_england_territory
+		icon = placeholder
+		relative_position_id = W22_begin_integrating_the_territories
+		prerequisite = { focus = W22_begin_integrating_the_territories }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_state_core = 703
+			add_state_core = 704
+		}
+	}
+	focus = {
+		id = W22_shore_up_the_bottom
+		icon = placeholder
+		relative_position_id = W22_the_new_society
+		prerequisite = { focus = W22_the_new_society }
+		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_invest_in_the_underinvested
+		icon = placeholder
+		relative_position_id = W22_shore_up_the_bottom
+		prerequisite = { focus = W22_shore_up_the_bottom }
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			692 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			693 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			694 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			697 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			700 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
 
 	focus = {
 		id = border_disputesW22USA
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputesUSA
-		x = 24
+		x = 26
 		y = 0
 		cost = 10
 		available = {
@@ -227,7 +400,7 @@ focus_tree = {
 		id = border_disputesW22TEX
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputesTEX
-		x = 26
+		x = 28
 		y = 0
 		cost = 10
 		available = {
