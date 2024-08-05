@@ -40,6 +40,7 @@ technologies = {
 		research_cost = 2.25
 		
 		allow = {
+			date > 1914.1.1
 			AND = {
 				has_tech = tech_mountaineers
 				can_unlock_new_special_forces_tree = yes
@@ -440,7 +441,8 @@ technologies = {
 		
 		force_use_small_tech_layout = yes
 		
-		allow = { 
+		allow = {
+			date > 1914.1.1
 			AND = {
 				has_tech = marines
 				can_unlock_new_special_forces_tree = yes
@@ -489,6 +491,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 20
+			modifier = {
+				factor = 0
+				tag = USA
+				NOT = { has_tech = special_forces_paratroopers }
+			}
 			modifier = {
 				factor = 0
 				NOT = { ai_has_completed_naval_doctrine = yes }
@@ -989,7 +996,8 @@ technologies = {
 			soft_attack = 0.05
 		}
 		
-		allow = { 
+		allow = {
+			date > 1914.1.1
 			AND = {
 				has_tech = paratroopers 
 				can_unlock_new_special_forces_tree = yes
