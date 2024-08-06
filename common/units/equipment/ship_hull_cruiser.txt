@@ -371,7 +371,6 @@ equipments = {
 		resources = {
 			coal = 1
 			steel = 1
-			wood = 1
 		}
 	}
 
@@ -422,7 +421,6 @@ equipments = {
 		resources = {
 			coal = 1
 			steel = 1
-			wood = 1
 		}
 	}
 
@@ -473,7 +471,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 1
-			wood = 1
 		}
 	}
 
@@ -524,7 +521,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 1
-			wood = 1
 		}
 	}
 
@@ -937,7 +933,6 @@ equipments = {
 
 		resources = {
 			coal = 1
-			wood = 3
 			steel = 1
 		}
 	}
@@ -1040,7 +1035,6 @@ equipments = {
 
 		resources = {
 			coal = 1
-			wood = 3
 			steel = 1
 		}
 	}

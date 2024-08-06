@@ -72,7 +72,22 @@ set_technology = {
 	chemical_research2 =1
 	chemical_research3 = 1
 	radio = 1
-	
+	ww1_tools1 = 1
+	ww1_tools2 = 1
+	ww1_tools3 = 1
+	ww1_industry1 = 1
+	ww1_industry2 = 1
+	ww1_industry3 = 1
+	ww1_medicine1 = 1
+	ww1_medicine2 = 1
+	ww1_medicine3 = 1
+	ww1_construction1 = 1
+	ww1_construction2 = 1
+	ww1_oil1 = 1
+	ww1_oil2 = 1
+	ww1_fortification1 = 1
+	ww1_fortification2 = 1
+	ww1_fortification3 = 1
 }
 
 if = {

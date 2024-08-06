@@ -624,7 +624,6 @@ equipments = {
 		resources = {
 			coal = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 1740
 	}
@@ -724,7 +723,6 @@ equipments = {
 		resources = {
 			coal = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 3090
 	}
@@ -824,7 +822,6 @@ equipments = {
 		resources = {
 			coal = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 4860
 	}
@@ -924,7 +921,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 5400
 	}
@@ -1024,7 +1020,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 5500
 	}
@@ -1650,7 +1645,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 2030
 	}
@@ -1695,7 +1689,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 2190
 	}
@@ -1740,7 +1733,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 3
-			wood = 1
 		}
 		manpower = 2870
 	}

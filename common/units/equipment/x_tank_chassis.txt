@@ -1286,7 +1286,6 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 2
-			wood = 2
 		}
 		fuel_consumption = 4.0
 	}
@@ -1326,7 +1325,6 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 2
-			wood = 3
 		}
 		fuel_consumption = 4.1
 	}
@@ -1367,7 +1365,6 @@ equipments = {
 		resources = {
 			#oil = 1
 			steel = 3
-			wood = 3
 		}
 		fuel_consumption = 4.2
 	}

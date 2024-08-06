@@ -170,7 +170,6 @@ equipments = {
 		resources = {
 			#aluminium = 2
 			rubber = 1
-			wood = 2
 		}
 		fuel_consumption = 0.18
 	}
@@ -194,7 +193,6 @@ equipments = {
 
 		build_cost_ic = 16
 		resources = {
-			wood = 2
 			#oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -221,7 +219,6 @@ equipments = {
 
 		build_cost_ic = 17
 		resources = {
-			wood = 3
 			#oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -249,7 +246,6 @@ equipments = {
 
 		build_cost_ic = 18
 		resources = {
-			wood = 3
 			#oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -276,7 +272,6 @@ equipments = {
 
 		build_cost_ic = 20
 		resources = {
-			wood = 4
 			#oil = 1
 			#aluminium = 0
 		}
@@ -302,7 +297,6 @@ equipments = {
 
 		build_cost_ic = 20.5
 		resources = {
-			wood = 1
 			#oil = 1
 			rubber = 1
 			aluminium = 1
@@ -616,7 +610,6 @@ equipments = {
 		
 		build_cost_ic = 17
 		resources = {
-			wood = 2
 			#oil = 1
 		}
 		naval_strike_attack = 2
@@ -637,7 +630,6 @@ equipments = {
 		
 		build_cost_ic = 18.5
 		resources = {
-			wood = 3
 			#oil = 1
 		}
 
@@ -1430,7 +1422,6 @@ equipments = {
 		
 		build_cost_ic = 28
 		resources = {
-			wood = 4
 			#oil = 1
 		}
 	}
@@ -1462,7 +1453,6 @@ equipments = {
 		
 		build_cost_ic = 32
 		resources = {
-			wood = 4
 			#oil = 1
 		}
 	}
@@ -1493,7 +1483,6 @@ equipments = {
 		
 		build_cost_ic = 33
 		resources = {
-			wood = 3
 			#oil = 1
 			rubber = 1
 		}
@@ -1525,7 +1514,6 @@ equipments = {
 		
 		build_cost_ic = 34
 		resources = {
-			wood = 3
 			#oil = 1
 			rubber = 1
 		}
@@ -2130,7 +2118,6 @@ equipments = {
 		resources = {
 			#oil = 1
 			aluminium = 2
-			wood = 6
 		}
 		fuel_consumption = 0.34
 	}
@@ -2157,7 +2144,6 @@ equipments = {
 		resources = {
 			#oil = 1
 			aluminium = 3
-			wood = 7
 		}
 		fuel_consumption = 0.37
 	}
