@@ -323,7 +323,7 @@ equipments = {
 
 		build_cost_ic = 21
 		resources = {
-			#wood = 0
+			##wood = 0
 			#oil = 1
 			rubber = 1
 			aluminium = 1
@@ -350,7 +350,7 @@ equipments = {
 
 		build_cost_ic = 21.5
 		resources = {
-			#wood = 0
+			##wood = 0
 			#oil = 1
 			rubber = 1
 			aluminium = 1

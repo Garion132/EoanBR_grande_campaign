@@ -39,8 +39,8 @@ equipments = {
 	}
 
 	# HOI4 TGW : Heavy Artillery "bertha"
-	bertha_artillery_equipment =
-	{
+	bertha_artillery_equipment = {
+		year = 1900
 		is_archetype = yes
 		type = { 
 			artillery
@@ -398,7 +398,7 @@ equipments = {
 		build_cost_ic = 5
 
 		resources = {
-			coal = 1
+			##coal = 1
 			steel = 2
 			tungsten = 1
 		}	
@@ -415,7 +415,7 @@ equipments = {
 
 		build_cost_ic = 12.50
 		resources = {
-				coal = 1
+				##coal = 1
 				steel = 1
 				tungsten = 1
 		}	
@@ -436,7 +436,7 @@ equipments = {
 
 		build_cost_ic = 13.5
 		resources = {
-				coal = 1
+				##coal = 1
 				steel = 2
 				tungsten = 1
 		}
@@ -459,7 +459,7 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-				coal = 1
+				##coal = 1
 				steel = 2
 				tungsten = 2
 		}
