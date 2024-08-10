@@ -5,11 +5,11 @@ oob = "X99_OOB"
 
 # Starting tech
 set_technology = {
-	basic_train = 1
+	ww1_train = 1
 	electronic_mechanical_engineering = 1
-	fuel_refining = 1
-	fuel_silos = 1
-	gw_artillery = 1
+	ww1_oil1 = 1
+	ww1_bergiusprocess = 1
+	light_field_gun2 = 1
 	infantry_weapons = 1
 	motorised_infantry = 1
 	synth_oil_experiments = 1

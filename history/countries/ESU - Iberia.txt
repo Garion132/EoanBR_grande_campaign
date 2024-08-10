@@ -15,8 +15,8 @@ if = {
 # Starting tech
 set_technology = {
 	electronic_mechanical_engineering = 1
-	fuel_refining = 1
-	fuel_silos = 1
+	ww1_oil1 = 1
+	ww1_bergiusprocess = 1
 	light_field_gun1 = 1
 	bonus_artillery4 = 1
 	bonus_artillery1 = 1
@@ -174,7 +174,7 @@ set_convoys = 24
 set_politics = {
     ruling_party = democratic
     last_election = "1918.11.17"
-    election_frequency = 48
+    election_frequency = 72
     elections_allowed = yes
 }
 
@@ -390,11 +390,17 @@ add_opinion_modifier = { target = ZIM modifier = positive_65 }
 add_ideas = {
 	great_power
 	ESU_monarch
-	volunteer_only
+	BUL_army_restrictions
+	disarmed_nation
 	civilian_economy
 	export_focus
 	culture_alaybirih
 }
+
+set_rule = { #DLC
+		can_not_declare_war = yes
+	}
+	country_lock_all_division_template = yes
 set_stability = 0.60
 set_war_support = 0.60
 

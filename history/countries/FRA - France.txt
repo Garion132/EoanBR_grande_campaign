@@ -6,7 +6,7 @@ oob = "FRA_OOB"
 
 # Starting tech
 set_technology = {
-	gw_artillery = 1
+	light_field_gun2 = 1
 	infantry_weapons = 1
 	tech_support = 1
 }
