@@ -272,12 +272,6 @@ if = {
 	diplomatic_relation = { country = NOR relation = non_aggression_pact }
 }
 
-give_guarantee = PUE
-if = {
-	limit = { NOT = { has_non_aggression_pact_with = PUE } }
-	diplomatic_relation = { country = PUE relation = non_aggression_pact }
-}
-
 give_guarantee = RME
 if = {
 	limit = { NOT = { has_non_aggression_pact_with = RME } }
