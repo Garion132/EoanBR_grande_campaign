@@ -162,7 +162,7 @@ add_opinion_modifier = { target = X99 modifier = positive_20 }
 
 
 add_ideas = {
-	PUE_monarch
+	ESU_monarch
 	volunteer_only
 	civilian_economy
 	export_focus

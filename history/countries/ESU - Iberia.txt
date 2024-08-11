@@ -225,6 +225,11 @@ if = {
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
+	set_autonomy = {
+        target = PUE
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
     else = {
         puppet = BRA
         puppet = W43
@@ -233,6 +238,7 @@ if = {
         puppet = W47
         puppet = W48
         puppet = W49
+		puppet = PUE
     }
 }
 

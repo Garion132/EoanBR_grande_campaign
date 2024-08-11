@@ -2715,7 +2715,7 @@ focus_tree = {
 					is_in_faction_with = ROOT
 				}
 				any_country = {
-					original_tag = AST
+					original_tag = W26
 					is_in_faction_with = ROOT
 				}
 				any_country = {
@@ -2725,7 +2725,7 @@ focus_tree = {
 			}
 		}
 		bypass = {
-			CAN = {
+			TEX = {
 				exists = no
 			}
 			SAF = {
@@ -2734,7 +2734,7 @@ focus_tree = {
 			RAJ = {
 				exists = no
 			}
-			AST = {
+			W26 = {
 				exists = no
 			}
 			NZL = {
@@ -2744,9 +2744,9 @@ focus_tree = {
 				any_state = {
 					OR = {
 						is_core_of = ENG
-						is_core_of = CAN
+						is_core_of = TEX
 						is_core_of = SAF
-						is_core_of = AST
+						is_core_of = W26
 						is_core_of = NZL
 						is_core_of = RAJ
 					}
@@ -2769,14 +2769,14 @@ focus_tree = {
 		completion_reward = {
 			random_country = {
 				limit = {
-					original_tag = CAN
+					original_tag = TEX
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
 			}
 			random_country = {
 				limit = {
-					original_tag = AST
+					original_tag = W26
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = { target = ENG modifier = ENG_commonwealth_ties }
@@ -2819,10 +2819,10 @@ focus_tree = {
 
 		available = {
 			OR = {
-				CAN = { is_in_faction_with = ENG }
+				TEX = { is_in_faction_with = ENG }
 				SAF = { is_in_faction_with = ENG }
 				RAJ = { is_in_faction_with = ENG }
-				AST = { is_in_faction_with = ENG }
+				W26 = { is_in_faction_with = ENG }
 				NZL = { is_in_faction_with = ENG }
 			}
 		}
@@ -3038,15 +3038,15 @@ focus_tree = {
 		prerequisite = { focus = uk_commonwealth_focus }
 		available = {
 			any_country = {
-				original_tag = AST
+				original_tag = W26
 				is_in_faction_with = ROOT
 			}
 		}
 
 		bypass = {
 			OR = {
-				AST = { exists = no }
-				AST = {
+				W26 = { exists = no }
+				W26 = {
 					custom_trigger_tooltip = {
 						tooltip = construction_effort_tt
 						all_owned_state = {
@@ -3081,7 +3081,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_country = {
 				limit = {
-					original_tag = AST
+					original_tag = W26
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
@@ -3117,7 +3117,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			AST = {
+			W26 = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
 					limit = {
@@ -3359,14 +3359,14 @@ focus_tree = {
 		prerequisite = { focus = uk_commonwealth_focus }
 		available = {
 			any_country = {
-				original_tag = CAN
+				original_tag = TEX
 				is_in_faction_with = ROOT
 			}
 		}
 		bypass = {
 			OR = {
-				CAN = { exists = no }
-				CAN = {
+				TEX = { exists = no }
+				TEX = {
 					custom_trigger_tooltip = {
 						tooltip = construction_effort_tt
 						all_owned_state = {
@@ -3401,7 +3401,7 @@ focus_tree = {
 		complete_tooltip = {
 			random_country = {
 				limit = {
-					original_tag = CAN
+					original_tag = TEX
 					is_in_faction_with = ROOT
 				}
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
@@ -3437,7 +3437,7 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			CAN = {
+			TEX = {
 				add_opinion_modifier = { target = ENG modifier = aided_industry }
 				random_owned_controlled_state = {
 					limit = {
@@ -3746,7 +3746,7 @@ focus_tree = {
 		}
 
 		available = {
-			CAN = {
+			TEX = {
 				OR = {
 					AND = {
 						is_subject_of = ENG
@@ -3764,7 +3764,7 @@ focus_tree = {
 					exists = no
 				}
 			}
-			AST = {
+			W26 = {
 				OR = {
 					AND = {
 						is_subject_of = ENG
@@ -3786,9 +3786,9 @@ focus_tree = {
 				any_state = {
 					OR = {
 						is_core_of = ENG
-						is_core_of = CAN
+						is_core_of = TEX
 						is_core_of = SAF
-						is_core_of = AST
+						is_core_of = W26
 						is_core_of = NZL
 					}
 					NOT = { state = 331 }
@@ -3796,9 +3796,9 @@ focus_tree = {
 						NOT = {
 							OR = {
 								tag = ENG
-								tag = CAN
+								tag = TEX
 								tag = SAF
-								tag = AST
+								tag = W26
 								tag = NZL
 							}
 						}
@@ -3809,7 +3809,7 @@ focus_tree = {
 		}
 
 		bypass = {
-			CAN = {
+			TEX = {
 				exists = no
 			}
 			SAF = {
@@ -3821,7 +3821,7 @@ focus_tree = {
 					NOT = { is_subject_of = ENG }
 				}
 			}
-			AST = {
+			W26 = {
 				exists = no
 			}
 			NZL = {
@@ -3831,9 +3831,9 @@ focus_tree = {
 				any_state = {
 					OR = {
 						is_core_of = ENG
-						is_core_of = CAN
+						is_core_of = TEX
 						is_core_of = SAF
-						is_core_of = AST
+						is_core_of = W26
 						is_core_of = NZL
 					}
 					OWNER = {
@@ -3866,7 +3866,7 @@ focus_tree = {
 						tag = ENG
 						AND = {
 							is_subject_of = ENG
-							tag = CAN
+							tag = TEX
 						}
 						AND = {
 							is_subject_of = ENG
@@ -3878,7 +3878,7 @@ focus_tree = {
 						}
 						AND = {
 							is_subject_of = ENG
-							tag = AST
+							tag = W26
 						}
 						AND = {
 							is_subject_of = ENG
@@ -3903,7 +3903,7 @@ focus_tree = {
 					has_dlc = "Together for Victory"
 					has_dlc = "Death or Dishonor"
 				}
-				CAN = {
+				TEX = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -3916,7 +3916,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = CAN
+									is_core_of = TEX
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -3971,7 +3971,7 @@ focus_tree = {
 						}
 					}
 				}
-				AST = {
+				W26 = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -3984,7 +3984,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = AST
+									is_core_of = W26
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4017,7 +4017,7 @@ focus_tree = {
 					has_dlc = "Together for Victory"
 					NOT = { has_dlc = "Death or Dishonor" }
 				}
-				CAN = {
+				TEX = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -4027,7 +4027,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = CAN
+									is_core_of = TEX
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4075,7 +4075,7 @@ focus_tree = {
 						}
 					}
 				}
-				AST = {
+				W26 = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -4085,7 +4085,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = AST
+									is_core_of = W26
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4116,7 +4116,7 @@ focus_tree = {
 					has_dlc = "Death or Dishonor"
 					has_government = fascism
 				}
-				CAN = {
+				TEX = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -4126,7 +4126,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = CAN
+									is_core_of = TEX
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4174,7 +4174,7 @@ focus_tree = {
 						}
 					}
 				}
-				AST = {
+				W26 = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -4184,7 +4184,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = AST
+									is_core_of = W26
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4210,7 +4210,7 @@ focus_tree = {
 				}
 			}
 			else = {
-				CAN = {
+				TEX = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -4220,7 +4220,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = CAN
+									is_core_of = TEX
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4268,7 +4268,7 @@ focus_tree = {
 						}
 					}
 				}
-				AST = {
+				W26 = {
 					OR = {
 						AND = {
 							is_subject_of = ENG
@@ -4278,7 +4278,7 @@ focus_tree = {
 							exists = no
 							NOT = {
 								any_state = {
-									is_core_of = AST
+									is_core_of = W26
 									NOT = { is_owned_by = ROOT }
 								}
 							}
@@ -4306,9 +4306,9 @@ focus_tree = {
 			if = {
 				limit = {
 					OR = {
-						CAN = { exists = yes }
+						TEX = { exists = yes }
 						SAF = { exists = yes }
-						AST = { exists = yes }
+						W26 = { exists = yes }
 						NZL = { exists = yes }
 					}
 				}
@@ -4348,18 +4348,18 @@ focus_tree = {
 				set_cosmetic_tag = ENG_imperial_federation_india_unified
 				news_event = { id = mtg_news.9 days = 1 }
 			}
-			CAN = {
+			TEX = {
 				every_unit_leader = {
 					set_nationality = ENG
 				}
 			}
 			annex_country = {
-			    target = CAN
+			    target = TEX
 			    transfer_troops = yes
 			}
 			every_state = {
 				limit = {
-					is_core_of = CAN
+					is_core_of = TEX
 				}
 				add_core_of = ENG
 			}
@@ -4415,18 +4415,18 @@ focus_tree = {
 					}
 				}
 			}
-			AST = {
+			W26 = {
 				every_unit_leader = {
 					set_nationality = ENG
 				}
 			}
 			annex_country = {
-			    target = AST
+			    target = W26
 			    transfer_troops = yes
 			}
 			every_state = {
 				limit = {
-					is_core_of = AST
+					is_core_of = W26
 				}
 				add_core_of = ENG
 			}
@@ -4984,7 +4984,7 @@ focus_tree = {
 
 	### END ROAD TO WAR WITH GERMANY ###
 
-	### SCANDINAVIAN BRANCH ####
+	### STEXDINAVIAN BRANCH ####
 
 	focus = {
 		id = uk_scandinavian_focus
@@ -5166,7 +5166,7 @@ focus_tree = {
 		}
 	}
 
-	### END SCANDINAVIAN BRANCH ###
+	### END STEXDINAVIAN BRANCH ###
 
 	focus = {
 		id = ENG_prepare_for_the_inevitable

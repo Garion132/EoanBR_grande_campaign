@@ -184,7 +184,7 @@ add_opinion_modifier = { target = X99 modifier = positive_5 }
 
 
 add_ideas = {
-	W26_monarch
+	ENG_monarch
 	volunteer_only
 	civilian_economy
 	export_focus

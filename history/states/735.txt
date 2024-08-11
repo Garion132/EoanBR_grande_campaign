@@ -1,0 +1,29 @@
+
+state={
+	id=735
+	name="STATE_735"
+
+	history={
+		owner = ESU
+		add_core_of = ESU
+		victory_points = {
+			2196 15 
+		}
+		add_core_of = W32
+		buildings = {
+			infrastructure = 4
+			2196 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces={
+		2196
+	}
+	manpower=31166
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -99,33 +99,6 @@ set_popularities = {
 	neutrality = 15
 }
 
-# DIPLOMACY
-if = {
-    limit = {
-        has_dlc = "Together for Victory"
-    }
-    set_autonomy = {
-        target = CHL
-        autonomous_state = autonomy_puppet
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = URG
-        autonomous_state = autonomy_puppet
-        freedom_level = 0.4
-    }
-    set_autonomy = {
-        target = X95
-        autonomous_state = autonomy_puppet
-        freedom_level = 0.4
-    }
-    else = {
-        puppet = CHL
-        puppet = URG
-        puppet = X95
-    }
-}
-
 if = {
     limit = {has_dlc = "Together for Victory" }
 

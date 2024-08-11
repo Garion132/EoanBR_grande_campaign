@@ -1,5 +1,5 @@
 ideas = {
-		country = { #DLC
+	country = { #DLC
 
 		BUL_army_restrictions = {
 			picture = tfv_can_conscription_crisis
@@ -14,13 +14,8 @@ ideas = {
 			removal_cost = -1
 
 			cancel = {
-				has_country_flag = BUL_uk_demands_nap_with_balkan_nation_flag
-				OR = {
-					has_non_aggression_pact_with = GRE
-					has_non_aggression_pact_with = YUG
-					has_non_aggression_pact_with = ROM
-					has_non_aggression_pact_with = TUR
-				}
+				has_country_flag = ESU_ended_army_restricted_flag
+				
 			}
 
 			on_remove = {

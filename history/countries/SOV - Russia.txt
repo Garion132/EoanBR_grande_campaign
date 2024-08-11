@@ -339,6 +339,7 @@ set_truce = { target = ZIM days = 3650 }
 create_faction = SOV_axis
 add_to_faction = SOV
 add_to_faction = PER
+add_to_faction = X90
 
 add_ideas = {
 	great_power

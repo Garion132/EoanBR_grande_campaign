@@ -226,11 +226,6 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W42
-        autonomous_state = autonomy_colony
-        freedom_level = 0.4
-    }
-    set_autonomy = {
         target = X53
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
@@ -266,12 +261,36 @@ if = {
         puppet = W27
         puppet = W40
         puppet = W41
-        puppet = W42
         puppet = X53
         puppet = ZAM
         puppet = ZIM
 		puppet = NZL
 		puppet = W26
+    }
+}
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = CHL
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = URG
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X95
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = CHL
+        puppet = URG
+        puppet = X95
     }
 }
 

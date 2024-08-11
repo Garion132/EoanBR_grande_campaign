@@ -5,27 +5,23 @@ state={
 
 	history={
 		owner = W57
-		victory_points = {
-			2196 15 
-		}
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
-			2196 = {
-				naval_base = 6
-			}
 			air_base = 10
-
+			13363 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = TZN
 		add_core_of = W04
-		add_core_of = W32
 		add_core_of = W57
 	}
 
 	provinces={
-		2196 2206 5224 8183 8205 11017 12911 
+		13363 2206 5224 8183 8205 11017 12911 
 	}
 	manpower=2201328
 	buildings_max_level_factor=1.000
