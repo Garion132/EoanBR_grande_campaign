@@ -228,7 +228,7 @@ focus_tree = {
 		id = esu_colonial_focus
 		text = uk_colonial_focus
 		icon = GFX_focus_research2
-		x = 27
+		x = 28
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
@@ -481,7 +481,7 @@ focus_tree = {
 		id = ESU_hongkong_focus
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = esu_asia_focus }
-		x = 2
+		x = 1
 		y = 1
 		relative_position_id = esu_asia_focus
 		cost = 10
@@ -519,7 +519,7 @@ focus_tree = {
 		id = ESU_singapore_focus
 		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = esu_asia_focus }
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = esu_asia_focus
 		cost = 10
@@ -599,7 +599,7 @@ focus_tree = {
 				}
 			}
 		}
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = esu_asia_focus
 		cost = 10
@@ -703,7 +703,7 @@ focus_tree = {
 		id = esu_india_focus
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = { focus = esu_asia_focus }
-		x = 4
+		x = 3
 		y = 1
 		relative_position_id = esu_asia_focus
 		cost = 10

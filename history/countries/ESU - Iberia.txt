@@ -289,7 +289,7 @@ if = {
 	limit = { NOT = { has_non_aggression_pact_with = W22 } }
 	diplomatic_relation = { country = W22 relation = non_aggression_pact }
 }
-
+1921.1.1={
 add_opinion_modifier = { target = AST modifier = negative_10 }
 add_opinion_modifier = { target = BHU modifier = negative_110 }
 add_opinion_modifier = { target = BOT modifier = negative_200 }
@@ -385,7 +385,7 @@ add_opinion_modifier = { target = X97 modifier = positive_105 }
 add_opinion_modifier = { target = X99 modifier = negative_200 }
 add_opinion_modifier = { target = ZAM modifier = negative_10 }
 add_opinion_modifier = { target = ZIM modifier = positive_65 }
-
+}
 
 add_ideas = {
 	great_power
