@@ -376,6 +376,116 @@ on_actions = {
 			set_province_name = { id = 11437 name = "Dnipropetrovsk"} #Ekaterinoslav
 			set_province_name = { id = 12674 name = "Reykjavik"} #Iceland
 			ESU = { country_event = FRA_begin_rearmament.1 }
+
+			set_variable = { global.gw_war_support = -0.4 }
+			set_variable = { global.gw_consumer_goods = 0.3 }
+			set_variable = { global.gw_prod_eff = -0.5 }
+			set_variable = { global.gw_conversion = -0.6 }
+			set_variable = { global.gw_construction_speed = -0.5 }
+			set_variable = { global.gw_pol_power_cost = 0.8 }
+			set_variable = { global.gw_xp_gain = -0.75 }
+			set_variable = { global.gw_dockyard_output = -0.75 }
+			every_country = {
+				add_dynamic_modifier = {
+					modifier = consequence_of_the_great_war
+				}
+			}
+		}
+	}
+	on_monthly_SOV = {
+		if = {
+			limit = {
+				date < 1935.1.1
+			}
+
+			# Add dynamic modifier
+			every_country = {
+				limit = {
+					NOT = { has_dynamic_modifier = { modifier = consequence_of_the_great_war } }	
+				}
+				add_dynamic_modifier = {
+					modifier = consequence_of_the_great_war
+				}
+			}
+
+			# -40% War Support
+			# +30% Cons Goods
+			# -50% Prod Eff Cap
+			# -60% Conversion Cost
+			# -50% Construction Speed
+			# +0.8 Pol Power Cost
+			# -75% XP
+			# -75% Dockyard Output
+
+			if = {
+				limit = {
+					date < 1926.8.21 # 60 months
+				}
+				add_to_variable = { global.gw_war_support = 0.001 } # 6% War Support
+				add_to_variable = { global.gw_consumer_goods = -0.001 } # 6% Consumer Goods expected
+				add_to_variable = { global.gw_prod_eff = 0.001 } # 6% Prod Eff Cap
+				add_to_variable = { global.gw_conversion = 0.01 } # 60% Conversion
+				add_to_variable = { global.gw_construction_speed = 0.001 } # 6% Construction Speed
+				add_to_variable = { global.gw_pol_power_cost = -0.001 } # -0.06 Pol Power Cost
+				add_to_variable = { global.gw_xp_gain = 0.001 } # 6% XP Gain
+				add_to_variable = { global.gw_dockyard_output = 0.001 } # 6% Dockyard Output
+
+				# -34% War Support
+				# +24% Cons Goods
+				# -44% Prod Eff Cap
+				# -44% Construction Speed
+				# +0.74 Pol Power Cost
+				# -69% XP
+				# -69% Dockyard Output
+			}
+			else_if = {
+				limit = {
+					date < 1931.8.21 # 60 months
+				}
+				add_to_variable = { global.gw_war_support = 0.002 } # 12% War Support
+				add_to_variable = { global.gw_consumer_goods = -0.001 } # 6% Consumer Goods expected
+				add_to_variable = { global.gw_prod_eff = 0.001 } # 6% Prod Eff Cap
+				add_to_variable = { global.gw_construction_speed = 0.002 } # 12% Construction Speed
+				add_to_variable = { global.gw_pol_power_cost = -0.002 } # -0.12 Pol Power Cost
+				add_to_variable = { global.gw_xp_gain = 0.002 } # 12% XP Gain
+				add_to_variable = { global.gw_dockyard_output = 0.004 } # 24% Dockyard Output
+				
+				# -22% War Support
+				# +18% Cons Goods
+				# -38% Prod Eff Cap
+				# -32% Construction Speed
+				# +0.62 Pol Power Cost
+				# -57% XP
+				# -45% Dockyard Output
+			}
+			else_if = {
+				limit = {
+					date < 1935.1.1 # 40ish months
+				}
+				add_to_variable = { global.gw_war_support = 0.005 } # 20% War Support
+				add_to_variable = { global.gw_consumer_goods = -0.004 } # 16% Consumer Goods expected
+				add_to_variable = { global.gw_prod_eff = 0.005 } # 20% Prod Eff Cap
+				add_to_variable = { global.gw_construction_speed = 0.005 } # 20% Construction Speed
+				add_to_variable = { global.gw_pol_power_cost = -0.015 } # -0.6 Pol Power Cost
+				add_to_variable = { global.gw_xp_gain = 0.01 } # 40% XP Gain
+				add_to_variable = { global.gw_dockyard_output = 0.01 } # 40% Dockyard Output
+
+				# -2% War Support
+				# +2% Cons Goods
+				# -18% Prod Eff Cap
+				# -12% Construction Speed
+				# +0.02 Pol Power Cost
+				# -17% XP
+				# -5% Dockyard Output
+			}
+		}
+		else = {
+			every_country = {
+				limit = {
+					has_dynamic_modifier = { modifier = consequence_of_the_great_war }
+				}
+				remove_dynamic_modifier = { modifier = consequence_of_the_great_war }
+			}
 		}
 	}
 }

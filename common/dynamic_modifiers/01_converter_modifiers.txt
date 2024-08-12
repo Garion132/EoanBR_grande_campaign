@@ -16,14 +16,33 @@ RME_post_war_dyn_mod = {
 		always = no
 	}
 
-	# modifier = {
-		war_support_factor = RME_ws_var # -0.15
-		army_org_factor = RME_army_org_var # -0.08
-		army_speed_factor = RME_army_speed_var # -0.1
-		training_time_factor = RME_training_time_var # 0.25
-		naval_coordination = RME_naval_coord_var # -0.15
-		air_accidents_factor = RME_air_accidents_var # 0.15
-		minimum_training_level = RME_minimum_training_var # -0.1
-	# }
+	war_support_factor = RME_ws_var # -0.15
+	army_org_factor = RME_army_org_var # -0.08
+	army_speed_factor = RME_army_speed_var # -0.1
+	training_time_factor = RME_training_time_var # 0.25
+	naval_coordination = RME_naval_coord_var # -0.15
+	air_accidents_factor = RME_air_accidents_var # 0.15
+	minimum_training_level = RME_minimum_training_var # -0.1
+}
+
+consequence_of_the_great_war = {
+	icon = GFX_idea_revanchism
+	enable = {
+		always = yes
+	}
+	remove_trigger = {
+		date > 1935.01.01
+	}
+
+	war_support_factor = var:global.gw_war_support
+	consumer_goods_expected_value = var:global.gw_consumer_goods
+	production_factory_max_efficiency_factor = var:global.gw_prod_eff
+	conversion_cost_mil_to_civ_factor = var:global.gw_conversion
+	production_speed_buildings_factor = var:global.gw_construction_speed
+	political_power_cost = var:global.gw_pol_power_cost
+	experience_gain_army_factor = var:global.gw_xp_gain
+	experience_gain_navy_factor = var:global.gw_xp_gain
+	experience_gain_air_factor = var:global.gw_xp_gain
+	industrial_capacity_dockyard = var:global.gw_dockyard_output
 }
 

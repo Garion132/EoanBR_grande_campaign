@@ -84,6 +84,10 @@ ideas = {
 			removal_cost = -1
 			available = {
 				has_war_support > 0.15
+				OR = {
+					date > 1935.1.1
+					has_war = yes
+				}
 			}
 			ai_will_do = {
    				factor = 2
@@ -112,6 +116,10 @@ ideas = {
 			removal_cost = -1
 			available = {
 				has_war_support > 0.25
+				OR = {
+					date > 1935.1.1
+					has_war = yes
+				}
 			}
 			ai_will_do = {
    				factor = 2
@@ -137,6 +145,10 @@ ideas = {
 			removal_cost = -1
 			available = {
 				has_war_support > 0.5
+				OR = {
+					date > 1935.1.1
+					has_war = yes
+				}
 				OR = {
 					has_government = absolutist
 					has_government = communism
@@ -199,6 +211,7 @@ ideas = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
+				date > 1935.1.1
 				any_enemy_country = {
 					ic_ratio = {
 						tag = ROOT
