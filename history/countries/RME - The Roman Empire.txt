@@ -219,7 +219,7 @@ if = {
         has_dlc = "Together for Victory"
     }
     set_autonomy = {
-        target = BAS
+        target = BAS #carribean
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
@@ -229,7 +229,7 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W01
+        target = W01 #St lucia
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
@@ -249,7 +249,7 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W25
+        target = W25 #columbia
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
@@ -259,7 +259,7 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = W57
+        target = W57 #roman africa
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.4
     }
@@ -289,7 +289,7 @@ if = {
         freedom_level = 0.4
     }
     set_autonomy = {
-        target = X80
+        target = X80 
         autonomous_state = autonomy_colony
         freedom_level = 0.4
     }
@@ -744,4 +744,41 @@ if = {
 	add_equipment_to_stockpile = { type = light_tank_chassis_0 variant_name = "GW Light Tank" amount = 3680 producer = RME }
 }
 add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1436 producer = RME }
+
+# war_support_factor = RME_ws_var # -0.15
+# army_org_factor = RME_army_org_var # -0.08
+# army_speed_factor = RME_army_speed_var # -0.1
+# training_time_factor = RME_training_time_var # 0.25
+# naval_coordination = RME_naval_coord_var # -0.15
+# air_accidents_factor = RME_air_accidents_var # 0.15
+# minimum_training_level = RME_minimum_training_var # -0.1
+
+set_variable = {
+	var = RME_ws_var
+	value = -0.15
+}
+set_variable = {
+	var = RME_army_org_var
+	value = -0.08
+}
+set_variable = {
+	var = RME_army_speed_var
+	value = -0.1
+}
+set_variable = {
+	var = RME_training_time_var
+	value = -0.25
+}
+set_variable = {
+	var = RME_naval_coord_var
+	value = -0.15
+}
+set_variable = {
+	var = RME_air_accidents_var
+	value = 0.15
+}
+set_variable = {
+	var = RME_minimum_training_var
+	value = -0.1
+}
 

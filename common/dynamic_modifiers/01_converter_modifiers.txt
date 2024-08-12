@@ -10,3 +10,20 @@ revanchism = {
 	stability_factor = var:revanchism_stab
 }
 
+RME_post_war_dyn_mod = {
+
+	enable = {
+		always = no
+	}
+
+	# modifier = {
+		war_support_factor = RME_ws_var # -0.15
+		army_org_factor = RME_army_org_var # -0.08
+		army_speed_factor = RME_army_speed_var # -0.1
+		training_time_factor = RME_training_time_var # 0.25
+		naval_coordination = RME_naval_coord_var # -0.15
+		air_accidents_factor = RME_air_accidents_var # 0.15
+		minimum_training_level = RME_minimum_training_var # -0.1
+	# }
+}
+

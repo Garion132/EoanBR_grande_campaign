@@ -150,4 +150,18 @@ ideas = {
 		}
 
 	}
+
+	country = {
+
+		#economy ideas
+
+		#military ideas
+
+		#naval ideas
+
+		#foreign policy ideas
+
+		#domestic policy ideas
+
+	}
 }
