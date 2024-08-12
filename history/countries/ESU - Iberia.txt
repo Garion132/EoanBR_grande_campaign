@@ -398,9 +398,9 @@ add_ideas = {
 }
 
 set_rule = { #DLC
-		can_not_declare_war = yes
-	}
-	country_lock_all_division_template = yes
+	can_not_declare_war = yes
+}
+country_lock_all_division_template = yes
 set_stability = 0.60
 set_war_support = 0.60
 

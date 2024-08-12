@@ -23,7 +23,7 @@ state={
 
 		}
 		add_core_of = W11
-		add_claim_by = RME
+		add_core_of = RME
 	}
 
 	provinces={

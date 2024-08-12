@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = SYR
 		add_claim_by = PER
-		add_claim_by = RME
+		add_core_of = RME
 	}
 
 	provinces={
