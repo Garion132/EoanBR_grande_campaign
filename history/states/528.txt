@@ -25,6 +25,7 @@ state={
 		add_core_of = FRA
 		add_core_of = SWE
 		add_claim_by = RME
+		add_core_of = RME
 	}
 
 	provinces={
