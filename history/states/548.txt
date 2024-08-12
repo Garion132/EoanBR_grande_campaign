@@ -9,7 +9,7 @@ state={
 	impassable = yes
 
 	history={
-		owner = W57
+		owner = RME
 		add_core_of = MRT
 		add_core_of = W57
 	}

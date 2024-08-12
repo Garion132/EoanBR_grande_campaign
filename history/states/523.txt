@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = W57
+		owner = RME
 		victory_points = {
 			10919 0 
 		}
