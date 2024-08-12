@@ -19,8 +19,7 @@ state={
 
 		}
 		add_core_of = W19
-		add_claim_by = USA
-		add_claim_by = W22
+		add_core_of = W22
 	}
 
 	provinces={
