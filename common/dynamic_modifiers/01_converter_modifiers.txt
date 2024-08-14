@@ -26,7 +26,7 @@ RME_post_war_dyn_mod = {
 }
 
 consequence_of_the_great_war = {
-	icon = GFX_idea_revanchism
+	icon = GFX_idea_generic_consequence_of_the_great_war
 	enable = {
 		always = yes
 	}

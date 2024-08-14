@@ -208,21 +208,33 @@ add_opinion_modifier = { target = X99 modifier = positive_5 }
 add_opinion_modifier = { target = ZAM modifier = negative_5 }
 add_opinion_modifier = { target = ZIM modifier = negative_30 }
 
-
+# Ideas
 add_ideas = {
 	volunteer_only
 	civilian_economy
 	export_focus
 	culture_neokosmi
 }
+# Stability/War Support
 set_stability = 0.60
 set_war_support = 0.60
+# Dynamic Modifiers
+add_dynamic_modifier = { modifier = W22_army_modifier }
+add_dynamic_modifier = { modifier = W22_navy_modifier }
+add_dynamic_modifier = { modifier = W22_air_modifier }
+## Dynamic Modifier Variables
+# OGDF
+set_variable = { W22_army_modifier_army_org_factor = 0.05 }
+set_variable = { W22_army_modifier_experience_gain_army_unit_factor = 0.10 }
+# Great Society
+set_variable = { W22_great_society_modifier_stability_factor = 0.025 }
 
 recruit_character = W22_michael_dousmanis
 recruit_character = W22_charilaos_kountouriotis
 recruit_character = W22_eleftherios_tis_elladas
 recruit_character = W22_stefanos_palaskas
 recruit_character = W22_tharyvoulos_christakis_zografos
+recruit_character = W22_flamouria_b_giannisyios # vice president
 
 if = {
 	limit = {

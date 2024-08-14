@@ -1,0 +1,20 @@
+spriteTypes = {
+	# GENERIC
+	spriteType = {
+		name = "GFX_idea_generic_consequence_of_the_great_war"
+		texturefile = "gfx/interface/ideas/_generic/idea_generic_consequence_of_the_great_war.png"
+	}
+	# W22 (Osea)
+	spriteType = {
+		name = "GFX_W22_army_modifier"
+		texturefile = "gfx/interface/ideas/W22/W22_army_modifier.png"
+	}
+	spriteType = {
+		name = "GFX_W22_navy_modifier"
+		texturefile = "gfx/interface/ideas/W22/W22_navy_modifier.png"
+	}
+	spriteType = {
+		name = "GFX_W22_air_modifier"
+		texturefile = "gfx/interface/ideas/W22/W22_air_modifier.png"
+	}
+}

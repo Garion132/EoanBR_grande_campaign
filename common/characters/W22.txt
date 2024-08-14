@@ -92,5 +92,17 @@ characters={
 			id=-1
 		}
 	}
-
+	W22_flamouria_b_giannisyios={
+		name=W22_flamouria_b_giannisyios
+		portraits={
+			civilian={
+				large="gfx/leaders/OSE/portrait_OSE_flamouria_b_giannisyios.png"  #portrait_OSE_flamouriá_b_giánnisyiós
+			}
+		}
+		# country_leader={
+		# 	ideology=socialism
+		# 	expire="1965.1.1.1"
+		# 	id=-1
+		# }
+	}
 }

@@ -1,0 +1,37 @@
+################################
+### DYNAMIC NATIONAL SPIRITS ###
+################################
+
+# Osean Ground Defense Force
+W22_army_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_W22_army_modifier
+    
+    army_org_factor = W22_army_modifier_army_org_factor
+    experience_gain_army_unit_factor = W22_army_modifier_experience_gain_army_unit_factor
+}
+
+# Osean Maritime Defense Force
+W22_navy_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_W22_navy_modifier
+
+}
+
+# Osean Air Defense Force
+W22_air_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_W22_air_modifier
+    
+}
+
+W22_great_society_modifier = {
+    enable = { always = yes }
+
+	icon = GFX_W22_great_society_modifier
+
+    stability_factor = W22_great_society_modifier_stability_factor
+}

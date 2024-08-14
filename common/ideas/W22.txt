@@ -1,4 +1,42 @@
 ideas = {
+	# COUNTRY
+	country = {
+		W22_operation_eagle = {
+			picture = FRA_fortification_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = 0
+			targeted_modifier = {
+				tag = USA
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+			}
+		}
+		W22_defensive_preparations = {
+			picture = FRA_fortification_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = 0
+			modifier = {
+				production_speed_bunker_factor = 0.15
+			}
+		}
+		W22_reparations_payments = {
+			picture = FRA_fortification_focus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = { always = yes }
+			removal_cost = 0
+			modifier = {
+				consumer_goods_expected_value = 0.10
+			}
+		}
+	}
 	# TECHNOLOGY
 	tank_manufacturer = {
 

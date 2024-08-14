@@ -1072,3 +1072,5 @@
  ZIM_monarch_desc:0 "Rallying around the King of [ZIM.GetName] and the [ZIM.GetAdjective] Dominions, the [ZIM.GetAdjective] people stand united and proud of their imperial legacy."
  ZIM_naval_manufacturer:0 "Lapislazuli Shipyard"
  ZIM_tank_manufacturer:0 "Zimbabwe Four Wheels"
+ 
+ consequence_of_the_great_war:0 "Consequences of the Great War"

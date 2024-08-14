@@ -20,61 +20,16 @@ focus_tree = {
 
 	### POLITICAL TREE
 	focus = {
-		id = W22_the_new_society
-		icon = placeholder
-		x = 20
+		id = W22_begin_integrating_the_territories
+		icon = GFX_focus_generic_self_management
+		x = 19
 		y = 0
 		cost = 10
 		ai_will_do = {
 			
 		}
 		completion_reward = {
-			add_political_power = 150
-		}
-	}
-	focus = {
-		id = W22_towards_a_multicultural_nation
-		icon = placeholder
-		relative_position_id = W22_the_new_society
-		prerequisite = { focus = W22_the_new_society }
-		x = -3
-		y = 1
-		cost = 10
-		ai_will_do = {
-			
-		}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = W22_ideals_over_bloodlines
-		icon = placeholder
-		relative_position_id = W22_towards_a_multicultural_nation
-		prerequisite = { focus = W22_towards_a_multicultural_nation }
-		x = 0
-		y = 1
-		cost = 10
-		ai_will_do = {
-			
-		}
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = W22_begin_integrating_the_territories
-		icon = placeholder
-		relative_position_id = W22_the_new_society
-		prerequisite = { focus = W22_the_new_society }
-		x = 0
-		y = 1
-		cost = 10
-		ai_will_do = {
-			
-		}
-		completion_reward = {
-			add_stability = 0.02
+			add_stability = 0.03
 			701 = {
 				add_compliance = 10
 			}
@@ -122,11 +77,218 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = W22_shore_up_the_bottom
+		id = W22_the_new_frontier
 		icon = placeholder
-		relative_position_id = W22_the_new_society
-		prerequisite = { focus = W22_the_new_society }
+		relative_position_id = W22_begin_integrating_the_territories
+		prerequisite = { focus = W22_integrate_the_illinois_territory }
+		prerequisite = { focus = W22_integrate_the_new_england_territory }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_state_claim = 658
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				USA = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+	}
+	focus = {
+		id = W22_acquire_foreign_arms
+		icon = GFX_focus_generic_combined_arms
+		relative_position_id = W22_the_new_frontier
+		prerequisite = { focus = W22_the_new_frontier }
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 500
+				producer = ESU
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 500
+				producer = ENG
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 500
+				producer = RME
+			}
+			add_equipment_to_stockpile = {
+				type = light_tank_chassis
+				amount = 250
+				producer = ESU
+			}
+			add_equipment_to_stockpile = {
+				type = light_tank_chassis
+				amount = 250
+				producer = ENG
+			}
+			add_equipment_to_stockpile = {
+				type = light_tank_chassis
+				amount = 250
+				producer = RME
+			}
+		}
+	}
+	focus = {
+		id = W22_form_the_oia
+		icon = placeholder
+		relative_position_id = W22_the_new_frontier
+		prerequisite = { focus = W22_the_new_frontier }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			custom_effect_tooltip = W22_form_the_oia_tt
+			hidden_effect = {
+				create_intelligence_agency = {
+					name = "OIA"
+					icon = GFX_intelligence_agency_logo_ose
+				}
+			}
+		}
+	}
+	focus = {
+		id = W22_selective_service_act
+		icon = GFX_focus_generic_manpower
+		relative_position_id = W22_the_new_frontier
+		prerequisite = { focus = W22_the_new_frontier }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_ideas = limited_conscription
+		}
+	}
+	focus = {
+		id = W22_defense_production_act
+		icon = GFX_goal_generic_construct_mil_factory
+		relative_position_id = W22_the_new_frontier
+		prerequisite = { focus = W22_the_new_frontier }
 		x = 3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_ideas = partial_economic_mobilisation
+		}
+	}
+	focus = {
+		id = W22_preemptive_strike
+		icon = placeholder
+		relative_position_id = W22_the_new_frontier
+		mutually_exclusive = { focus = W22_let_them_come }
+		prerequisite = { focus = W22_acquire_foreign_arms }
+		prerequisite = { focus = W22_form_the_oia }
+		prerequisite = { focus = W22_selective_service_act }
+		prerequisite = { focus = W22_defense_production_act }
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			declare_war_on = {
+                target = USA
+                type = annex_everything
+            }
+			add_timed_idea = {
+				idea = W22_operation_eagle
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = W22_let_them_come
+		icon = GFX_goal_generic_military_sphere
+		relative_position_id = W22_the_new_frontier
+		mutually_exclusive = { focus = W22_preemptive_strike }
+		prerequisite = { focus = W22_acquire_foreign_arms }
+		prerequisite = { focus = W22_form_the_oia }
+		prerequisite = { focus = W22_selective_service_act }
+		prerequisite = { focus = W22_defense_production_act }
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_war_support = 0.05
+			add_timed_idea = {
+				idea = W22_defensive_preparations
+				days = 730
+			}
+		}
+	}
+	focus = {
+		id = W22_history_has_witnessed_a_great_change
+		icon = placeholder
+		relative_position_id = W22_the_new_frontier
+		available = {
+			USA = {
+				exists = no
+			}
+		}
+		prerequisite = {
+			focus = W22_preemptive_strike
+			focus = W22_let_them_come
+		}
+		x = 0
+		y = 3
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
+	focus = {
+		id = W22_the_great_society
+		icon = placeholder
+		relative_position_id = W22_history_has_witnessed_a_great_change
+		x = 0
+		y = 1
+		cost = 10
+		available = {
+			has_country_flag = fbg_is_president
+		}
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_political_power = 150
+			add_dynamic_modifier = { modifier = W22_great_society_modifier }
+		}
+	}
+	focus = {
+		id = W22_healthcare_reform
+		icon = placeholder
+		relative_position_id = W22_the_great_society
+		prerequisite = { focus = W22_the_great_society }
+		x = -9
 		y = 1
 		cost = 10
 		ai_will_do = {
@@ -137,10 +299,184 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = W22_invest_in_the_underinvested
+		id = W22_medical_security_act
 		icon = placeholder
-		relative_position_id = W22_shore_up_the_bottom
-		prerequisite = { focus = W22_shore_up_the_bottom }
+		relative_position_id = W22_healthcare_reform
+		prerequisite = { focus = W22_healthcare_reform }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_establish_neighborhood_health_centers
+		icon = placeholder
+		relative_position_id = W22_healthcare_reform
+		prerequisite = { focus = W22_healthcare_reform }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_a_public_option
+		icon = placeholder
+		relative_position_id = W22_healthcare_reform
+		prerequisite = { focus = W22_medical_security_act }
+		prerequisite = { focus = W22_establish_neighborhood_health_centers }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_civil_rights
+		icon = placeholder
+		relative_position_id = W22_the_great_society
+		prerequisite = { focus = W22_the_great_society }
+		x = -5
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_vinlandic_rights_act
+		icon = placeholder
+		relative_position_id = W22_civil_rights
+		prerequisite = { focus = W22_civil_rights }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_voting_rights_act
+		icon = placeholder
+		relative_position_id = W22_civil_rights
+		prerequisite = { focus = W22_civil_rights }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_federal_reparations_act
+		icon = placeholder
+		relative_position_id = W22_civil_rights
+		prerequisite = { focus = W22_vinlandic_rights_act }
+		prerequisite = { focus = W22_voting_rights_act }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = W22_reparations_payments
+				days = 1460
+			}
+			689 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			679 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			687 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			686 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			685 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			683 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			682 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			698 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = W22_the_war_on_poverty
+		icon = placeholder
+		relative_position_id = W22_the_great_society
+		prerequisite = { focus = W22_the_great_society }
 		x = 0
 		y = 1
 		cost = 10
@@ -148,7 +484,22 @@ focus_tree = {
 			
 		}
 		completion_reward = {
-			692 = {
+			
+		}
+	}
+	focus = {
+		id = W22_midwestern_regional_development_act
+		icon = placeholder
+		relative_position_id = W22_the_war_on_poverty
+		prerequisite = { focus = W22_the_war_on_poverty }
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			694 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = infrastructure
@@ -157,14 +508,6 @@ focus_tree = {
 				}
 			}
 			693 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
-			694 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = infrastructure
@@ -190,211 +533,393 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
-		id = border_disputesW22USA
-		icon = GFX_goal_generic_more_territorial_claims
-		text = border_disputesUSA
-		x = 26
-		y = 0
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			USA = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 658
-			}
-		}
-		completion_reward = {
-			add_war_support = 0.05
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = USA value > 0 }
-			}
-			modifier = {
-				factor = 0
-				USA = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = USA
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				USA = { surrender_progress > 0.2 }
-			}
-		}
-	}
-
-	focus = {
-		id = assert_claimsW22USA
-		icon = GFX_goal_generic_territory_or_war
-		text = assert_claimsUSA
-		prerequisite = { focus = border_disputesW22USA }
+		id = W22_economic_opportunity_act
+		icon = placeholder
+		relative_position_id = W22_the_war_on_poverty
+		prerequisite = { focus = W22_the_war_on_poverty }
 		x = 0
 		y = 1
-		relative_position_id = border_disputesW22USA
 		cost = 10
-		available = {
-			date > 1936.2.1
-			is_subject = no
-			has_war = no
-			USA = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 658
-			}
+		ai_will_do = {
+			
 		}
 		completion_reward = {
-			add_state_claim = 658
-			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
-			hidden_effect = {
-				USA = { country_event = { id = reconquest_news.1 } }
-			}
+			
 		}
+	}
+	focus = {
+		id = W22_establish_the_job_corps
+		icon = placeholder
+		relative_position_id = W22_the_war_on_poverty
+		prerequisite = { focus = W22_the_war_on_poverty }
+		x = 2
+		y = 1
+		cost = 10
 		ai_will_do = {
-			factor = 10
-			modifier = {
-				factor = 0
-				OR = {
-					has_government = democratic
-					has_government = neutrality
-				}
-			}
-			modifier = {
-				factor = 0
-				has_opinion = { target = USA value > 0 }
-			}
-			modifier = {
-				factor = 0
-				USA = { in_weak_faction = no }
-			}
-			modifier = {
-				factor = 0
-				any_country = {
-					has_subject = USA
-					in_weak_faction = no
-				}
-			}
-			modifier = {
-				factor = 0
-				date < 1938.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.25
-				date < 1939.4.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.4
-				date < 1939.8.1
-			}
-			modifier = {
-				factor = 0
-				threat > 0.5
-			}
-			modifier = {
-				factor = 2
-				USA = { surrender_progress > 0.2 }
-			}
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_model_cities_program
+		icon = placeholder
+		relative_position_id = W22_the_war_on_poverty
+		prerequisite = { focus = W22_the_war_on_poverty }
+		x = -1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_food_stamp_act
+		icon = placeholder
+		relative_position_id = W22_the_war_on_poverty
+		prerequisite = { focus = W22_the_war_on_poverty }
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_the_great_thaw
+		icon = placeholder
+		relative_position_id = W22_the_great_society
+		prerequisite = { focus = W22_the_great_society }
+		x = 5
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_loosen_grip_on_the_press
+		icon = placeholder
+		relative_position_id = W22_the_great_thaw
+		prerequisite = { focus = W22_the_great_thaw }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_allow_non_state_unions
+		icon = placeholder
+		relative_position_id = W22_the_great_thaw
+		prerequisite = { focus = W22_the_great_thaw }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_reform_the_penal_system
+		icon = placeholder
+		relative_position_id = W22_the_great_thaw
+		prerequisite = { focus = W22_loosen_grip_on_the_press }
+		prerequisite = { focus = W22_allow_non_state_unions }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_labor_reform
+		icon = placeholder
+		relative_position_id = W22_the_great_society
+		prerequisite = { focus = W22_the_great_society }
+		x = 9
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_service_contract_act
+		icon = placeholder
+		relative_position_id = W22_labor_reform
+		prerequisite = { focus = W22_labor_reform }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_fair_labor_standards_act
+		icon = placeholder
+		relative_position_id = W22_labor_reform
+		prerequisite = { focus = W22_labor_reform }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = W22_industrial_democracy_act
+		icon = placeholder
+		relative_position_id = W22_labor_reform
+		prerequisite = { focus = W22_service_contract_act }
+		prerequisite = { focus = W22_fair_labor_standards_act }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
 		}
 	}
 
-	focus = {
-		id = prepare_for_warW22USA
-		icon = GFX_goal_generic_position_armies
-		text = prepare_for_warUSA
-		prerequisite = { focus = assert_claimsW22USA }
-		bypass = {
-			has_war_with = USA
-		}
-		x = 0
-		y = 1
-		relative_position_id = assert_claimsW22USA
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			USA = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 658
-			}
-		}
-		completion_reward = {
-			add_manpower = 10000
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	# focus = {
+	# 	id = border_disputesW22USA
+	# 	icon = GFX_goal_generic_more_territorial_claims
+	# 	text = border_disputesUSA
+	# 	x = 26
+	# 	y = 0
+	# 	cost = 10
+	# 	available = {
+	# 		is_subject = no
+	# 		has_war = no
+	# 		USA = {
+	# 			exists = yes
+	# 			not_allies_or_subjects = yes
+	# 			owns_state = 658
+	# 		}
+	# 	}
+	# 	completion_reward = {
+	# 		add_war_support = 0.05
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 		modifier = {
+	# 			factor = 0
+	# 			OR = {
+	# 				has_government = democratic
+	# 				has_government = neutrality
+	# 			}
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			has_opinion = { target = USA value > 0 }
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			USA = { in_weak_faction = no }
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			any_country = {
+	# 				has_subject = USA
+	# 				in_weak_faction = no
+	# 			}
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			date < 1938.8.1
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			threat > 0.25
+	# 			date < 1939.4.1
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			threat > 0.4
+	# 			date < 1939.8.1
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			threat > 0.5
+	# 		}
+	# 		modifier = {
+	# 			factor = 2
+	# 			USA = { surrender_progress > 0.2 }
+	# 		}
+	# 	}
+	# }
 
-	focus = {
-		id = neighbor_warW22USA
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		text = neighbor_warUSA
-		prerequisite = { focus = prepare_for_warW22USA }
-		bypass = {
-			has_war_with = USA
-		}
-		x = 0
-		y = 1
-		relative_position_id = prepare_for_warW22USA
-		cost = 10
-		available = {
-			is_subject = no
-			has_war = no
-			USA = {
-				exists = yes
-				not_allies_or_subjects = yes
-				owns_state = 658
-			}
-		}
-		completion_reward = {
-			declare_war_on = {
-				target = USA
-				type = take_state_focus
-				generator = { 658 }
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	# focus = {
+	# 	id = assert_claimsW22USA
+	# 	icon = GFX_goal_generic_territory_or_war
+	# 	text = assert_claimsUSA
+	# 	prerequisite = { focus = border_disputesW22USA }
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = border_disputesW22USA
+	# 	cost = 10
+	# 	available = {
+	# 		date > 1936.2.1
+	# 		is_subject = no
+	# 		has_war = no
+	# 		USA = {
+	# 			exists = yes
+	# 			not_allies_or_subjects = yes
+	# 			owns_state = 658
+	# 		}
+	# 	}
+	# 	completion_reward = {
+	# 		add_state_claim = 658
+	# 		add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+	# 		hidden_effect = {
+	# 			USA = { country_event = { id = reconquest_news.1 } }
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 10
+	# 		modifier = {
+	# 			factor = 0
+	# 			OR = {
+	# 				has_government = democratic
+	# 				has_government = neutrality
+	# 			}
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			has_opinion = { target = USA value > 0 }
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			USA = { in_weak_faction = no }
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			any_country = {
+	# 				has_subject = USA
+	# 				in_weak_faction = no
+	# 			}
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			date < 1938.8.1
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			threat > 0.25
+	# 			date < 1939.4.1
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			threat > 0.4
+	# 			date < 1939.8.1
+	# 		}
+	# 		modifier = {
+	# 			factor = 0
+	# 			threat > 0.5
+	# 		}
+	# 		modifier = {
+	# 			factor = 2
+	# 			USA = { surrender_progress > 0.2 }
+	# 		}
+	# 	}
+	# }
+
+	# focus = {
+	# 	id = prepare_for_warW22USA
+	# 	icon = GFX_goal_generic_position_armies
+	# 	text = prepare_for_warUSA
+	# 	prerequisite = { focus = assert_claimsW22USA }
+	# 	bypass = {
+	# 		has_war_with = USA
+	# 	}
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = assert_claimsW22USA
+	# 	cost = 10
+	# 	available = {
+	# 		is_subject = no
+	# 		has_war = no
+	# 		USA = {
+	# 			exists = yes
+	# 			not_allies_or_subjects = yes
+	# 			owns_state = 658
+	# 		}
+	# 	}
+	# 	completion_reward = {
+	# 		add_manpower = 10000
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
+	# }
+
+	# focus = {
+	# 	id = neighbor_warW22USA
+	# 	icon = GFX_goal_generic_occupy_states_ongoing_war
+	# 	text = neighbor_warUSA
+	# 	prerequisite = { focus = prepare_for_warW22USA }
+	# 	bypass = {
+	# 		has_war_with = USA
+	# 	}
+	# 	x = 0
+	# 	y = 1
+	# 	relative_position_id = prepare_for_warW22USA
+	# 	cost = 10
+	# 	available = {
+	# 		is_subject = no
+	# 		has_war = no
+	# 		USA = {
+	# 			exists = yes
+	# 			not_allies_or_subjects = yes
+	# 			owns_state = 658
+	# 		}
+	# 	}
+	# 	completion_reward = {
+	# 		declare_war_on = {
+	# 			target = USA
+	# 			type = take_state_focus
+	# 			generator = { 658 }
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 0
+	# 	}
+	# }
 
 	focus = {
 		id = border_disputesW22TEX

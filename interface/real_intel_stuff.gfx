@@ -409,4 +409,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_yug_communism.dds"
 		noOfFrames = 2
 	}
+	
+	# ADDED
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_ose"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_ose.dds"
+		noOfFrames = 2
+	}
 }
