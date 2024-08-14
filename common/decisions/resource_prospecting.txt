@@ -22,8 +22,12 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 726
-			controls_state = 726
+			726 = {
+				owns_or_subject_of = yes
+			}
+			726 = {
+				controls_or_subject_of = yes
+			}
 			726 = {
 				NOT = {
 					has_state_flag = shandong_aluminium_developed
@@ -100,8 +104,12 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 425
-			controls_state = 425
+			425 = {
+				owns_or_subject_of = yes
+			}
+			425 = {
+				controls_or_subject_of = yes
+			}
 			425 = {
 				NOT = {
 					has_state_flag = suiyuan_steel_developed
@@ -178,8 +186,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 391
-			controls_state = 391
+			391 = {
+				controls_or_subject_of = yes
+			}
 			391 = {
 				NOT = {
 					has_state_flag = daqing_oil_developed_1
@@ -257,8 +266,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 391
-			controls_state = 391
+			391 = {
+				controls_or_subject_of = yes
+			}
 			391 = {
 				has_state_flag = daqing_oil_developed_1
 				NOT = {
@@ -336,8 +346,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 430
-			controls_state = 430
+			430 = {
+				controls_or_subject_of = yes
+			}
 			430 = {
 				NOT = {
 					has_state_flag = yunnan_aluminium_developed
@@ -413,8 +424,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 424
-			controls_state = 424
+			424 = {
+				controls_or_subject_of = yes
+			}
 			424 = {
 				NOT = {
 					has_state_flag = kirin_aluminium_developed
@@ -491,8 +503,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 629
-			controls_state = 629
+			629 = {
+				controls_or_subject_of = yes
+			}
 			629 = {
 				NOT = {
 					has_state_flag = sichuan_aluminium_developed
@@ -569,8 +582,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 127
-			controls_state = 127
+			127 = {
+				controls_or_subject_of = yes
+			}
 			127 = {
 				NOT = {
 					has_state_flag = luzon_chromium_developed
@@ -647,8 +661,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 584
-			controls_state = 584
+			584 = {
+				controls_or_subject_of = yes
+			}
 			584 = {
 				NOT = {
 					has_state_flag = mindanao_steel_developed
@@ -725,8 +740,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 73
-			controls_state = 73
+			73 = {
+				controls_or_subject_of = yes
+			}
 			73 = {
 				NOT = {
 					has_state_flag = samar_steel_developed
@@ -803,8 +819,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 71
-			controls_state = 71
+			71 = {
+				controls_or_subject_of = yes
+			}
 			71 = {
 				NOT = {
 					has_state_flag = nauru_tungsten_developed
@@ -881,8 +898,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 264
-			controls_state = 264
+			264 = {
+				controls_or_subject_of = yes
+			}
 			264 = {
 				NOT = {
 					has_state_flag = tonkin_aluminium_developed
@@ -959,8 +977,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 447
-			controls_state = 447
+			447 = {
+				controls_or_subject_of = yes
+			}
 			447 = {
 				NOT = {
 					has_state_flag = singapore_aluminium_developed
@@ -1036,8 +1055,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 570
-			controls_state = 570
+			570 = {
+				controls_or_subject_of = yes
+			}
 			570 = {
 				NOT = {
 					has_state_flag = sirte_oil_developed
@@ -1115,8 +1135,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 570
-			controls_state = 570
+			570 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			570 = {
 				NOT = {
@@ -1196,8 +1217,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 711
-			controls_state = 711
+			711 = {
+				controls_or_subject_of = yes
+			}
 			711 = {
 				NOT = {
 					has_state_flag = tasmania_aluminium_developed
@@ -1276,8 +1298,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 574
-			controls_state = 574
+			574 = {
+				controls_or_subject_of = yes
+			}
 			574 = {
 				NOT = {
 					has_state_flag = west_Africa_aluminium_developed
@@ -1356,8 +1379,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 574
-			controls_state = 574
+			574 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			574 = {
 				has_state_flag = west_Africa_aluminium_developed
@@ -1439,8 +1463,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 564
-			controls_state = 564
+			564 = {
+				controls_or_subject_of = yes
+			}
 			564 = {
 				NOT = {
 					has_state_flag = madagascar_rubber_developed
@@ -1518,8 +1543,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 564
-			controls_state = 564
+			564 = {
+				controls_or_subject_of = yes
+			}
 			564 = {
 				has_state_flag = madagascar_rubber_developed
 			}
@@ -1600,8 +1626,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 186
-			controls_state = 186
+			186 = {
+				controls_or_subject_of = yes
+			}
 			186 = {
 				NOT = {
 					has_state_flag = nigeria_rubber_developed
@@ -1680,8 +1707,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 85
-			controls_state = 85
+			85 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			85 = {
 				NOT = {
@@ -1761,8 +1789,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 102
-			controls_state = 102
+			102 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			102 = {
 				NOT = {
@@ -1842,8 +1871,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 603
-			controls_state = 603
+			603 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			603 = {
 				NOT = {
@@ -1928,8 +1958,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 497
-			controls_state = 497
+			497 = {
+				controls_or_subject_of = yes
+			}
 			497 = {
 				NOT = {
 					has_state_flag = eregli_steel_developed
@@ -2006,8 +2037,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 302
-			controls_state = 302
+			302 = {
+				controls_or_subject_of = yes
+			}
 			302 = {
 				NOT = {
 					has_state_flag = newfoundland_steel_developed
@@ -2087,8 +2119,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 646
-			controls_state = 646
+			646 = {
+				controls_or_subject_of = yes
+			}
 			646 = {
 				NOT = {
 					has_state_flag = quebec_steel_developed
@@ -2167,8 +2200,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 235
-			controls_state = 235
+			235 = {
+				controls_or_subject_of = yes
+			}
 			235 = {
 				NOT = {
 					has_state_flag = cuba_steel_developed
@@ -2247,8 +2281,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 699
-			controls_state = 699
+			699 = {
+				controls_or_subject_of = yes
+			}
 			699 = {
 				NOT = {
 					has_state_flag = {
@@ -2350,8 +2385,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 704
-			controls_state = 704
+			704 = {
+				controls_or_subject_of = yes
+			}
 			704 = {
 				NOT = {
 					has_state_flag = {
@@ -2453,8 +2489,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 681
-			controls_state = 681
+			681 = {
+				controls_or_subject_of = yes
+			}
 			681 = {
 				NOT = {
 					has_state_flag = {
@@ -2556,8 +2593,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 717
-			controls_state = 717
+			717 = {
+				controls_or_subject_of = yes
+			}
 			717 = {
 				NOT = {
 					has_state_flag = {
@@ -2659,8 +2697,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 652
-			controls_state = 652
+			652 = {
+				controls_or_subject_of = yes
+			}
 			652 = {
 				NOT = {
 					has_state_flag = {
@@ -2762,8 +2801,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 716
-			controls_state = 716
+			716 = {
+				controls_or_subject_of = yes
+			}
 			716 = {
 				NOT = {
 					has_state_flag = {
@@ -2865,8 +2905,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 660
-			controls_state = 660
+			660 = {
+				controls_or_subject_of = yes
+			}
 			660 = {
 				NOT = {
 					has_state_flag = {
@@ -2968,8 +3009,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 690
-			controls_state = 690
+			690 = {
+				controls_or_subject_of = yes
+			}
 			690 = {
 				NOT = {
 					has_state_flag = {
@@ -3071,8 +3113,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 664
-			controls_state = 664
+			664 = {
+				controls_or_subject_of = yes
+			}
 			664 = {
 				NOT = {
 					has_state_flag = {
@@ -3174,8 +3217,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 702
-			controls_state = 702
+			702 = {
+				controls_or_subject_of = yes
+			}
 			702 = {
 				NOT = {
 					has_state_flag = {
@@ -3277,8 +3321,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 656
-			controls_state = 656
+			656 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			656 = {
 				NOT = {
@@ -3381,8 +3426,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 716
-			controls_state = 716
+			716 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			716 = {
 				NOT = {
@@ -3485,8 +3531,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 718
-			controls_state = 718
+			718 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			718 = {
 				NOT = {
@@ -3589,8 +3636,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 288
-			controls_state = 288
+			288 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			288 = {
 				NOT = {
@@ -3686,14 +3734,16 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_full_control_of_state = 414
+			# has_full_control_of_state = 414
 			num_of_civilian_factories_available_for_projects > 2
 			has_tech = excavation3
 			#  controls_state = 414
 		}
 
 		visible = {
-			controls_state = 414
+			414 = {
+				controls_or_subject_of = yes
+			}
 			414 = { NOT = { has_state_flag = sakhalin_oil_developed } }
 		}
 
@@ -3759,14 +3809,16 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_full_control_of_state = 248
+			# has_full_control_of_state = 248
 			num_of_civilian_factories_available_for_projects > 2
 			has_tech = excavation2
 			#  controls_state = 248
 		}
 
 		visible = {
-			controls_state = 248
+			248 = {
+				controls_or_subject_of = yes
+			}
 			248 = { NOT = { has_state_flag = palau_aluminium_developed } }
 		}
 
@@ -3839,8 +3891,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 46
-			controls_state = 46
+			46 = {
+				controls_or_subject_of = yes
+			}
 			46 = {
 				NOT = {
 					has_state_flag = cornwall_tungsten_developed
@@ -3917,8 +3970,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 46
-			controls_state = 46
+			46 = {
+				controls_or_subject_of = yes
+			}
 			46 = {
 				NOT = {
 					has_state_flag = cornwall_tungsten_developed_2
@@ -3989,14 +4043,16 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_full_control_of_state = 390
+			# has_full_control_of_state = 390
 			num_of_civilian_factories_available_for_projects > 2
 			has_tech = excavation2
 			#  controls_state = 390
 		}
 
 		visible = {
-			controls_state = 390
+			390 = {
+				controls_or_subject_of = yes
+			}
 			390 = { NOT = { has_state_flag = leningrad_aluminium_developed } }
 		}
 
@@ -4062,14 +4118,16 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_full_control_of_state = 402
+			# has_full_control_of_state = 402
 			num_of_civilian_factories_available_for_projects > 2
 			has_tech = excavation2
 			#  controls_state = 402
 		}
 
 		visible = {
-			controls_state = 402
+			402 = {
+				controls_or_subject_of = yes
+			}
 			402 = { NOT = { has_state_flag = kamensk_aluminium_developed } }
 		}
 
@@ -4135,14 +4193,16 @@ prospect_for_resources = {
 		}
 
 		available = {
-			has_full_control_of_state = 399
+			# has_full_control_of_state = 399
 			num_of_civilian_factories_available_for_projects > 2
 			has_tech = excavation4
 			#  controls_state = 399
 		}
 
 		visible = {
-			controls_state = 399
+			399 = {
+				controls_or_subject_of = yes
+			}
 			399 = { NOT = { has_state_flag = stalingrad_aluminium_developed } }
 		}
 
@@ -4215,8 +4275,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 400
-			controls_state = 400
+			400 = {
+				controls_or_subject_of = yes
+			}
 			400 = {
 				NOT = {
 					has_state_flag = caucasus_tungsten_developed
@@ -4293,8 +4354,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 400
-			controls_state = 400
+			400 = {
+				controls_or_subject_of = yes
+			}
 			400 = {
 				NOT = {
 					has_state_flag = caucasus_tungsten_developed_2
@@ -4372,8 +4434,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 420
-			controls_state = 420
+			420 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			420 = {
 				NOT = {
@@ -4452,8 +4515,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 402
-			controls_state = 402
+			402 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = construction3
 			402 = {
 				NOT = {
@@ -4550,8 +4614,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 397
-			controls_state = 397
+			397 = {
+				controls_or_subject_of = yes
+			}
 			397 = {
 				NOT = {
 					has_state_flag = zlatoust_steel_developed
@@ -4628,8 +4693,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 397
-			controls_state = 397
+			397 = {
+				controls_or_subject_of = yes
+			}
 			397 = {
 				NOT = {
 					has_state_flag = zlatoust_steel_developed_2
@@ -4707,8 +4773,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 384
-			controls_state = 384
+			384 = {
+				controls_or_subject_of = yes
+			}
 			384 = {
 				NOT = {
 					has_state_flag = {
@@ -4814,8 +4881,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 384
-			controls_state = 384
+			384 = {
+				controls_or_subject_of = yes
+			}
 			384 = {
 				NOT = {
 					has_state_flag = {
@@ -4925,8 +4993,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 384
-			controls_state = 384
+			384 = {
+				controls_or_subject_of = yes
+			}
 			384 = {
 				NOT = {
 					has_state_flag = {
@@ -5036,8 +5105,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 384
-			controls_state = 384
+			384 = {
+				controls_or_subject_of = yes
+			}
 			384 = {
 				NOT = {
 					has_state_flag = {
@@ -5143,8 +5213,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 384
-			controls_state = 384
+			384 = {
+				controls_or_subject_of = yes
+			}
 			384 = {
 				NOT = {
 					has_state_flag = {
@@ -5254,8 +5325,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 384
-			controls_state = 384
+			384 = {
+				controls_or_subject_of = yes
+			}
 			384 = {
 				NOT = {
 					has_state_flag = {
@@ -5365,8 +5437,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 419
-			controls_state = 419
+			419 = {
+				controls_or_subject_of = yes
+			}
 			419 = {
 				NOT = {
 					has_state_flag = uralsk_chromium_developed
@@ -5443,8 +5516,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 419
-			controls_state = 419
+			419 = {
+				controls_or_subject_of = yes
+			}
 			419 = {
 				NOT = {
 					has_state_flag = uralsk_chromium_developed_2
@@ -5523,8 +5597,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 424
-			controls_state = 424
+			424 = {
+				controls_or_subject_of = yes
+			}
 			424 = {
 				NOT = {
 					has_state_flag = liaotung_steel_developed
@@ -5601,8 +5676,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 364
-			controls_state = 364
+			364 = {
+				controls_or_subject_of = yes
+			}
 			364 = {
 				NOT = {
 					has_state_flag = {
@@ -5708,8 +5784,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 331
-			controls_state = 331
+			331 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation5
 			331 = {
 				NOT = {
@@ -5789,8 +5866,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 317
-			controls_state = 317
+			317 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation2
 			317 = {
 				NOT = {
@@ -5897,8 +5975,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 326
-			controls_state = 326
+			326 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation2
 			326 = {
 				NOT = {
@@ -5978,8 +6057,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 318
-			controls_state = 318
+			318 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			318 = {
 				NOT = {
@@ -6059,8 +6139,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 317
-			controls_state = 317
+			317 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation4
 			317 = {
 				NOT = {
@@ -6139,8 +6220,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 316
-			controls_state = 316
+			316 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation3
 			316 = {
 				NOT = {
@@ -6220,8 +6302,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 331
-			controls_state = 331
+			331 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation4
 			331 = {
 				NOT = {
@@ -6328,8 +6411,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 352
-			controls_state = 352
+			352 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation2
 			352 = {
 				NOT = {
@@ -6409,8 +6493,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 331
-			controls_state = 331
+			331 = {
+				controls_or_subject_of = yes
+			}
 			has_tech = excavation2
 			331 = {
 				NOT = {
@@ -6490,8 +6575,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 500
-			controls_state = 500
+			500 = {
+				controls_or_subject_of = yes
+			}
 			500 = {
 				NOT = {
 					has_state_flag = malatya_chromium_developed
@@ -6568,8 +6654,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 493
-			controls_state = 493
+			493 = {
+				controls_or_subject_of = yes
+			}
 			493 = {
 				NOT = {
 					has_state_flag = mersin_chromium_developed
@@ -6646,8 +6733,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 499
-			controls_state = 499
+			499 = {
+				controls_or_subject_of = yes
+			}
 			499 = {
 				NOT = {
 					has_state_flag = diyarbakir_chromium_developed
@@ -6724,8 +6812,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 494
-			controls_state = 494
+			494 = {
+				controls_or_subject_of = yes
+			}
 			494 = {
 				NOT = {
 					has_state_flag = ankara_steel_developed
@@ -6805,8 +6894,9 @@ prospect_for_resources = {
 
 		visible = {
 			has_tech = excavation2
-			owns_state = 499
-			controls_state = 499
+			499 = {
+				controls_or_subject_of = yes
+			}
 			499 = {
 				NOT = {
 					has_state_flag = sivas_steel_developed
@@ -6886,8 +6976,9 @@ prospect_for_resources = {
 
 		visible = {
 			has_tech = excavation1
-			owns_state = 499
-			controls_state = 499
+			499 = {
+				controls_or_subject_of = yes
+			}
 			499 = {
 				NOT = {
 					has_state_flag = raman_oil_developed
@@ -6966,8 +7057,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 499
-			controls_state = 499
+			499 = {
+				controls_or_subject_of = yes
+			}
 			499 = {
 				NOT = {
 					has_state_flag = garzan_oil_developed
@@ -7047,8 +7139,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 499
-			controls_state = 499
+			499 = {
+				controls_or_subject_of = yes
+			}
 			499 = {
 				NOT = {
 					has_state_flag = west_raman_oil_developed
@@ -7128,8 +7221,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 161
-			controls_state = 161
+			161 = {
+				controls_or_subject_of = yes
+			}
 			161 = {
 				NOT = {
 					has_state_flag = transdanubia_aluminium_developed
@@ -7208,8 +7302,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 450
-			controls_state = 450
+			450 = {
+				controls_or_subject_of = yes
+			}
 			450 = {
 				NOT = {
 					has_state_flag = derna_oil_developed
@@ -7264,8 +7359,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 588
-			controls_state = 588
+			588 = {
+				controls_or_subject_of = yes
+			}
 			588 = {
 				NOT = {
 					has_state_flag = has_expanded_mines
@@ -7329,7 +7425,7 @@ prospect_for_resources = {
 		available = {
 			has_tech = excavation3
 			num_of_civilian_factories_available_for_projects > 2
-			has_full_control_of_state = 586 
+			# has_full_control_of_state = 586 
 		}
 
 		visible = {
@@ -7438,8 +7534,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 358
-			controls_state = 358
+			358 = {
+				controls_or_subject_of = yes
+			}
 			358 = {
 				NOT = {
 					has_state_flag = drill_for_oil_in_chaco_boreal_done_1
@@ -7509,8 +7606,9 @@ prospect_for_resources = {
 		}
 
 		visible = {
-			owns_state = 358
-			controls_state = 358
+			358 = {
+				controls_or_subject_of = yes
+			}
 			358 = {
 				has_state_flag = drill_for_oil_in_chaco_boreal_done_1
 				NOT = {
