@@ -46,7 +46,7 @@ focus_tree = {
 	}
 	focus = {
 		id = W22_integrate_the_illinois_territory
-		icon = placeholder
+		icon = GFX_focus_W22_integrate_the_illinois_territory
 		relative_position_id = W22_begin_integrating_the_territories
 		prerequisite = { focus = W22_begin_integrating_the_territories }
 		x = -1
@@ -62,7 +62,7 @@ focus_tree = {
 	}
 	focus = {
 		id = W22_integrate_the_new_england_territory
-		icon = placeholder
+		icon = GFX_focus_W22_integrate_the_new_england_territory
 		relative_position_id = W22_begin_integrating_the_territories
 		prerequisite = { focus = W22_begin_integrating_the_territories }
 		x = 1

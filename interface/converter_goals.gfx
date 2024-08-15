@@ -1,8 +1,8 @@
 spriteTypes = {
 	# W22 (Osea)
 	spriteType = {
-		name = "GFX_focus_W22_defense_production_act"
-		texturefile = "gfx/interface/goals/W22/focus_W22_defense_production_act.png"
+		name = "GFX_focus_W22_fund_ogdf"
+		texturefile = "gfx/interface/goals/W22/focus_W22_fund_ogdf.png"
 	}
 	spriteType = {
 		name = "GFX_focus_W22_history_has_witnessed_a_great_change"
@@ -11,5 +11,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_focus_W22_selective_service_act"
 		texturefile = "gfx/interface/goals/W22/focus_W22_selective_service_act.png"
+	}
+	spriteType = {
+		name = "GFX_focus_W22_integrate_the_illinois_territory"
+		texturefile = "gfx/interface/goals/W22/focus_W22_integrate_the_illinois_territory.png"
+	}
+	spriteType = {
+		name = "GFX_focus_W22_integrate_the_new_england_territory"
+		texturefile = "gfx/interface/goals/W22/focus_W22_integrate_the_new_england_territory.png"
 	}
 }

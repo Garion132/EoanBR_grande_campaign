@@ -34,4 +34,7 @@ W22_great_society_modifier = {
 	icon = GFX_W22_great_society_modifier
 
     stability_factor = W22_great_society_modifier_stability_factor
+	consumer_goods_factor = W22_great_society_modifier_consumer_goods_factor
+	production_speed_buildings_factor = W22_great_society_modifier_production_speed_buildings_factor
+	research_speed_factor = W22_great_society_modifier_research_speed_factor
 }
