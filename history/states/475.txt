@@ -17,6 +17,7 @@ state={
 		}
 		add_core_of = CRO
 		add_claim_by = RME
+		add_core_of = RME
 		add_claim_by = SLV
 	}
 
