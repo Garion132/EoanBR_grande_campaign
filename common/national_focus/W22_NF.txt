@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = W22_the_new_frontier
-		icon = placeholder
+		icon = GFX_focus_W22_the_new_frontier
 		relative_position_id = W22_begin_integrating_the_territories
 		prerequisite = { focus = W22_integrate_the_illinois_territory }
 		prerequisite = { focus = W22_integrate_the_new_england_territory }
@@ -142,7 +142,7 @@ focus_tree = {
 	}
 	focus = {
 		id = W22_form_the_oia
-		icon = placeholder
+		icon = GFX_focus_W22_form_the_oia
 		relative_position_id = W22_the_new_frontier
 		prerequisite = { focus = W22_the_new_frontier }
 		x = -1
@@ -193,7 +193,7 @@ focus_tree = {
 	}
 	focus = {
 		id = W22_preemptive_strike
-		icon = placeholder
+		icon = GFX_focus_W22_preemptive_strike
 		relative_position_id = W22_the_new_frontier
 		mutually_exclusive = { focus = W22_let_them_come }
 		prerequisite = { focus = W22_acquire_foreign_arms }
@@ -267,7 +267,7 @@ focus_tree = {
 
 	focus = {
 		id = W22_the_great_society
-		icon = placeholder
+		icon = GFX_focus_W22_fbg
 		relative_position_id = W22_history_has_witnessed_a_great_change
 		x = 0
 		y = 1

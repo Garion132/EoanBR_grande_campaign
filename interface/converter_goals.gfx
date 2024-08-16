@@ -20,4 +20,20 @@ spriteTypes = {
 		name = "GFX_focus_W22_integrate_the_new_england_territory"
 		texturefile = "gfx/interface/goals/W22/focus_W22_integrate_the_new_england_territory.png"
 	}
+	spriteType = {
+		name = "GFX_focus_W22_the_new_frontier"
+		texturefile = "gfx/interface/goals/W22/focus_W22_the_new_frontier.png"
+	}
+	spriteType = {
+		name = "GFX_focus_W22_form_the_oia"
+		texturefile = "gfx/interface/goals/W22/focus_W22_form_the_oia.png"
+	}
+	spriteType = {
+		name = "GFX_focus_W22_preemptive_strike"
+		texturefile = "gfx/interface/goals/W22/focus_W22_preemptive_strike.png"
+	}
+	spriteType = {
+		name = "GFX_focus_W22_fbg"
+		texturefile = "gfx/interface/goals/W22/focus_W22_fbg.png"
+	}
 }

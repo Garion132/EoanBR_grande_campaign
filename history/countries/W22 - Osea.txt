@@ -226,6 +226,10 @@ add_dynamic_modifier = { modifier = W22_air_modifier }
 # OGDF
 set_variable = { W22_army_modifier_army_org_factor = 0.05 }
 set_variable = { W22_army_modifier_experience_gain_army_unit_factor = 0.10 }
+# OMDF
+set_variable = { W22_navy_modifier_screening_efficiency = 0.05 }
+# OADF
+set_variable = { W22_air_modifier_experience_gain_air = 0.01 }
 # Great Society
 set_variable = { W22_great_society_modifier_stability_factor = 0.025 }
 

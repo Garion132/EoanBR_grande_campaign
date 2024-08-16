@@ -17,4 +17,8 @@ spriteTypes = {
 		name = "GFX_W22_air_modifier"
 		texturefile = "gfx/interface/ideas/W22/W22_air_modifier.png"
 	}
+	spriteType = {
+		name = "GFX_W22_great_society_modifier"
+		texturefile = "gfx/interface/ideas/W22/W22_great_society_modifier.png"
+	}
 }

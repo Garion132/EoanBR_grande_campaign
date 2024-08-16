@@ -210,4 +210,172 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+	SpriteType = {
+		name = "GFX_focus_W22_the_new_frontier_shine"
+		texturefile = "gfx/interface/goals/W22/focus_W22_the_new_frontier.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_the_new_frontier.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_the_new_frontier.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_W22_form_the_oia_shine"
+		texturefile = "gfx/interface/goals/W22/focus_W22_form_the_oia.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_form_the_oia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_form_the_oia.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_W22_preemptive_strike_shine"
+		texturefile = "gfx/interface/goals/W22/focus_W22_preemptive_strike.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_preemptive_strike.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_preemptive_strike.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_focus_W22_fbg_shine"
+		texturefile = "gfx/interface/goals/W22/focus_W22_fbg.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_fbg.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = -90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/W22/focus_W22_fbg.png"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"			# <- the animated file
+			animationrotation = 90			# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"			#add, multiply, overlay
+			animationtype = "scrolling"			#scrolling, rotating, pulsing
+			animationrotationoffset = {
+				x = 0
+				y = 0
+			}
+			animationtexturescale = {
+				x = 1
+				y = 1
+			}
+		}
+		legacy_lazy_load = no
+	}
 }

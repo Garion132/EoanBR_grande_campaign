@@ -2,8 +2,11 @@
  # FOCUS
  # SPIRITS
  W22_army_modifier: "Osean Ground Defense Force"
+ W22_army_modifier_desc: "The Osean Ground Defense Force (OGDF), colloquially known as the Osean Army, is the ground service branch of the Osean Defense Forces. Being the oldest of all of Osea's military branches, the OGDF has a heritage going back to the early days of colonization on the North American continent. At first, its role was to combat the indigenous peoples who inhabited and called the continent home but quickly pivoted to fighting the Vinlanders to the north. A lack of a powerful industrial base in Osea has often meant that the OGDF has been forced to operate at a smaller size than it has needed to achieve its goals and has been heavily reliant on foreign support to shore up its relatively small numbers. On the flip side, this has meant that the OGDF has placed a much greater focus on making the best out of each of its individual soldiers, giving the force a reputation of quality and professionalism."
  W22_navy_modifier: "Osean Maritime Defense Force"
+ W22_navy_modifier_desc: "The Osean Maritime Defense Force (OMDF), colloquially known as the Osean Navy, is the naval branch of the Osean Defense Forces. With its roots in the Osean merchant fleets of the colonial days, the OMDF has often been sidelined in regards to funding due to Osean leadership being more focused on the Vinlandic threat to the north rather than projecting naval power. As a result of this, the OMDF has been forced to operate a small coastal defense fleet, though it is trained to the highest of standards."
  W22_air_modifier: "Osean Air Defense Force"
+ W22_air_modifier_desc: "The Osean Air Defense Force (OADF), colloquially referred to as the Osean Air Force, is the aerial warfare service branch of the Osean Defense Forces. The OADF was birthed in the early 20th century as Osean engineers and scientists developed combat aircraft in order to be a force multiplier for the smaller and less well-equipped OGDF. As one of the first air forces formed in the world, it's been regarded as a pioneering organization in aerial warfare doctrine."
  W22_great_society_modifier: "The Great Society"
  W22_operation_eagle: "Operation Eagle"
  W22_defensive_preparations: "Defensive Preparations"
