@@ -592,6 +592,7 @@ add_ideas = {
 	civilian_economy
 	export_focus
 	culture_english
+	ENG_the_war_to_end_all_wars
 }
 set_stability = 0.60
 set_war_support = 0.62
