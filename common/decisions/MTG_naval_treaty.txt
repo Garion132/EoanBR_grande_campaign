@@ -186,6 +186,7 @@ MTG_naval_treaties = {
 			OR = {
 				has_government = absolutist
 				has_government = communism
+				tag = ENG
 			}
 		}
 

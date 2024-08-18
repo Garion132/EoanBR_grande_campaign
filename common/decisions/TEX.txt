@@ -1,0 +1,66 @@
+political_actions = {
+    	Enlargement_of_the_United_States_of_Belka = {
+		icon = generic
+
+		allowed = {
+			tag = TEX
+		}
+		cost = 50
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			tag = TEX
+		}
+
+		complete_effect = {
+			W27 = {
+				every_unit_leader = {
+					set_nationality = TEX
+				}
+			}
+			annex_country = {
+			    target = W27
+			    transfer_troops = yes
+			}
+			every_state = {
+				limit = {
+					is_core_of = W27
+				}
+				add_core_of = TEX
+			}
+		}
+	}
+    Continue_our_Natural_Border_Demand = {
+        icon = generic
+
+        allowed = {
+            tag = TEX
+        }
+        cost = 50
+        fire_only_once = yes
+        ai_will_do = {
+            factor = 80
+        }
+
+        visible = {
+            tag = TEX
+        }
+
+        complete_effect = {
+                add_state_core = 654
+                add_state_claim = 654
+                add_state_core = 653
+                add_state_claim = 653
+                add_state_core = 652
+                add_state_claim = 652
+                add_state_core = 666
+                add_state_claim = 666
+                add_state_claim = 655
+                add_state_claim = 656
+        }
+    }
+
+}

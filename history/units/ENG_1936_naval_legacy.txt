@@ -9,42 +9,15 @@ units = {
 			ship = { name = "Diadem" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Amphitrite" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Aboukir" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		}
-	}
-	fleet = {
-		name = "9th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "9th Fleet"
-			location = 11207
 			ship = { name = "Euryalus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		}
-	}
-	fleet = {
-		name = "11th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "11th Fleet"
-			location = 11207
 			ship = { name = "Spartiate" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		}
-	}
-	fleet = {
-		name = "13th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "13th Fleet"
-			location = 11207
 			ship = { name = "King Alfred" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
-		}
-	}
-	fleet = {
-		name = "14th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "14th Fleet"
-			location = 11207
 			ship = { name = "Drake" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Rocket" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Rob Roy" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Redgauntlet" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Redoubt" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Recruit" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
 		}
 	}
 	fleet = {
@@ -64,6 +37,16 @@ units = {
 			ship = { name = "Europa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Kent" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
 			ship = { name = "Narcissus" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
+			ship = { name = "Radstock" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Rigorous" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Raider" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Ramola" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Restless" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Sable" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Salmon" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Setter" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Sarpedon" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
+			ship = { name = "Sorceress" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = ENG }}}
 		}
 	}
 }

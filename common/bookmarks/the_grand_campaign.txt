@@ -42,7 +42,7 @@ bookmarks = {
 			ideas = { great_power }
 		}
 		ENG= {
-			history = "democratic_GP_CONV_DESC"
+			history = "ENG_GP_CONV_DESC"
 			ideology = democratic
 			ideas = { great_power ENG_monarch }
 		}

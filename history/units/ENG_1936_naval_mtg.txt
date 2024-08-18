@@ -9,42 +9,15 @@ units = {
 			ship = { name = "Diadem" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
 			ship = { name = "Amphitrite" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
 			ship = { name = "Aboukir" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
-		}
-	}
-	fleet = {
-		name = "9th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "9th Fleet"
-			location = 11207
 			ship = { name = "Euryalus" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
-		}
-	}
-	fleet = {
-		name = "11th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "11th Fleet"
-			location = 11207
 			ship = { name = "Spartiate" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
-		}
-	}
-	fleet = {
-		name = "13th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "13th Fleet"
-			location = 11207
 			ship = { name = "King Alfred" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
-		}
-	}
-	fleet = {
-		name = "14th Fleet"
-		naval_base = 11207
-		task_force = {
-			name = "14th Fleet"
-			location = 11207
 			ship = { name = "Drake" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
+			ship = { name = "Rocket" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Rob Roy" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Redgauntlet" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Redoubt" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Recruit" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
 		}
 	}
 	fleet = {
@@ -64,6 +37,16 @@ units = {
 			ship = { name = "Europa" definition = light_cruiser start_experience_factor = 0.14285 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
 			ship = { name = "Kent" definition = light_cruiser start_experience_factor = 0.14285 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
 			ship = { name = "Narcissus" definition = light_cruiser start_experience_factor = 0.14285 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Early Light Cruiser" } } }
+			ship = { name = "Radstock" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Rigorous" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Raider" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Ramola" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Restless" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Sable" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Salmon" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Setter" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Sarpedon" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
+			ship = { name = "Sorceress" definition = destroyer start_experience_factor = 0.14285 equipment = {ship_hull_light_1 = {amount = 1 owner = ENG version_name = "Early Destroyer" } } }
 		}
 	}
 }

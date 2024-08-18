@@ -114,10 +114,10 @@ set_politics = {
 }
 
 set_popularities = {
-	absolutist = 4
-	communism = 1
-	democratic = 83
-	neutrality = 12
+	absolutist = 14
+	communism = 3
+	democratic = 73
+	neutrality = 10
 }
 
 if = {
@@ -187,11 +187,11 @@ add_opinion_modifier = { target = X99 modifier = positive_5 }
 
 
 add_ideas = {
-	TEX_monarch
+	ENG_monarch
+	TEX_militarism
 	volunteer_only
 	civilian_economy
 	export_focus
-	culture_yankee
 }
 set_stability = 0.60
 set_war_support = 0.61
