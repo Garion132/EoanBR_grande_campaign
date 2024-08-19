@@ -390,6 +390,39 @@ on_actions = {
 					modifier = consequence_of_the_great_war
 				}
 			}
+			RME = {
+				set_variable = {
+					var = RME_ws_var
+					value = -0.15
+				}
+				set_variable = {
+					var = RME_army_org_var
+					value = -0.08
+				}
+				set_variable = {
+					var = RME_army_speed_var
+					value = -0.1
+				}
+				set_variable = {
+					var = RME_training_time_var
+					value = -0.25
+				}
+				set_variable = {
+					var = RME_naval_coord_var
+					value = -0.15
+				}
+				set_variable = {
+					var = RME_air_accidents_var
+					value = 0.15
+				}
+				set_variable = {
+					var = RME_minimum_training_var
+					value = -0.1
+				}
+				add_dynamic_modifier = {
+					modifier = RME_post_war_dyn_mod
+				}
+			}
 		}
 	}
 	on_monthly_SOV = {
