@@ -398,7 +398,7 @@
  RME_industrial_concern:0 "Caminus Hephaesti"
  RME_infantry_equipment_manufacturer:0 "Campus Martius"
  RME_light_aircraft_manufacturer:0 "Ut Mercurio Talares"
- RME_monarch:0 "Queen Valeria Carbo"
+ RME_monarch:0 "Imperatrix Valeria Carbo"
  RME_monarch_desc:0 "Rallying around the Queen of [RME.GetName] and the [RME.GetAdjective] Dominions, the [RME.GetAdjective] people stand united and proud of their imperial legacy."
  RME_naval_manufacturer:0 "Auxilio Neptuni"
  RME_tank_manufacturer:0 "Autocinetum"

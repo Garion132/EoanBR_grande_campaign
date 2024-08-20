@@ -1,0 +1,39 @@
+RME_5_year_plans = {
+	allowed = {
+		tag = RME
+	}
+
+	priority = 100
+}
+
+RME_army_stuff = {
+	allowed = {
+		tag = RME
+	}
+
+	priority = 90
+}
+
+RME_navy_stuff = {
+	allowed = {
+		tag = RME
+	}
+
+	priority = 80
+}
+
+RME_foreign_policy = {
+	allowed = {
+		tag = RME
+	}
+
+	priority = 70
+}
+
+RME_domestic_policy = {
+	allowed = {
+		tag = RME
+	}
+
+	priority = 60
+}
