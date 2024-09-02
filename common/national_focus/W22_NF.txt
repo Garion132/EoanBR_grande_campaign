@@ -1008,7 +1008,7 @@ focus_tree = {
 		id = border_disputesW22TEX
 		icon = GFX_goal_generic_more_territorial_claims
 		text = border_disputesTEX
-		x = 28
+		x = 24
 		y = 0
 		cost = 10
 		available = {
@@ -1209,4 +1209,211 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = W22_expand_the_ogdf
+		icon = placeholder
+		x = 30
+		y = 0
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = W22_modernize_the_equipment
+		icon = placeholder
+		relative_position_id = W22_expand_the_ogdf
+		prerequisite = { focus = W22_expand_the_ogdf }
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = W22_xm1_program
+		icon = placeholder
+		relative_position_id = W22_modernize_the_equipment
+		prerequisite = { focus = W22_modernize_the_equipment }
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = ww1infantry_weapons3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_xm2_program
+		icon = placeholder
+		relative_position_id = W22_modernize_the_equipment
+		prerequisite = { focus = W22_modernize_the_equipment }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_small_arms_standardization
+		icon = placeholder
+		relative_position_id = W22_xm1_program
+		prerequisite = { focus = W22_xm1_program }
+		prerequisite = { focus = W22_xm2_program }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_ideas = W22_standardized_small_arms
+		}
+	}
+
+	focus = {
+		id = W22_expand_riflery_courses
+		icon = placeholder
+		relative_position_id = W22_small_arms_standardization
+		prerequisite = { focus = W22_small_arms_standardization }
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_optical_innovations
+		icon = placeholder
+		relative_position_id = W22_expand_riflery_courses
+		prerequisite = { focus = W22_expand_riflery_courses }
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_best_of_the_best
+		icon = placeholder
+		relative_position_id = W22_expand_riflery_courses
+		prerequisite = { focus = W22_expand_riflery_courses }
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_one_shot_one_kill
+		icon = placeholder
+		relative_position_id = W22_expand_riflery_courses
+		prerequisite = { focus = W22_optical_innovations }
+		prerequisite = { focus = W22_best_of_the_best }
+		x = 0
+		y = 2
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_standard_issue_camouflauge
+		icon = placeholder
+		relative_position_id = W22_small_arms_standardization
+		prerequisite = { focus = W22_small_arms_standardization }
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
+
+	focus = {
+		id = W22_fireteam_training
+		icon = placeholder
+		relative_position_id = W22_small_arms_standardization
+		prerequisite = { focus = W22_small_arms_standardization }
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				technology = infantry_ww1_machinegun3
+			}
+		}
+	}
 }

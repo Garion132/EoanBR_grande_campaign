@@ -10,6 +10,11 @@ W22_army_modifier = { #NATIONAL SPIRIT
     
     army_org_factor = W22_army_modifier_army_org_factor
     experience_gain_army_unit_factor = W22_army_modifier_experience_gain_army_unit_factor
+	army_infantry_attack_factor = W22_army_modifier_army_infantry_attack_factor
+	army_infantry_defence_factor = W22_army_modifier_army_infantry_defence_factor
+	recon_factor = W22_army_modifier_recon_factor
+	max_training = W22_army_modifier_max_training
+	cas_damage_reduction = W22_army_modifier_cas_damage_reduction
 }
 
 # Osean Maritime Defense Force
